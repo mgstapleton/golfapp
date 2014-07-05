@@ -796,7 +796,7 @@ clubList = [{
     club:'Clonmel',
     location: {lat: 52.335297, lon: -7.646894},
     address: 'Lyreanearla, Mountain Rd, Clonmel, Co. Tipperary',
-    phone: '(052) 612 4050', 
+    phone: '052 612 4050', 
     image: 'clonmel.jpg',
    },
   {
