@@ -7,6 +7,7 @@ $(document).ready(function () {
     console.log("loaded index.js");
 	addClub();
 	createDb();
+    $(logo).attr('align', 'absmiddle');
 
 	bounds = new google.maps.LatLngBounds();
 
@@ -76,6 +77,7 @@ function addClub () {
 			// Populate list of clubs
 			newLink = $("<a>").text(item.club).attr("href", newId).attr("onclick", 'locationClicked(' + i + ')');
 			$("<li>").append(newLink).appendTo('#clubs');
+            
 			newPage = $("#sub_page").clone().attr("id", item.club.split(" ").join('_')).appendTo("body");
 			// Clone template page and populate with club details
 			$(newId + ">header>h1").html(item.club);
@@ -99,9 +101,51 @@ var insertIntoDB = function () {
 		  }
 		)
 	})
-     $('.readyToGo').fadeIn(400).delay(3000).fadeOut(400);
+     $('.readyToGo').fadeIn(400).delay(2000).fadeOut(400);
      console.log("table created");
 }
+
+// this is called when an error happens in a transaction
+function errorHandler(transaction, error) {
+   alert('Error: ' + error.message + ' code: ' + error.code);
+ 
+}
+
+function nullHandler(){};
+
+function searchResults() {
+ var line;
+ if (!window.openDatabase) {
+  alert('Databases are not supported in this browser.');
+  return;
+ }
+ 
+// this line clears out any content in the #lbUsers element on the page so that the next few lines will show updated
+// content and not just keep repeating lines
+ $('#searchResults').html('');
+ 
+// this next section will select all the content from the User table and then go through it row by row
+// appending the UserId  FirstName  LastName to the  #searchResults element on the page
+ db.transaction(function(transaction) {
+   transaction.executeSql('SELECT * FROM open_comps limit 10;', [],
+     function(transaction, result) {
+      if (result != null && result.rows != null) {
+        for (var i = 0; i < result.rows.length; i++) {
+          var row = result.rows.item(i);
+            line = row.club + ' ' + row.fixture+ ' ' + row.start_date + ' €' + row.cost;
+            $("<li>").append(line).appendTo('#searchResults');
+        //  $('#searchResults').append('<br>' + row.club + ' ' + row.Fixture+ ' ' + row.Start_date + ' €' + row.Cost);
+        }
+      }
+     },errorHandler);
+ },errorHandler,nullHandler);
+ 
+ return;
+ $("#searchResults").listview('refresh');
+ $("#searchResults").trigger('create');
+}
+
+
 
 // Save index of selected location
 var locationClicked = function (locat) {
