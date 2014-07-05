@@ -2881,5 +2881,8 @@ clubList = [{
   {
     club:'Youghal',
     location: {lat: 51.95427, lon: -7.847171},
+    address: ' address',
+    phone: '045 12345 ', 
+    image: 'clonmel.jpg',
     }
 ]
