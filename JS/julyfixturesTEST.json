@@ -1,0 +1,20 @@
+fixtures = [
+  {
+    "Club":"Cahir Park",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"04/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 06/07/2014"
+  },
+  {
+    "Club":"Skerries",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"04/07/2014",
+    "Cost":"12",
+    "Info":"End Date: 04/07/2014\n  OPEN WEEK - LADIES ONLY  - Timesheet from 5.45 pm"
+  }
+]

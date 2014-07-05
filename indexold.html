@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Golf Club Locator</title>
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
+		<script type="text/javascript" src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?&sensor=true"></script>
+	</head>
+	<body id="body_page" onload="init()" style="width: 100%; height: 100%;">
+		<!-- Home page -->
+		
+		<div id="home_page" data-role="page" style="width: 100%; height: 100%;">
+		
+			<header data-role="header">
+				<h1>Golf Open Comps</h1>
+			</header>
+			<nav class="main" data-role="content">
+				<!--<img id="logo" alt="Accenture" src="../Resources/accenture_logo.png" width="262" height="182">-->
+				<div data-role="collapsible" style="width: 100%; height: 100%;">
+					<h4>Golf Courses</h4>
+					<a href="#all_clubs_map_page" data-role="button">Show All Golf Clubs</a>
+					<ul id="clubs" data-role="listview" data-filter="true" data-filter-reveal="true" data-filter-placeholder="Search Golf Clubs" data-inset="true" data-autodividers="true"> </ul>
+			    	</div>
+			    <div data-role="collapsible" style="width: 100%; height: 100%;">
+					<h4>Open Competitions</h4>
+					<form method="post" action="demoform.asp">
+					<div class="ui-field-contain">
+					<fieldset class="ui-field-contain">
+					    <label for="province">Select Province</label>
+					    <select name="province" id="province">
+					      <option value="Leinster">Leinster</option>
+					      <option value="Munster">Munster</option>
+					      <option value="Connacht">Connacht</option>
+					      <option value="Ulster">Ulster</option>
+					    </select>
+					  </fieldset>
+					  <fieldset class="ui-field-contain">
+					    <label for="comptype">Select Competition Type</label>
+					    <select name="comptype" id="comptype">
+					      <option value="Singles">Singles</option>
+					      <option value="Team">Team Event</option>
+					      <option value="Scratch Cup">Scratch Cup</option>
+					    </select>
+					  </fieldset>
+  						<label for="switch">Flip toggle switch checkbox:</label>
+    						<input type="checkbox" data-role="flipswitch" name="switch" id="switch">
+    						<input type="reset" value="Reset Button">
+						<input type="submit" value="Submit Button">
+					</div>
+					</form>
+				</div>
+			</nav>
+			<footer data-role="footer" data-postion="fixed">
+				<h2>&copy; Copyright by MS</h2>
+			</footer>
+		</div>
+		
+		<!-- Address page -->
+		<div id="sub_page" data-role="page" style="width: 100%; height: 100%;">
+			<header data-role="header" data-position="inline" id='header_city'>
+				<a data-role="button" data-rel="back" data-icon="back">Back</a>
+				<h1>Golf Club Location</h1>
+				<a href="#home_page" data-role="button" data-icon="home" data-iconpos="right">Home</a>
+			</header>
+			<nav class="main" data-role="content">
+				<img id="flag" src="" width="228" height="182" />
+				<p id="address"> </p>
+				<a class="map_button" href="#map_page" data-role="button" data-icon="search" data-theme="b">Map Course</a>
+			</nav>
+			<footer data-role="footer" data-postion="fixed">
+				<h2>&copy; Copyright by MS</h2>
+			</footer>
+		</div>
+		<!-- Map page -->
+		<div id="map_page" data-role="page" data-cache="false" style="width: 100%; height: 100%; position: relative;">
+			<header data-role="header">
+				<a data-role="button" data-rel="back" data-icon="back">Back</a>
+				<h1>Golf Club Location</h1>
+				<a href="#home_page" data-role="button" data-icon="home" data-iconpos="right">Home</a>
+			</header>
+			<nav data-role="content" style="width: 100%; height: 100%; padding: 0;">
+				<div id="map_canvas" style="width: 100%; height: 500px;"> </div>
+			</nav>
+			<footer data-role="footer" data-postion="fixed">
+				<h2>&copy; Golf Club</h2>
+			</footer>
+		</div>
+		<!-- Show all on Map page -->
+		<div id="all_clubs_map_page" data-role="page" data-cache="false" style="width: 100%; height: 100%; position: relative;">
+			<header data-role="header">
+				<a data-role="button" data-rel="back" data-icon="back">Back</a>
+				<h1>Golf Clubs Locations</h1>
+				<a href="#home_page" data-role="button" data-icon="home" data-iconpos="right">Home</a>
+			</header>
+			<nav data-role="content" style="width: 100%; height: 100%; padding: 0;">
+				<div id="map_canvas2" style="width: 100%; height: 500px;"> </div>
+			</nav>
+			<footer data-role="footer" data-postion="fixed">
+				<h2>&copy; Golf Club</h2>
+			</footer>
+		</div>
+		
+		
+		<!--<script type="text/javascript" src="../Resources/Libs/jquery.ui.map.min.js"></script>-->
+		<!-- Custom scripts start -->
+		<!--<link rel="stylesheet" href="CSS/Base.css" /> -->
+		<script type="text/javascript" src="JS/Index.js"></script>
+		
+		<script type="text/javascript" src="JS/Golf_Clubs.json"></script>
+		<script type="text/javascript" src="JS/julyfixtures.json"></script>
+				<!-- Custom scripts end -->
+		<!--<script src="phonegap.js"></script>-->
+	</body>
+</html>

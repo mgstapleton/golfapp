@@ -1,0 +1,1654 @@
+/**
+* @author Michael Stapleton
+**/
+clubList = [{
+    club:'Abbeyleix',
+    location: {lat: 52.9131, lon: -7.3485},
+    info: {"Address: Lyreanearla,\n Mountain Rd,\n Clonmel,\n Co. Tipperary\n
+Phone:(052) 612 4050"
+    },
+  {
+    club:'Achill',
+    location: {lat: 53.393208, lon: -6.367567},
+    },
+  {
+    club:'Adare',
+    location: {lat: 53.358903, lon: -6.427435},
+    },
+  {
+    club:'Adare Manor',
+    location: {lat: 53.358903, lon: -6.427435},
+    },
+  {
+    club:'Antrim',
+    location: {lat: 54.71363, lon: -6.21428},
+    },
+  {
+    club:'Ardee',
+    location: {lat: 53.385805, lon: -6.372719},
+    },
+  {
+    club:'Ardfert',
+    location: {lat: 52.49832, lon: -8.20291},
+    },
+  {
+    club:'Ardglass',
+    location: {lat: 54.26019, lon: -5.61015},
+    },
+  {
+    club:'Ardminnan',
+    location: {lat: 54.403923, lon: -5.480484},
+    },
+  {
+    club:'Arklow',
+    location: {lat: 52.797693, lon: -6.159929},
+    },
+  {
+    club:'Ashbourne',
+    location: {lat: 53.511162, lon: -6.397382},
+    },
+  {
+    club:'Ashfield',
+    location: {lat: 52.520313, lon: -8.250071},
+    },
+  {
+    club:'Athenry',
+    location: {lat: 53.304338, lon: -8.750189},
+    },
+  {
+    club:'Athlone',
+    location: {lat: 53.466537, lon: -7.992135},
+    },
+  {
+    club:'Athy',
+    location: {lat: 53.190206, lon: -6.141126},
+    },
+  {
+    club:'Aughnacloy',
+    location: {lat: 54.13573, lon: -7.91227},
+    },
+  {
+    club:'Balbriggan',
+    location: {lat: 53.595738, lon: -6.183302},
+    },
+  {
+    club:'Balcarrick',
+    location: {lat: 53.471614, lon: -6.12903},
+    },
+  {
+    club:'Ballaghaderreen',
+    location: {lat: 53.9, lon: -8.5833},
+    },
+  {
+    club:'Ballina',
+    location: {lat: 54.108502, lon: -9.133799},
+    },
+  {
+    club:'Ballinamore',
+    location: {lat: 54.052218, lon: -7.803204},
+    },
+  {
+    club:'Ballinascorney',
+    location: {lat: 53.24306, lon: -6.394},
+    },
+  {
+    club:'Ballinasloe',
+    location: {lat: 53.328762, lon: -8.226947},
+    },
+  {
+    club:'Ballinastoe',
+    location: {lat: 54.804892, lon: -7.768689},
+    },
+  {
+    club:'Ballinlough Castle',
+    location: {lat: 52.546486, lon: -7.998481},
+    },
+  {
+    club:'Ballinrobe',
+    location: {lat: 53.623734, lon: -9.221114},
+    },
+  {
+    club:'Ballybofey and Stranorlar',
+    location: {lat: 54.809214, lon: -7.755205},
+    },
+  {
+    club:'Ballybunion',
+    location: {lat: 52.51108, lon: -9.67097},
+    },
+  {
+    club:'Ballycastle',
+    location: {lat: 54.279458, lon: -9.36799},
+    },
+  {
+    club:'Ballyclare',
+    location: {lat: 54.772107, lon: -6.02659},
+    },
+  {
+    club:'Ballyhaunis',
+    location: {lat: 53.762838, lon: -8.764596},
+    },
+  {
+    club:'Ballyheigue Castle',
+    location: {lat: 52.394105, lon: -9.838705},
+    },
+  {
+    club:'Ballykisteen',
+    location: {lat: 52.501197, lon: -8.216858},
+    },
+  {
+    club:'Ballyliffin',
+    location: {lat: 55.278439, lon: -7.394212},
+    },
+  {
+    club:'Ballymena',
+    location: {lat: 54.86538, lon: -6.28038},
+    },
+  {
+    club:'Ballymoney',
+    location: {lat: 52.68246, lon: -6.22119},
+    },
+  {
+    club:'Ballymote',
+    location: {lat: 54.089829, lon: -8.517183},
+    },
+  {
+    club:'Ballyneety',
+    location: {lat: 52.600726, lon: -8.549781},
+    },
+  {
+    club:'Balmoral',
+    location: {lat: 54.567673, lon: -5.96957},
+    },
+  {
+    club:'Baltinglass',
+    location: {lat: 52.941901, lon: -6.709959},
+    },
+  {
+    club:'Banbridge',
+    location: {lat: 54.348643, lon: -6.4158},
+    },
+  {
+    club:'Bandon',
+    location: {lat: 51.650596, lon: -8.856465},
+    },
+  {
+    club:'Bangor',
+    location: {lat: 54.660585, lon: -5.655206},
+    },
+  {
+    club:'Bantry Bay',
+    location: {lat: 51.699584, lon: -9.442349},
+    },
+  {
+    club:'Bearna',
+    location: {lat: 52.508194, lon: -8.248286},
+    },
+  {
+    club:'Beaufort',
+    location: {lat: 52.06938, lon: -9.633333},
+    },
+  {
+    club:'Beaverstown',
+    location: {lat: 53.496893, lon: -6.151948},
+    },
+  {
+    club:'Beech Park',
+    location: {lat: 53.355963, lon: -6.436482},
+    },
+  {
+    club:'Bellewstown',
+    location: {lat: 53.643867, lon: -6.348786},
+    },
+  {
+    club:'Belmullet',
+    location: {lat: 54.2239, lon: -9.987603},
+    },
+  {
+    club:'Belturbet',
+    location: {lat: 54.101906, lon: -7.449668},
+    },
+  {
+    club:'Belvoir Park',
+    location: {lat: 54.561861, lon: -5.912809},
+    },
+  {
+    club:'Berehaven',
+    location: {lat: 51.699584, lon: -9.442349},
+    },
+  {
+    club:'Birr',
+    location: {lat: 53.095278, lon: -7.910278},
+    },
+  {
+    club:'Black Bush',
+    location: {lat: 53.528549, lon: -6.526181},
+    },
+  {
+    club:'Blacklion',
+    location: {lat: 54.292064, lon: -7.875128},
+    },
+  {
+    club:'Blackwood',
+    location: {lat: 54.629879, lon: -5.724559},
+    },
+  {
+    club:'Blainroe',
+    location: {lat: 52.94633, lon: -6.0265},
+    },
+  {
+    club:'Blarney',
+    location: {lat: 51.933056, lon: -8.568056},
+    },
+  {
+    club:'Blessington Lakes Golf club',
+    location: {lat: 53.124593, lon: -6.540277},
+    },
+  {
+    club:'Bodenstown',
+    location: {lat: 53.262617, lon: -6.666295},
+    },
+  {
+    club:'Borris',
+    location: {lat: 52.599805, lon: -6.923082},
+    },
+  {
+    club:'Boyle',
+    location: {lat: 53.966667, lon: -8.3},
+    },
+  {
+    club:'Bray',
+    location: {lat: 53.176792, lon: -6.095417},
+    },
+  {
+    club:'Bright Castle',
+    location: {lat: 54.275144, lon: -5.689685},
+    },
+  {
+    club:'Brown Trout',
+    location: {lat: 55.03736, lon: -6.602672},
+    },
+  {
+    club:'Bunclody',
+    location: {lat: 52.6567, lon: -6.6541},
+    },
+  {
+    club:'Buncrana',
+    location: {lat: 55.134651, lon: -7.453448},
+    },
+  {
+    club:'Bundoran',
+    location: {lat: 54.477556, lon: -8.28144},
+    },
+  {
+    club:'BurnField House',
+    location: {lat: 54.703326, lon: -5.935453},
+    },
+  {
+    club:'Bushfoot',
+    location: {lat: 55.218483, lon: -6.534048},
+    },
+  {
+    club:'Cabra Castle',
+    location: {lat: 53.913967, lon: -6.774373},
+    },
+  {
+    club:'Cahir Park',
+    location: {lat: 52.3625, lon: -7.932809},
+    },
+  {
+    club:'Carne',
+    location: {lat: 54.223960, lon: -10.033801},
+    },
+  {
+    club:'Callan',
+    location: {lat: 52.5456, lon: -7.3963},
+    },
+  {
+    club:'Carlow',
+    location: {lat: 52.718975, lon: -6.85037},
+    },
+  {
+    club:'Carnalea',
+    location: {lat: 53.25408, lon: -8.64811},
+    },
+  {
+    club:'Carrick-on-Shannon',
+    location: {lat: 53.945188, lon: -8.085522},
+    },
+  {
+    club:'Carrick-on-suir',
+    location: {lat: 52.34765, lon: -7.418971},
+    },
+  {
+    club:'Carrickfergus',
+    location: {lat: 54.71373, lon: -5.80818},
+    },
+  {
+    club:'Carrickmines',
+    location: {lat: 53.220004, lon: -6.184497},
+    },
+  {
+    club:'Carton House',
+    location: {lat: 53.378486, lon: -6.554804},
+    },
+  {
+    club:'Castle',
+    location: {lat: 53.318221, lon: -6.435662},
+    },
+  {
+    club:'Castle Barna',
+    location: {lat: 53.251812, lon: -9.147468},
+    },
+  {
+    club:'Castle Dargan',
+    location: {lat: 54.197426, lon: -8.436339},
+    },
+  {
+    club:'Castle Hume',
+    location: {lat: 54.392221, lon: -7.690015},
+    },
+  {
+    club:'Castlebar',
+    location: {lat: 53.855001, lon: -9.287926},
+    },
+  {
+    club:'Castleblayney',
+    location: {lat: 54.1177, lon: -6.74},
+    },
+  {
+    club:'Castlecomer',
+    location: {lat: 52.806615, lon: -7.216005},
+    },
+  {
+    club:'Castlegregory',
+    location: {lat: 52.255549, lon: -10.02099},
+    },
+  {
+    club:'Castleisland',
+    location: {lat: 52.232897, lon: -9.460149},
+    },
+  {
+    club:'Castleknock',
+    location: {lat: 53.36413, lon: -6.38913},
+    },
+  {
+    club:'Castlemartyr',
+    location: {lat: 51.916667, lon: -8.05},
+    },
+  {
+    club:'Castlerea',
+    location: {lat: 53.7673, lon: -8.488},
+    },
+  {
+    club:'Castlereagh Hills',
+    location: {lat: 54.57718, lon: -5.88821},
+    },
+  {
+    club:'Castlerock',
+    location: {lat: 55.165783, lon: -6.784496},
+    },
+  {
+    club:'Castlerosse',
+    location: {lat: 52.065984, lon: -9.539886},
+    },
+  {
+    club:'Castletroy',
+    location: {lat: 52.673978, lon: -8.554262},
+    },
+  {
+    club:'Castlewarden',
+    location: {lat: 53.274967, lon: -6.533495},
+    },
+  {
+    club:'Ceann Sibeal',
+    location: {lat: 52.180320, lon: -10.442719},
+    },
+  {
+    club:'Celbridge Elmhall',
+    location: {lat: 53.339897, lon: -6.538459},
+    },
+  {
+    club:'Charlesland',
+    location: {lat: 53.132565, lon: -6.056032},
+    },
+  {
+    club:'Charleville',
+    location: {lat: 52.3553, lon: -8.6837},
+    },
+  {
+    club:'Cill Dara',
+    location: {lat: 53.357899, lon: -6.436685},
+    },
+  {
+    club:'City of Belfast',
+    location: {lat: 54.597285, lon: -5.93012},
+    },
+  {
+    club:'City of Derry',
+    location: {lat: 54.996612, lon: -7.308575},
+    },
+  {
+    club:'Citywest Resort',
+    location: {lat: 53.286165, lon: -6.450133},
+    },
+  {
+    club:'Clandeboye',
+    location: {lat: 54.627141, lon: -5.684029},
+    },
+  {
+    club:'Clane',
+    location: {lat: 53.291944, lon: -6.685556},
+    },
+  {
+    club:'Claremorris',
+    location: {lat: 53.723876, lon: -9.001736},
+    },
+  {
+    club:'Cliftonville',
+    location: {lat: 54.627125, lon: -5.955082},
+    },
+  {
+    club:'Clogher Valley',
+    location: {lat: 54.368633, lon: -7.336582},
+    },
+  {
+    club:'Clones',
+    location: {lat: 52.588754, lon: -8.001808},
+    },
+  {
+    club:'Clonmel',
+    location: {lat: 52.335297, lon: -7.646894},
+    },
+  {
+    club:'Clontarf',
+    location: {lat: 53.372483, lon: -6.222066},
+    },
+  {
+    club:'Cloughaneely',
+    location: {lat: 55.137729, lon: -8.104538},
+    },
+  {
+    club:'Cloverhill',
+    location: {lat: 53.342672, lon: -6.385342},
+    },
+  {
+    club:'County Armagh',
+    location: {lat: 54.345245, lon: -6.648077},
+    },
+  {
+    club:'County Cavan',
+    location: {lat: 53.990605, lon: -7.362941},
+    },
+  {
+    club:'County Longford',
+    location: {lat: 53.727556, lon: -7.793109},
+    },
+  {
+    club:'County Louth',
+    location: {lat: 53.925232, lon: -6.488942},
+    },
+  {
+    club:'County Meath',
+    location: {lat: 53.374891, lon: -6.387451},
+    },
+  {
+    club:'County Sligo',
+    location: {lat: 54.155328, lon: -8.606453},
+    },
+  {
+    club:'County Tipperary',
+    location: {lat: 52.426186, lon: -7.703728},
+    },
+  {
+    club:'Cobh',
+    location: {lat: 51.850336, lon: -8.294286},
+    },
+  {
+    club:'Colin Valley',
+    location: {lat: 54.572384, lon: -6.009340},
+    },
+  {
+    club:'Connemara',
+    location: {lat: 53.421070, lon: -10.144070},
+    },
+  {
+    club:'Connemara Isles',
+    location: {lat: 53.316897, lon: -9.610344},
+    },
+  {
+    club:'Coollattin',
+    location: {lat: 52.753832, lon: -6.499718},
+    },
+  {
+    club:'Corballis Links',
+    location: {lat: 53.471526, lon: -6.126391},
+    },
+  {
+    club:'Cork',
+    location: {lat: 53.176792, lon: -6.095417},
+    },
+  {
+    club:'Corrstown',
+    location: {lat: 53.459602, lon: -6.323136},
+    },
+  {
+    club:'Courtown',
+    location: {lat: 52.660752, lon: -6.23205},
+    },
+  {
+    club:'Craddockstown',
+    location: {lat: 53.07397, lon: -6.86941},
+    },
+  {
+    club:'Cregmore Park',
+    location: {lat: 53.326863, lon: -8.869482},
+    },
+  {
+    club:'Crossgar',
+    location: {lat: 54.39694, lon: -5.76232},
+    },
+  {
+    club:'Crover House',
+    location: {lat: 53.826116, lon: -7.294696},
+    },
+  {
+    club:'Cruit Island',
+    location: {lat: 55.030556, lon: -8.4175},
+    },
+  {
+    club:'Curra West',
+    location: {lat: 53.116388, lon: -8.439463},
+    },
+  {
+    club:'Cushendall',
+    location: {lat: 55.082887, lon: -6.05896},
+    },
+  {
+    club:'Deer Park',
+    location: {lat: 53.387778, lon: -6.065833},
+    },
+  {
+    club:'Delgany',
+    location: {lat: 53.130388, lon: -6.101281},
+    },
+  {
+    club:'Delvin Castle',
+    location: {lat: 53.614170, lon: -7.099937},
+    },
+  {
+    club:'Djouce',
+    location: {lat: 53.102992, lon: -6.191065},
+    },
+  {
+    club:'Donabate',
+    location: {lat: 53.485337, lon: -6.150448},
+    },
+  {
+    club:'Donaghadee',
+    location: {lat: 54.6427, lon: -5.53848},
+    },
+  {
+    club:'Donegal',
+    location: {lat: 54.654197, lon: -8.110546},
+    },
+  {
+    club:'Doneraile',
+    location: {lat: 52.215174, lon: -8.585977},
+    },
+  {
+    club:'Dooks',
+    location: {lat: 52.04172, lon: -9.95943},
+    },
+  {
+    club:'Doonbeg Links',
+    location: {lat: 52.747675, lon: -9.495318},
+    },
+  {
+    club:'Douglas',
+    location: {lat: 51.868797,  lon: -8.420108},
+    },
+  {
+    club:'Down Royal',
+    location: {lat: 54.491630, lon: -6.128136},
+    },
+  {
+    club:'Downpatrick',
+    location: {lat: 54.334705, lon: -5.699688},
+    },
+  {
+    club:'Dromoland',
+    location: {lat: 52.782027, lon: -8.916530},
+    },
+  {
+    club:'Druids Glen',
+    location: {lat: 53.09188, lon: -6.08074},
+    },
+  {
+    club:'Druids Heath',
+    location: {lat: 53.09188, lon: -6.08074},
+    },
+  {
+    club:'Dublin Mountain',
+    location: {lat: 53.385492, lon: -6.375907},
+    },
+  {
+    club:'Dun Laoghaire',
+    location: {lat: 53.176792, lon: -6.095417},
+    },
+  {
+    club:'Dundalk',
+    location: {lat: 53.997945, lon: -6.405957},
+    },
+  {
+    club:'Dunfanaghy',
+    location: {lat: 55.181944, lon: -7.971667},
+    },
+  {
+    club:'Dungannon',
+    location: {lat: 54.50425, lon: -6.76536},
+    },
+  {
+    club:'Dungarvan',
+    location: {lat: 52.093676, lon: -7.620363},
+    },
+  {
+    club:'Dunmore',
+    location: {lat: 53.383418, lon: -6.371686},
+    },
+  {
+    club:'Dunmore Demesne',
+    location: {lat: 53.616470, lon: -8.743921},
+    },
+  {
+    club:'Dunmore East',
+    location: {lat: 53.383418, lon: -6.371686},
+    },
+  {
+    club:'Dunmurry',
+    location: {lat: 53.200511, lon: -6.932221},
+    },
+  {
+    club:'Dunmurry Springs',
+    location: {lat: 53.188923, lon: -6.933467},
+    },
+  {
+    club:'East Clare',
+    location: {lat: 52.74608, lon: -9.49906},
+    },
+  {
+    club:'East Cork',
+    location: {lat: 53.176792, lon: -6.095417},
+    },
+  {
+    club:'Edenderry',
+    location: {lat: 53.343284, lon: -7.050583},
+    },
+  {
+    club:'Edenmore',
+    location: {lat: 53.37363, lon: -6.210971},
+    },
+  {
+    club:'Edmondstown',
+    location: {lat: 53.281053, lon: -6.283142},
+    },
+  {
+    club:'Elm Park',
+    location: {lat: 53.315293, lon: -6.219731},
+    },
+  {
+    club:'Elmgreen',
+    location: {lat: 53.344592, lon: -6.43635},
+    },
+  {
+    club:'Ennis',
+    location: {lat: 52.840873, lon: -8.998135},
+    },
+  {
+    club:'Enniscorthy',
+    location: {lat: 52.502197, lon: -6.56613},
+    },
+  {
+    club:'Enniscrone',
+    location: {lat: 54.2167, lon: -9.1},
+    },
+  {
+    club:'Enniskillen',
+    location: {lat: 54.338079, lon: -7.614984},
+    },
+  {
+    club:'Esker Hills',
+    location: {lat: 53.042128, lon: -7.296786},
+    },
+  {
+    club:'European',
+    location: {lat: 53.176792, lon: -6.095417},
+    },
+  {
+    club:'Faithlegg',
+    location: {lat: 52.258108, lon: -7.024243},
+    },
+  {
+    club:'Farnham Estate',
+    location: {lat: 54.00271, lon: -7.399939},
+    },
+  {
+    club:'Faughan Valley',
+    location: {lat: 55.020199, lon: -7.252231},
+    },
+  {
+    club:'Fermoy',
+    location: {lat: 52.138333, lon: -8.274722},
+    },
+  {
+    club:'Fernhill',
+    location: {lat: 53.02556, lon: -9.33152},
+    },
+  {
+    club:'Fintona',
+    location: {lat: 54.496068, lon: -7.317310},
+    },
+  {
+    club:'Forrest Little',
+    location: {lat: 53.439938, lon: -6.250004},
+    },
+  {
+    club:'Fortwilliam',
+    location: {lat: 52.426186, lon: -7.703728},
+    },
+  {
+    club:'Fota Island',
+    location: {lat: 51.899287, lon: -8.298257},
+    },
+  {
+    club:'Foxrock',
+    location: {lat: 53.268584, lon: -6.182979},
+    },
+  {
+    club:'Foyle',
+    location: {lat: 52.53161, lon: -8.27059},
+    },
+  {
+    club:'Frankfield',
+    location: {lat: 51.867064, lon: -8.464654},
+    },
+  {
+    club:'Galgorm Castle',
+    location: {lat: 54.858590, lon: -6.3181190},
+    },
+  {
+    club:'Galway',
+    location: {lat: 53.41612, lon: -9.290413},
+    },
+  {
+    club:'Galway Bay',
+    location: {lat: 53.41612, lon: -9.290413},
+    },
+  {
+    club:'Glasson',
+    location: {lat: 53.469911, lon: -7.863907},
+    },
+  {
+    club:'Glen of the Downs',
+    location: {lat: 53.13191, lon: -6.11273},
+    },
+  {
+    club:'Glencullen',
+    location: {lat: 53.220004, lon: -6.184497},
+    },
+  {
+    club:'Glengarriff',
+    location: {lat: 51.750028, lon: -9.552222},
+    },
+  {
+    club:'Glenlo Abbey',
+    location: {lat: 53.103368, lon: -8.390126},
+    },
+  {
+    club:'Glenmalure',
+    location: {lat: 53.368773, lon: -6.396562},
+    },
+  {
+    club:'Goldcoast',
+    location: {lat: 52.084946, lon: -7.570396},
+    },
+  {
+    club:'Gort',
+    location: {lat: 53.382038, lon: -6.396262},
+    },
+  {
+    club:'Gowran Park',
+    location: {lat: 52.619878, lon: -7.071597},
+    },
+  {
+    club:'Gracehill',
+    location: {lat: 55.136953, lon: -6.384692},
+    },
+  {
+    club:'Grange',
+    location: {lat: 53.28172, lon: -6.281461},
+    },
+  {
+    club:'Grange Castle',
+    location: {lat: 53.318221, lon: -6.435662},
+    },
+  {
+    club:'Greenacres',
+    location: {lat: 53.374604, lon: -6.441964},
+    },
+  {
+    club:'Greencastle',
+    location: {lat: 55.212147, lon: -6.957712},
+    },
+  {
+    club:'Greenisland',
+    location: {lat: 54.703422, lon: -5.876389},
+    },
+  {
+    club:'Greenore',
+    location: {lat: 54.031538, lon: -6.131363},
+    },
+  {
+    club:'Greystones',
+    location: {lat: 53.176792, lon: -6.095417},
+    },
+  {
+    club:'Gweedore',
+    location: {lat: 55.049801, lon: -8.228704},
+    },
+  {
+    club:'Hazel Grove',
+    location: {lat: 53.270151, lon: -6.404544},
+    },
+  {
+    club:'Headfort',
+    location: {lat: 53.73474, lon: -6.84763},
+    },
+  {
+    club:'Helens Bay',
+    location: {lat: 54.668452, lon: -5.737845},
+    },
+  {
+    club:'Hermitage',
+    location: {lat: 53.358843, lon: -6.410858},
+    },
+  {
+    club:'Highfield',
+    location: {lat: 53.368351, lon: -7.017421},
+    },
+  {
+    club:'Hilton Templepatrick',
+    location: {lat: 54.710194, lon: -6.093873},
+    },
+  {
+    club:'Hollystown',
+    location: {lat: 53.428780, lon: -6.382007},
+    },
+  {
+    club:'Hollywood Lakes',
+    location: {lat: 53.552856, lon: -6.272382},
+    },
+  {
+    club:'Holywood',
+    location: {lat: 54.631872, lon: -5.832221},
+    },
+  {
+    club:'Howth',
+    location: {lat: 53.375044, lon: -6.089947},
+    },
+  {
+    club:'K club',
+    location: {lat: 53.365751, lon: -6.395547},
+    },
+  {
+    club:'Kanturk',
+    location: {lat: 52.177255, lon: -8.905167},
+    },
+  {
+    club:'Kenmare',
+    location: {lat: 51.87796, lon: -9.583577},
+    },
+  {
+    club:'Kilcock',
+    location: {lat: 53.395, lon: -6.679},
+    },
+  {
+    club:'Kilcoole',
+    location: {lat: 53.099206, lon: -6.067231},
+    },
+  {
+    club:'Kilkee',
+    location: {lat: 52.682823, lon: -9.644412},
+    },
+  {
+    club:'Kilkeel',
+    location: {lat: 54.076605, lon: -6.049657},
+    },
+  {
+    club:'Kilkenny',
+    location: {lat: 52.403519, lon: -6.973029},
+    },
+  {
+    club:'Killarney',
+    location: {lat: 53.176792, lon: -6.095417},
+    },
+  {
+    club:'Killeen',
+    location: {lat: 53.331124, lon: -6.357751},
+    },
+  {
+    club:'Killeen Castle',
+    location: {lat: 53.527377, lon: -6.591178},
+    },
+  {
+    club:'Killerig',
+    location: {lat: 52.843059, lon: -6.789064},
+    },
+  {
+    club:'Killinbeg',
+    location: {lat: 54.030893, lon: -6.453519},
+    },
+  {
+    club:'Killiney',
+    location: {lat: 53.267033, lon: -6.130958},
+    },
+  {
+    club:'Killorglin',
+    location: {lat: 52.106351, lon: -9.78434},
+    },
+  {
+    club:'Killymoon',
+    location: {lat: 54.030893, lon: -6.453519},
+    },
+  {
+    club:'Kilmashogue',
+    location: {lat: 53.28158, lon: -6.281107},
+    },
+  {
+    club:'Kilrea',
+    location: {lat: 54.95119, lon: -6.5564},
+    },
+  {
+    club:'Kilrush',
+    location: {lat: 52.729598, lon: -9.520868},
+    },
+  {
+    club:'Kinsale',
+    location: {lat: 51.705833, lon: -8.5225},
+    },
+  {
+    club:'Kirkistown Castle',
+    location: {lat: 54.436674, lon: -5.472728},
+    },
+  {
+    club:'Knightsbrook',
+    location: {lat: 53.548732, lon: -6.764445},
+    },
+  {
+    club:'Knock',
+    location: {lat: 53.389741, lon: -6.381852},
+    },
+  {
+    club:'Knockanally',
+    location: {lat: 53.532797, lon: -6.786977},
+    },
+  {
+    club:'Lahinch',
+    location: {lat: 52.93568, lon: -9.345544},
+    },
+  {
+    club:'Lambeg',
+    location: {lat: 54.532276, lon: -6.027026},
+    },
+  {
+    club:'Larne',
+    location: {lat: 54.8575, lon: -5.80986},
+    },
+  {
+    club:'Laytown and Bettystown',
+    location: {lat: 53.68063, lon: -6.23745},
+    },
+  {
+    club:'Lee Valley',
+    location: {lat: 53.511809, lon: -6.459119},
+    },
+  {
+    club:'Letterkenny',
+    location: {lat: 54.955839, lon: -7.734279},
+    },
+  {
+    club:'Limerick',
+    location: {lat: 52.476858, lon: -8.17284},
+    },
+  {
+    club:'Lisburn',
+    location: {lat: 54.50972, lon: -6.0374},
+    },
+  {
+    club:'Lisheen Springs',
+    location: {lat: 53.228871, lon: -6.450429},
+    },
+  {
+    club:'Lismore',
+    location: {lat: 53.387686, lon: -6.378628},
+    },
+  {
+    club:'Lisselan',
+    location: {lat: 51.654775, lon: -8.849188},
+    },
+  {
+    club:'Listowel',
+    location: {lat: 52.447222, lon: -9.486111},
+    },
+  {
+    club:'Lough Erne',
+    location: {lat: 54.398505, lon: -7.693417},
+    },
+  {
+    club:'Loughgall',
+    location: {lat: 54.41064, lon: -6.60069},
+    },
+  {
+    club:'Loughrea',
+    location: {lat: 53.198914, lon: -8.566093},
+    },
+  {
+    club:'Lucan',
+    location: {lat: 53.358899, lon: -6.422831},
+    },
+  {
+    club:'Lurgan',
+    location: {lat: 54.4648, lon: -6.33602},
+    },
+  {
+    club:'Luttrellstown Castle',
+    location: {lat: 53.379397, lon: -6.422589},
+    },
+  {
+    club:'Macreddin',
+    location: {lat: 52.880731, lon: -6.329852},
+    },
+  {
+    club:'Macroom',
+    location: {lat: 51.904804, lon: -8.958848},
+    },
+  {
+    club:'Mahee Island',
+    location: {lat: 54.496343, lon: -5.639138},
+    },
+  {
+    club:'Mahon',
+    location: {lat: 51.885382, lon: -8.420324},
+    },
+  {
+    club:'Malahide',
+    location: {lat: 53.434119, lon: -6.143214},
+    },
+  {
+    club:'Mallow',
+    location: {lat: 52.138976, lon: -8.653916},
+    },
+  {
+    club:'Malone',
+    location: {lat: 54.539765, lon: -5.971629},
+    },
+  {
+    club:'Mannan Castle',
+    location: {lat:54.003219, lon: -6.699588},
+    },
+  {
+    club:'Manor',
+    location: {lat: 53.176792, lon: -6.095417},
+    },
+  {
+    club:'Massereene',
+    location: {lat: 54.713069, lon: -6.231163 },
+    },
+  {
+    club:'Mayobridge',
+    location: {lat: 54.193660, lon: -6.240527},
+    },
+  {
+    club:'Millicent',
+    location: {lat: 53.26809, lon: -6.68821},
+    },
+  {
+    club:'Milltown',
+    location: {lat: 52.511463, lon: -8.202159},
+    },
+  {
+    club:'Mitchelstown',
+    location: {lat: 52.266213, lon: -8.269886},
+    },
+  {
+    club:'Moate',
+    location: {lat: 53.395229, lon: -7.715578},
+    },
+  {
+    club:'Monkstown',
+    location: {lat: 53.288594, lon: -6.151777},
+    },
+  {
+    club:'Mount Juliet',
+    location: {lat: 52.520517, lon: -7.190616},
+    },
+  {
+    club:'Mount Ober',
+    location: {lat: 54.550430, lon: -5.889436},
+    },
+  {
+    club:'Mount Temple',
+    location: {lat: 53.427997, lon: -7.776694},
+    },
+  {
+    club:'Mount Wolseley',
+    location: {lat: 52.791445, lon: -6.730461},
+    },
+  {
+    club:'Mountain View',
+    location: {lat: 52.474111, lon: -8.15588},
+    },
+  {
+    club:'Mountbellew',
+    location: {lat: 53.351377, lon: -6.423135},
+    },
+  {
+    club:'Mountrath',
+    location: {lat: 53.00256, lon: -7.47514},
+    },
+  {
+    club:'Mourne',
+    location: {lat: 54.076605, lon: -6.049657},
+    },
+  {
+    club:'Moyola Park',
+    location: {lat: 54.781775, lon: -6.568476},
+    },
+  {
+    club:'Moyvalley',
+    location: {lat: 53.42992, lon: -6.92087},
+    },
+  {
+    club:'Mullingar',
+    location: {lat: 53.525933, lon: -7.338138},
+    },
+  {
+    club:'Mulranny',
+    location: {lat: 53.903917, lon: -9.789694},
+    },
+  {
+    club:'Muskerry',
+    location: {lat: 53.380232, lon: -6.39128},
+    },
+  {
+    club:'Naas',
+    location: {lat: 53.249013, lon: -6.644857},
+    },
+  {
+    club:'Narin and Portnoo',
+    location: {lat: 54.840046, lon: -8.463128},
+    },
+  {
+    club:'Navan',
+    location: {lat: 53.387251, lon: -6.372449},
+    },
+  {
+    club:'Nenagh',
+    location: {lat: 52.864297, lon: -8.197556},
+    },
+  {
+    club:'New Forest',
+    location: {lat: 53.381836, lon: -7.408321},
+    },
+  {
+    club:'New Ross',
+    location: {lat: 52.403519, lon: -6.973029},
+    },
+  {
+    club:'Newbridge',
+    location: {lat: 53.175076, lon: -6.804747},
+    },
+  {
+    club:'Newcastle West',
+    location: {lat: 52.451111, lon: -9.054722},
+    },
+  {
+    club:'Newlands',
+    location: {lat: 53.311181, lon: -6.389517},
+    },
+  {
+    club:'Newtownstewart',
+    location: {lat: 54.705793, lon: -7.424358},
+    },
+  {
+    club:'North West',
+    location: {lat: 53.176792, lon: -6.095417},
+    },
+  {
+    club:'Nuremore',
+    location: {lat: 53.963481,  lon: -6.694243},
+    },
+  {
+    club:'Old Conna',
+    location: {lat: 53.176792, lon: -6.095417},
+    },
+  {
+    club:'Omagh',
+    location: {lat: 54.59657, lon: -7.30691},
+    },
+  {
+    club:'Ormeau',
+    location: {lat: 54.579990, lon: -5.913757},
+    },
+  {
+    club:'Otway',
+    location: {lat: 55.134714, lon: -7.527573},
+    },
+  {
+    club:'Oughterard',
+    location: {lat: 53.41612, lon: -9.290413},
+    },
+  {
+    club:'Palmerstown Stud',
+    location: {lat: 53.358915, lon: -6.361714},
+    },
+  {
+    club:'Parknasilla',
+    location: {lat: 51.818405, lon: -9.871855},
+    },
+  {
+    club:'Portadown',
+    location: {lat:54.404213, lon: -6.413556},
+    },
+  {
+    club:'Portarlington',
+    location: {lat: 53.161211, lon: -7.187757},
+    },
+  {
+    club:'Portlaoise',
+    location: {lat: 53.032812, lon: -7.298793},
+    },
+  {
+    club:'Portmarnock',
+    location: {lat: 53.411354, lon: -6.126082},
+    },
+  {
+    club:'Portsalon',
+    location: {lat: 55.205278, lon: -7.636111},
+    },
+  {
+    club:'Portstewart',
+    location: {lat: 55.171998, lon: -6.724993},
+    },
+  {
+    club:'Portumna',
+    location: {lat: 53.091934, lon: -8.220866},
+    },
+  {
+    club:'Powerscourt',
+    location: {lat: 53.190187, lon: -6.141636},
+    },
+  {
+    club:'Raffeen Creek',
+    location: {lat: 51.830315, lon: -8.324419},
+    },
+  {
+    club:'Rathbane',
+    location: {lat: 52.87802, lon: -8.51263},
+    },
+  {
+    club:'Rathcore',
+    location: {lat: 53.449059, lon: -6.835500},
+    },
+  {
+    club:'Rathdowney',
+    location: {lat: 52.855716, lon: -7.586723},
+    },
+  {
+    club:'Rathfarnham',
+    location: {lat: 53.281053, lon: -6.283142},
+    },
+  {
+    club:'Rathmore',
+    location: {lat: 55.199957, lon: -6.638736},
+    },
+  {
+    club:'Rathsallagh',
+    location: {lat: 53.02203, lon: -7.17754},
+    },
+  {
+    club:'Redcastle',
+    location: {lat: 55.159408, lon: -7.134333},
+    },
+  {
+    club:'Ring Of Kerry',
+    location: {lat: 51.874523, lon: -9.671620},
+    },
+  {
+    club:'Rockmount',
+    location: {lat: 52.840873, lon: -8.998135},
+    },
+  {
+    club:'Roe Park',
+    location: {lat: 55.038342, lon: -6.955594},
+    },
+  {
+    club:'Roganstown',
+    location: {lat: 53.486869, lon: -6.270861},
+    },
+  {
+    club:'Rosapenna',
+    location: {lat: 55.1915, lon: -7.82314},
+    },
+  {
+    club:'Roscommon',
+    location: {lat: 53.627591, lon: -8.189096},
+    },
+  {
+    club:'Roscrea',
+    location: {lat: 52.955179, lon: -7.79847},
+    },
+  {
+    club:'Ross',
+    location: {lat: 52.403519, lon: -6.973029},
+    },
+  {
+    club:'Rosslare',
+    location: {lat: 52.273056, lon: -6.386667},
+    },
+  {
+    club:'Rossmore',
+    location: {lat: 54.21726, lon: -6.988278},
+    },
+  {
+    club:'Roundwood',
+    location: {lat: 53.066667, lon: -6.233333},
+    },
+  {
+    club:'Royal Belfast',
+    location: {lat: 54.660119, lon: -5.785390},
+    },
+  {
+    club:'Royal County Down',
+    location: {lat: 54.217037, lon: -5.886032},
+    },
+  {
+    club:'Royal Curragh',
+    location: {lat: 53.377547, lon: -6.371807},
+    },
+  {
+    club:'Royal Portrush',
+    location: {lat: 55.200492, lon: -6.635729},
+    },
+  {
+    club:'Royal Tara',
+    location: {lat: 53.591374, lon: -6.635128},
+    },
+  {
+    club:'Rush',
+    location: {lat: 53.376216, lon: -6.425791},
+    },
+  {
+    club:'Scarke',
+    location: {lat: 52.41431, lon: -6.88531},
+    },
+  {
+    club:'Scrabo',
+    location: {lat: 54.578332, lon: -5.719233},
+    },
+  {
+    club:'Seafield',
+    location: {lat: 51.699584, lon: -9.442349},
+    },
+  {
+    club:'Seapoint',
+    location: {lat: 53.58421, lon: -7.19811},
+    },
+  {
+    club:'Shandon Park',
+    location: {lat: 54.583877, lon: -5.854015},
+    },
+  {
+    club:'Shannon',
+    location: {lat: 51.650596, lon: -8.856465},
+    },
+  {
+    club:'Silloge Park',
+    location: {lat: 53.413956, lon: -6.268985},
+    },
+  {
+    club:'Silverwood',
+    location: {lat: 54.475093, lon: -6.356520},
+    },
+  {
+    club:'Skellig Bay',
+    location: {lat: 51.815194, lon: -10.165182},
+    },
+  {
+    club:'Skerries',
+    location: {lat: 53.595738, lon: -6.183302},
+    },
+  {
+    club:'Skibbereen',
+    location: {lat: 51.548611, lon: -9.266111},
+    },
+  {
+    club:'Slade Valley',
+    location: {lat: 53.255443, lon: -6.470375},
+    },
+  {
+    club:'Slieve Russell',
+    location: {lat: 54.096871, lon: -7.556714},
+    },
+  {
+    club:'Slievenamon',
+    location: {lat: 52.426186, lon: -7.703728},
+    },
+  {
+    club:'Smurfit',
+    location: {lat: 53.304700, lon: -6.621740},
+    },
+  {
+    club:'South Meath',
+    location: {lat: 53.376216, lon: -6.425791},
+    },
+  {
+    club:'Spa',
+    location: {lat: 54.392045, lon: -5.909949},
+    },
+  {
+    club:'Spanish Point',
+    location: {lat: 52.845, lon: -9.437},
+    },
+  {
+    club:'St Annes',
+    location: {lat: 53.3623, lon: -6.403359},
+    },
+  {
+    club:'St Helens Bay',
+    location: {lat: 52.232575, lon: -6.325148},
+    },
+  {
+    club:'St Margarets',
+    location: {lat: 53.431093, lon: -6.298262},
+    },
+  {
+    club:'Stackstown',
+    location: {lat: 53.28158, lon: -6.281107},
+    },
+  {
+    club:'Strabane',
+    location: {lat: 54.827269, lon: -7.463579},
+    },
+  {
+    club:'Strandhill',
+    location: {lat: 54.26999, lon: -8.59894},
+    },
+  {
+    club:'Strokestown',
+    location: {lat: 53.775867, lon: -8.103532},
+    },
+  {
+    club:'Summerhill',
+    location: {lat: 53.481366, lon: -6.732515},
+    },
+  {
+    club:'Sutton',
+    location: {lat: 53.395732, lon: -6.114463},
+    },
+  {
+    club:'Swinford',
+    location: {lat: 53.943702, lon: -8.950006},
+    },
+  {
+    club:'Swords',
+    location: {lat: 53.440256, lon: -6.249614},
+    },
+  {
+    club:'Tandragee',
+    location: {lat: 54.348643, lon: -6.4158},
+    },
+  {
+    club:'Tara Glen',
+    location: {lat: 52.666776, lon: -6.210690},
+    },
+  {
+    club:'Temple',
+    location: {lat: 53.372483, lon: -6.222066},
+    },
+  {
+    club:'Templemore',
+    location: {lat: 52.796667, lon: -7.834444},
+    },
+  {
+    club:'The Heath',
+    location: {lat: 53.385795, lon: -6.408909},
+    },
+  {
+    club:'The Heritage',
+    location: {lat: 52.615746, lon: -8.573229},
+    },
+  {
+    club:'The Island',
+    location: {lat: 53.176792, lon: -6.095417},
+    },
+  {
+    club:'The Links Portmarnock',
+    location: {lat: 53.411354, lon: -6.126082},
+    },
+  {
+    club:'The Royal Dublin',
+    location: {lat: 53.35648, lon: -6.170359},
+    },
+  {
+    club:'Thurles',
+    location: {lat: 52.680106, lon: -7.804442},
+    },
+  {
+    club:'Tipperary',
+    location: {lat: 52.470167, lon: -8.161795},
+    },
+  {
+    club:'Townley Hall',
+    location: {lat: 53.73386, lon: -6.45335},
+    },
+  {
+    club:'Traad Ponds',
+    location: {lat: 54.724063, lon: -6.527451},
+    },
+  {
+    club:'Tralee',
+    location: {lat: 52.27131, lon: -9.699932},
+    },
+  {
+    club:'Tramore',
+    location: {lat: 52.157611, lon: -7.169468},
+    },
+  {
+    club:'Tuam',
+    location: {lat: 53.514722, lon: -8.851389},
+    },
+  {
+    club:'Tubbercurry',
+    location: {lat: 54.055226, lon: -8.729824},
+    },
+  {
+    club:'Tulfarris',
+    location: {lat: 53.122389, lon: -6.556971},
+    },
+  {
+    club:'Tullamore',
+    location: {lat: 53.275526, lon: -7.493385},
+    },
+  {
+    club:'Tullybeg House',
+    location: {lat: 53.281737, lon: -7.613255},
+    },
+  {
+    club:'Virginia',
+    location: {lat: 53.832753, lon: -7.091628},
+    },
+  {
+    club:'Warrenpoint',
+    location: {lat: 54.099, lon: -6.249},
+    },
+  {
+    club:'Waterford',
+    location: {lat: 52.256667, lon: -7.129167},
+    },
+  {
+    club:'Waterford Castle',
+    location: {lat: 52.256667, lon: -7.129167},
+    },
+  {
+    club:'Waterville',
+    location: {lat: 53.393639, lon: -6.372728},
+    },
+  {
+    club:'West Waterford',
+    location: {lat: 52.256667, lon: -7.129167},
+    },
+  {
+    club:'Westmanstown',
+    location: {lat: 53.377688, lon: -6.450623},
+    },
+  {
+    club:'Westport',
+    location: {lat: 53.811330,  lon: -9.563770},
+    },
+  {
+    club:'Wexford',
+    location: {lat: 52.403519, lon: -6.973029},
+    },
+  {
+    club:'Whitehead',
+    location: {lat: 54.765455, lon: -5.699036},
+    },
+  {
+    club:'Wicklow',
+    location: {lat: 53.176792, lon: -6.095417},
+    },
+  {
+    club:'Williamstown',
+    location: {lat: 52.574021, lon: -8.573961},
+    },
+  {
+    club:'Woodbrook',
+    location: {lat: 53.215923, lon: -6.119422},
+    },
+  {
+    club:'Woodenbridge',
+    location: {lat: 52.83465, lon: -6.24559},
+    },
+  {
+    club:'Woodlands',
+    location: {lat: 53.37386, lon: -6.431318},
+    },
+  {
+    club:'Woodstock',
+    location: {lat: 52.841197, lon: -9.028616},
+    },
+  {
+    club:'Youghal',
+    location: {lat: 51.95427, lon: -7.847171},
+    }
+]

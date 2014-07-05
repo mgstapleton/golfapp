@@ -1,0 +1,7571 @@
+fixtures = [
+  {
+    "Club":"Cahir Park",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"04/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 06/07/2014"
+  },
+  {
+    "Club":"Skerries",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"04/07/2014",
+    "Cost":"12",
+    "Info":"End Date: 04/07/2014\n  OPEN WEEK - LADIES ONLY  - Timesheet from 5.45 pm"
+  },
+  {
+    "Club":"Rossmore",
+    "Format":"Junior",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"04/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 04/07/2014\n  Co Monaghan Under 18 Golf Chanpionship"
+  },
+  {
+    "Club":"Co. Louth",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"04/07/2014",
+    "Cost":"30",
+    "Info":"End Date: 04/07/2014\n  3/4 Handicap applies"
+  },
+  {
+    "Club":"Waterford",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"04/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 04/07/2014"
+  },
+  {
+    "Club":"Co. Meath",
+    "Format":"Scramble",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"04/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 04/07/2014"
+  },
+  {
+    "Club":"Rossmore",
+    "Format":"Junior",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"04/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 04/07/2014\n  Co Monaghan Under 18 Golf Chanpionship"
+  },
+  {
+    "Club":"Roscrea",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"04/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 04/07/2014"
+  },
+  {
+    "Club":"Greencastle",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"04/07/2014",
+    "Cost":"17",
+    "Info":"End Date: 04/07/2014"
+  },
+  {
+    "Club":"Kilcock",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"04/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 04/07/2014"
+  },
+  {
+    "Club":"Abbeyleix",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"04/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 04/07/2014\n  Open Singles. Entry 10"
+  },
+  {
+    "Club":"Macroom",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"04/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 06/07/2014"
+  },
+  {
+    "Club":"Killeen Castle",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"04/07/2014",
+    "Cost":"45",
+    "Info":"End Date: 04/07/2014\n  Open Week Singles Stableford (3 balls)"
+  },
+  {
+    "Club":"Beaufort",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"04/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 04/07/2014\n  Timesheet Open - One prize each week (depending on numbers taking part)"
+  },
+  {
+    "Club":"Mahee Island",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"04/07/2014",
+    "Cost":"Sterling 10",
+    "Info":"End Date: 04/07/2014\n  Gents Senior Open (over 50's) includes small fry"
+  },
+  {
+    "Club":"Ballyliffin",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"04/07/2014",
+    "Cost":"40",
+    "Info":"End Date: 04/07/2014"
+  },
+  {
+    "Club":"Wicklow",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"04/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 05/07/2014\n  Yeam Event - Men & Ladies"
+  },
+  {
+    "Club":"Mallow",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"04/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 04/07/2014\n  Please ring 022 21145 ext 2 or 3 for details - Open Singles most Fridays."
+  },
+  {
+    "Club":"Dunmore East",
+    "Format":"Scramble",
+    "Fixture":"Team Events",
+    "Holes":9,
+    "Start Date":"04/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 04/07/2014\n  To book a Tee time Phone the clubhouse on 051-383151"
+  },
+  {
+    "Club":"Ennis",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"04/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 04/07/2014\n  Main Course Meal 10"
+  },
+  {
+    "Club":"Skerries",
+    "Format":"Rumble",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"04/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 04/07/2014\n  OPEN WEEK"
+  },
+  {
+    "Club":"Roscommon",
+    "Format":"Stableford",
+    "Fixture":"Fourball",
+    "Holes":18,
+    "Start Date":"04/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 04/07/2014\n  OPEN WEEK"
+  },
+  {
+    "Club":"Youghal",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"04/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 06/07/2014"
+  },
+  {
+    "Club":"Ballinrobe",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"04/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 04/07/2014"
+  },
+  {
+    "Club":"Strandhill",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"04/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 04/07/2014"
+  },
+  {
+    "Club":"Ballyneety",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"04/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 04/07/2014"
+  },
+  {
+    "Club":"Portarlington",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"04/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 04/07/2014\n  Club Fundraiser Classic"
+  },
+  {
+    "Club":"Callan",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"04/07/2014",
+    "Cost":"12.50",
+    "Info":"End Date: 04/07/2014"
+  },
+  {
+    "Club":"Bandon",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"04/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 04/07/2014"
+  },
+  {
+    "Club":"Macroom",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"04/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 04/07/2014\n  Open Singles every Thursday and Friday unless course booked for classic or other events."
+  },
+  {
+    "Club":"Corballis Links",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"04/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 04/07/2014\n  OPEN SINGLES STABLEFORD -\nQUALIFYING COMPETITION"
+  },
+  {
+    "Club":"Castleblayney",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"04/07/2014",
+    "Cost":"35",
+    "Info":"End Date: 04/07/2014\n  GUI Championship Black Tees Open Singles stableford competition. Please book buggies in the office. To book online click here http://www.brsgolf.com/concrawood/visitor_home.php"
+  },
+  {
+    "Club":"Kanturk",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"04/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 04/07/2014"
+  },
+  {
+    "Club":"Goldcoast",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"04/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 04/07/2014"
+  },
+  {
+    "Club":"Wexford",
+    "Format":"Stableford",
+    "Fixture":"Fourball",
+    "Holes":18,
+    "Start Date":"04/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 04/07/2014\n  Open Week Day 3: The Phelim Byrne Professional Catering Services Mixed Fourball"
+  },
+  {
+    "Club":"Abbeyleix",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"04/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 04/07/2014\n  Open Singles. 10"
+  },
+  {
+    "Club":"Arklow",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"04/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 04/07/2014"
+  },
+  {
+    "Club":"Galway Bay",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"04/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 04/07/2014\n  fee 25 online or 30 through the Golf Club"
+  },
+  {
+    "Club":"Wexford",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"04/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 04/07/2014\n  Open Week Day 4: The Wrightway Securities Open Singles"
+  },
+  {
+    "Club":"Tramore",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"04/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 04/07/2014\n  Visitors 25 Members 12 including a meal after golf.  book on line a www.tramoregolfclub.com"
+  },
+  {
+    "Club":"Rossmore",
+    "Format":"Junior",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"04/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 04/07/2014\n  Co Monaghan Under 18 Golf Chanpionship"
+  },
+  {
+    "Club":"Borris",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"04/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 04/07/2014"
+  },
+  {
+    "Club":"Castle Barna",
+    "Format":"Intermediate",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"05/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 06/07/2014\n  http://www.brsgolf.com/castlebarna/visitor_home.php"
+  },
+  {
+    "Club":"Castlecomer",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"05/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 05/07/2014\n  buggy hire 15"
+  },
+  {
+    "Club":"New Ross",
+    "Format":"Strokes",
+    "Fixture":"Fourball",
+    "Holes":18,
+    "Start Date":"05/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 06/07/2014\n  18h Open Fourball.  Tee times can be booked online:\nhttp://www.brsgolf.com/newross/opens_home.php"
+  },
+  {
+    "Club":"Co. Louth",
+    "Format":"Junior",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"05/07/2014",
+    "Cost":"30",
+    "Info":"End Date: 05/07/2014\n  Handicap 4-9"
+  },
+  {
+    "Club":"Skerries",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"05/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 05/07/2014\n  OPEN WEEK - Timesheet until 9.30 am"
+  },
+  {
+    "Club":"Carrick-on-suir",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"05/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 05/07/2014\n  Catering & limited No of buggies available, book on-line at www.carrickgolfclub.com or phone 051540047"
+  },
+  {
+    "Club":"Mannan Castle",
+    "Format":"Minor",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"05/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 05/07/2014\n  http://mannancastlegolfclub.ie/"
+  },
+  {
+    "Club":"Castle Barna",
+    "Format":"Junior",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"05/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 06/07/2014\n  http://www.brsgolf.com/castlebarna/visitor_home.php"
+  },
+  {
+    "Club":"Donegal",
+    "Format":"Junior",
+    "Fixture":"Scratch Cup",
+    "Holes":36,
+    "Start Date":"05/07/2014",
+    "Cost":"35",
+    "Info":"End Date: 05/07/2014\n  Entry form available at http://www.donegalgolfclub.ie/ai1ec_event/junior-scratch-cup/?instance_id="
+  },
+  {
+    "Club":"Fermoy",
+    "Format":"Minor",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"05/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 05/07/2014\n  Book online @ fermoygolfclub.ie or phone 025-31472"
+  },
+  {
+    "Club":"Tipperary",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"05/07/2014",
+    "Cost":"12",
+    "Info":"End Date: 05/07/2014\n  Book on Line www.tipperarygolfclub.com"
+  },
+  {
+    "Club":"Rossmore",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"05/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 12/07/2014\n  Rossmore Open Week"
+  },
+  {
+    "Club":"Rossmore",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"05/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 12/07/2014\n  Rossmore Open Week"
+  },
+  {
+    "Club":"Mannan Castle",
+    "Format":"Intermediate",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"05/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 05/07/2014\n  http://mannancastlegolfclub.ie/"
+  },
+  {
+    "Club":"Rathbane",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"05/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 05/07/2014"
+  },
+  {
+    "Club":"Rossmore",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"05/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 12/07/2014\n  Rossmore Open Week"
+  },
+  {
+    "Club":"Tralee",
+    "Format":"Senior",
+    "Fixture":"Scratch Cup",
+    "Holes":36,
+    "Start Date":"05/07/2014",
+    "Cost":"50",
+    "Info":"End Date: 05/07/2014"
+  },
+  {
+    "Club":"Limerick",
+    "Format":"Intermediate",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"05/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 05/07/2014\n  Intermediate Scratch Cup - Handicap Range 11 -18"
+  },
+  {
+    "Club":"Portadown",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"05/07/2014",
+    "Cost":"Sterling 12.5",
+    "Info":"End Date: 05/07/2014\n  Open Stableford"
+  },
+  {
+    "Club":"Donaghadee",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"05/07/2014",
+    "Cost":"N/A",
+    "Info":"End Date: 05/07/2014\n  Menary Memorial Cup\nContact the office to confirm Price"
+  },
+  {
+    "Club":"Castle Barna",
+    "Format":"Minor",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"05/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 06/07/2014\n  http://www.brsgolf.com/castlebarna/visitor_home.php"
+  },
+  {
+    "Club":"Donaghadee",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"05/07/2014",
+    "Cost":"N/A",
+    "Info":"End Date: 05/07/2014\n  Menary Memorial Cup\nContact the office to confirm Price"
+  },
+  {
+    "Club":"Wexford",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"05/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 05/07/2014\n  Open Week Day 5: The Daralinn Health & Safety Singles Competition"
+  },
+  {
+    "Club":"Co. Louth",
+    "Format":"Junior",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"05/07/2014",
+    "Cost":"30",
+    "Info":"End Date: 05/07/2014\n  Handicap 4-9"
+  },
+  {
+    "Club":"Castlecomer",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"05/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 05/07/2014\n  buggy hire 15"
+  },
+  {
+    "Club":"Tullamore",
+    "Format":"Scramble",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"05/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 06/07/2014\n  Open Club Fundraiser"
+  },
+  {
+    "Club":"Castle Barna",
+    "Format":"Senior",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"05/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 06/07/2014\n  http://www.brsgolf.com/castlebarna/visitor_home.php"
+  },
+  {
+    "Club":"Callan",
+    "Format":"Intermediate",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"05/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 06/07/2014\n   MEMBERS 10 VISITORS 15"
+  },
+  {
+    "Club":"Rathbane",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"05/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 05/07/2014"
+  },
+  {
+    "Club":"Donegal",
+    "Format":"Junior",
+    "Fixture":"Scratch Cup",
+    "Holes":36,
+    "Start Date":"05/07/2014",
+    "Cost":"35",
+    "Info":"End Date: 05/07/2014\n  Entry form available at http://www.donegalgolfclub.ie/ai1ec_event/junior-scratch-cup/?instance_id="
+  },
+  {
+    "Club":"Co. Meath",
+    "Format":"Stableford",
+    "Fixture":"Fourball",
+    "Holes":18,
+    "Start Date":"05/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 05/07/2014"
+  },
+  {
+    "Club":"Fermoy",
+    "Format":"Minor",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"05/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 05/07/2014\n  Book online @ fermoygolfclub.ie or phone 025-31472"
+  },
+  {
+    "Club":"Skerries",
+    "Format":"Stableford",
+    "Fixture":"Foursomes",
+    "Holes":18,
+    "Start Date":"05/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 05/07/2014\n  OPEN WEEK"
+  },
+  {
+    "Club":"Callan",
+    "Format":"Junior",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"05/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 06/07/2014\n  MEMBERS 10 VISITORS 15"
+  },
+  {
+    "Club":"Rossmore",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"05/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 12/07/2014\n  Rossmore Open Week"
+  },
+  {
+    "Club":"Roscrea",
+    "Format":"Intermediate",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"06/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 06/07/2014"
+  },
+  {
+    "Club":"Lurgan",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"06/07/2014",
+    "Cost":"Sterling 13",
+    "Info":"End Date: 06/07/2014"
+  },
+  {
+    "Club":"Lisburn",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"06/07/2014",
+    "Cost":"Sterling 15",
+    "Info":"End Date: 06/07/2014\n  Friends of Cancer, Open Charity Day.  NO GUI Card, Full Green Fee applies"
+  },
+  {
+    "Club":"Roscommon",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"06/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 06/07/2014\n  OPEN WEEK"
+  },
+  {
+    "Club":"Macreddin",
+    "Format":"Rumble",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"06/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 06/07/2014"
+  },
+  {
+    "Club":"Donabate",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"06/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 06/07/2014"
+  },
+  {
+    "Club":"Malahide",
+    "Format":"Junior",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"06/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 06/07/2014\n  MALAHIDE GOLF CLUBS JUNIOR SCRATCH CUP\nAll bookings must be made on line and pre-paid via the Club's web site, namely www.malahidegolfclub.ie\n\nAll bookings must be made on line via the Clubs web site - www.malahidegolfclub.ie"
+  },
+  {
+    "Club":"Adare",
+    "Format":"Stableford",
+    "Fixture":"Fourball",
+    "Holes":18,
+    "Start Date":"06/07/2014",
+    "Cost":"99",
+    "Info":"End Date: 06/07/2014\n  Open Mixed Fourball 99 per pair"
+  },
+  {
+    "Club":"Wexford",
+    "Format":"Stableford",
+    "Fixture":"Fourball",
+    "Holes":18,
+    "Start Date":"06/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 06/07/2014\n  Open Week Day 6: The Killevan Investments Open Fourball"
+  },
+  {
+    "Club":"Fermoy",
+    "Format":"Minor",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"06/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 06/07/2014\n  Book online @ fermoygolfclub.ie or phone 025-31472"
+  },
+  {
+    "Club":"Wicklow",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"06/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 06/07/2014\n  18 Hole Open Singles - Men & Ladies Separate Comps."
+  },
+  {
+    "Club":"Roscrea",
+    "Format":"Intermediate",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"06/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 06/07/2014"
+  },
+  {
+    "Club":"Kilkenny",
+    "Format":"Junior",
+    "Fixture":"Scratch Cup",
+    "Holes":36,
+    "Start Date":"06/07/2014",
+    "Cost":"30",
+    "Info":"End Date: 06/07/2014\n  Junior Scartch Cup 36 Holes"
+  },
+  {
+    "Club":"Killeen Castle",
+    "Format":"Stableford",
+    "Fixture":"Fourball",
+    "Holes":18,
+    "Start Date":"06/07/2014",
+    "Cost":"50",
+    "Info":"End Date: 06/07/2014\n  Open Week Black Sunday 7677yards (Black Tees). Limited Times Available."
+  },
+  {
+    "Club":"Co. Meath",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"06/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 06/07/2014"
+  },
+  {
+    "Club":"Strabane",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"06/07/2014",
+    "Cost":"Sterling 10",
+    "Info":"End Date: 06/07/2014\n  Frylite Open Week Teams"
+  },
+  {
+    "Club":"Kilkeel",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"06/07/2014",
+    "Cost":"Sterling 12",
+    "Info":"End Date: 06/07/2014"
+  },
+  {
+    "Club":"Massereene",
+    "Format":"Stableford",
+    "Fixture":"Foursomes",
+    "Holes":18,
+    "Start Date":"06/07/2014",
+    "Cost":"Sterling 8",
+    "Info":"End Date: 06/07/2014"
+  },
+  {
+    "Club":"Kilkeel",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"06/07/2014",
+    "Cost":"Sterling 12",
+    "Info":"End Date: 06/07/2014"
+  },
+  {
+    "Club":"Abbeyleix",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"06/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 06/07/2014\n  Three Ball Better. 10"
+  },
+  {
+    "Club":"Skerries",
+    "Format":"Strokes",
+    "Fixture":"Fourball",
+    "Holes":18,
+    "Start Date":"06/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 06/07/2014\n  Open Week"
+  },
+  {
+    "Club":"Malahide",
+    "Format":"Intermediate",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"06/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 06/07/2014\n  MALAHIDE GOLF CLUBS INTERMEDIATE SCRATCH CUP\nAll bookings must be made on line and pre-paid via the Club's web site, namely www.malahidegolfclub.ie\nAll bookings must be made on line via the Clubs web site - www.malahidegolfclub.ie"
+  },
+  {
+    "Club":"Castlecomer",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"06/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 06/07/2014\n  buggy hire 15"
+  },
+  {
+    "Club":"City of Derry",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"06/07/2014",
+    "Cost":"Sterling 20",
+    "Info":"End Date: 06/07/2014"
+  },
+  {
+    "Club":"Wexford",
+    "Format":"Stableford",
+    "Fixture":"Fourball",
+    "Holes":18,
+    "Start Date":"06/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 06/07/2014\n  Open Week Day 6: The Killevan Investments Open Fourball"
+  },
+  {
+    "Club":"Tandragee",
+    "Format":"Stableford",
+    "Fixture":"Fourball",
+    "Holes":18,
+    "Start Date":"06/07/2014",
+    "Cost":"Sterling 8",
+    "Info":"End Date: 06/07/2014\n  Mixed Greensomes 2.00pm"
+  },
+  {
+    "Club":"Ballyliffin",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"06/07/2014",
+    "Cost":"40",
+    "Info":"End Date: 06/07/2014"
+  },
+  {
+    "Club":"Headfort",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"06/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 06/07/2014"
+  },
+  {
+    "Club":"Abbeyleix",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"06/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 06/07/2014\n  Three Ball Better Ball. Entry 10"
+  },
+  {
+    "Club":"Co. Tipperary",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"07/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 07/07/2014"
+  },
+  {
+    "Club":"Rathbane",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"07/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 07/07/2014"
+  },
+  {
+    "Club":"Enniscrone",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"07/07/2014",
+    "Cost":"139",
+    "Info":"End Date: 09/07/2014\n  Atlantic Coast Challenge Competition Playing 3 Courses - Enniscrone, Carne & Co Sligo. Bookings taken at Carne 097-82292"
+  },
+  {
+    "Club":"The Royal Dublin",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"07/07/2014",
+    "Cost":"30",
+    "Info":"End Date: 07/07/2014\n  Mens Seniors Open 50+.  Please contact The Royal Dublin Golf Club for reservations 01 8336346 or log on to our website www.theroyaldublingolfclub.com"
+  },
+  {
+    "Club":"Dungarvan",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"07/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 07/07/2014\n  Open Gents and Ladies Senior Special Value Monday. Bookings available on club website www.dungarvangolfclub.com"
+  },
+  {
+    "Club":"Royal Tara",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"07/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 07/07/2014"
+  },
+  {
+    "Club":"Rathbane",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"07/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 07/07/2014"
+  },
+  {
+    "Club":"Ballykisteen",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"07/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 07/07/2014\n  Open Singles Book on line or call the Pro Shop 062 32117. Full catering, Pro Shop, Buggies, Trolleys available"
+  },
+  {
+    "Club":"Carlow",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"07/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 07/07/2014\n  Open Week Team of 4 Any Combination"
+  },
+  {
+    "Club":"Castlewarden",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"07/07/2014",
+    "Cost":"30",
+    "Info":"End Date: 07/07/2014\n  Includes 3 course meal."
+  },
+  {
+    "Club":"Ballyneety",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"07/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 07/07/2014"
+  },
+  {
+    "Club":"Slieve Russell",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"07/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 07/07/2014\n  Open singles, first Monday of each month call 0499525090 for timesheet or book online at www.slieverussellgolf.ie"
+  },
+  {
+    "Club":"Bearna",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"07/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 07/07/2014"
+  },
+  {
+    "Club":"Tulfarris",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"07/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 07/07/2014\n  Bookings 045 867609\nhttp://www.brsgolf.com/tulfarris/visitor_home.php"
+  },
+  {
+    "Club":"Enniscrone",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"07/07/2014",
+    "Cost":"30",
+    "Info":"End Date: 07/07/2014\n  Bank Holiday Monday 40 per person"
+  },
+  {
+    "Club":"Gort",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"07/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 07/07/2014"
+  },
+  {
+    "Club":"The Heritage",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"07/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 07/07/2014\n  Weekly Open Singles S/Ford"
+  },
+  {
+    "Club":"Lisheen Springs",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"07/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 07/07/2014"
+  },
+  {
+    "Club":"Bray",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"07/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 07/07/2014\n  http://www.brsgolf.com/bray/opens_home.php"
+  },
+  {
+    "Club":"Tullamore",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"07/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 07/07/2014\n  Booking at: tullamoregolfclub.ie"
+  },
+  {
+    "Club":"Co. Meath",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"07/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 07/07/2014\n  Open Singles Stableford Competition - 18 Holes"
+  },
+  {
+    "Club":"Carlow",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":9,
+    "Start Date":"07/07/2014",
+    "Cost":"5",
+    "Info":"End Date: 07/07/2014\n  Open Week Team of 2 Any Combination"
+  },
+  {
+    "Club":"Belmullet",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"07/07/2014",
+    "Cost":"139",
+    "Info":"End Date: 09/07/2014\n  Three day Atlantic Coast Challenge played over Carne,Enniscrone and Co Sligo in the order you prefer."
+  },
+  {
+    "Club":"Portumna",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"07/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 07/07/2014\n  GentsOpenSingles Mondays 17 Mar/Oct Visitors 15 Catering Available"
+  },
+  {
+    "Club":"Strabane",
+    "Format":"Strokes",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"07/07/2014",
+    "Cost":"Sterling 13",
+    "Info":"End Date: 07/07/2014\n  GMG Logos Singles Open Week"
+  },
+  {
+    "Club":"Limerick",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"07/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 07/07/2014\n  Timesheet opens 2 weeks in advance of Competition"
+  },
+  {
+    "Club":"Donabate",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"07/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 07/07/2014"
+  },
+  {
+    "Club":"Killeen Castle",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"07/07/2014",
+    "Cost":"35",
+    "Info":"End Date: 07/07/2014\n  Open Week Singles Stableford (Green Tees)"
+  },
+  {
+    "Club":"Corrstown",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"07/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 07/07/2014\n  Mens Open Singles & Seniors\nClick the link to make your booking\nhttp://www.brsgolf.com/corrstown/opens_home.php"
+  },
+  {
+    "Club":"Gowran Park",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"08/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 08/07/2014\n  Seniors (50+) Open Singles - 1st Tuesday of every month - entry fee 15.00"
+  },
+  {
+    "Club":"Castlemartyr",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"08/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 08/07/2014\n  Tuesday Blues Single Stableford"
+  },
+  {
+    "Club":"Kilcoole",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"08/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 08/07/2014\n  Over 50 yrs  \nTelephone Booking 01  2872066"
+  },
+  {
+    "Club":"Fermoy",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"08/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 08/07/2014\n  Book online @ www.fermoygolfclub.ie or call 025 31472"
+  },
+  {
+    "Club":"Oughterard",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"08/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 08/07/2014\n  Open day every Tuesday, Full catering and Club/Buggy rental available"
+  },
+  {
+    "Club":"Birr",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"08/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 08/07/2014"
+  },
+  {
+    "Club":"Castlebar",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"08/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 08/07/2014"
+  },
+  {
+    "Club":"Howth",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"08/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 08/07/2014\n  Open Week Singles. howthgolfclub.ie"
+  },
+  {
+    "Club":"Millicent",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"08/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 08/07/2014"
+  },
+  {
+    "Club":"Slieve Russell",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"08/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 08/07/2014\n  Seniors open 50+. Buggys @ 20.00 Call 0499525090 or book online"
+  },
+  {
+    "Club":"Clonmel",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"08/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 08/07/2014\n  Online booking on BRS through our website: www.clonmelgolfclub.com"
+  },
+  {
+    "Club":"Mount Juliet",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"08/07/2014",
+    "Cost":"50",
+    "Info":"End Date: 08/07/2014\n  Including burger/wrap at the 10th tee."
+  },
+  {
+    "Club":"Coollattin",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"08/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 08/07/2014\n  Bar & Restaurant Open. Buggies Available (Weather Permitting)."
+  },
+  {
+    "Club":"Ring Of Kerry",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"08/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 08/07/2014\n  Tuesday Singles 15 GUI card holders only"
+  },
+  {
+    "Club":"New Ross",
+    "Format":"Stableford",
+    "Fixture":"Fourball",
+    "Holes":18,
+    "Start Date":"08/07/2014",
+    "Cost":"12",
+    "Info":"End Date: 08/07/2014\n  Tuesday Fourball - 10/14 holes.  Tee times can be booked online:\nhttp://www.brsgolf.com/newross/opens_home.php"
+  },
+  {
+    "Club":"Adare Manor",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"08/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 08/07/2014"
+  },
+  {
+    "Club":"Athenry",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"08/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 08/07/2014"
+  },
+  {
+    "Club":"Athy",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"08/07/2014",
+    "Cost":"12",
+    "Info":"End Date: 08/07/2014\n  Members 9 p.p., Visitors 12 p.p. To book  go to  www.athygolfclub.com or contact the Club on 0598631729"
+  },
+  {
+    "Club":"Castleknock",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"08/07/2014",
+    "Cost":"30",
+    "Info":"End Date: 08/07/2014\n  www.castleknockgolfclub.ie\nFlex Members 20.00\nUnlimited Members 10.00"
+  },
+  {
+    "Club":"European",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"08/07/2014",
+    "Cost":"60",
+    "Info":"End Date: 08/07/2014\n  This competition is open to valid G.U.I. & I.L.G.U. handicap card holders only."
+  },
+  {
+    "Club":"Delvin Castle",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"08/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 08/07/2014"
+  },
+  {
+    "Club":"Ardee",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"08/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 08/07/2014"
+  },
+  {
+    "Club":"Dunmore East",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":9,
+    "Start Date":"08/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 08/07/2014\n  This is a 2 person team event and will alternate between a fourball and a team event. Phone Clubhouse on 051383151 for details of format"
+  },
+  {
+    "Club":"Carrick-on-Shannon",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"08/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 08/07/2014\n  http://www.brsgolf.com/carrickonshannon/opens_home.php"
+  },
+  {
+    "Club":"Muskerry",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"08/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 08/07/2014\n  O'Crualaoi Ladies and Gents Open Singles Qualifier for Grand Final on 16th September"
+  },
+  {
+    "Club":"Cairn",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"08/07/2014",
+    "Cost":"Sterling 10",
+    "Info":"End Date: 08/07/2014"
+  },
+  {
+    "Club":"Castleblayney",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"08/07/2014",
+    "Cost":"30",
+    "Info":"End Date: 08/07/2014\n  GUI/ILGU Open Singles Stableford competition. Please book buggies in the office. To book online click here http://www.brsgolf.com/concrawood/visitor_home.php"
+  },
+  {
+    "Club":"Castleblayney",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"08/07/2014",
+    "Cost":"30",
+    "Info":"End Date: 08/07/2014\n  GUI/ILGU Open Singles Stableford competition. Please book buggies in the office. To book online click here http://www.brsgolf.com/concrawood/visitor_home.php"
+  },
+  {
+    "Club":"Knockanally",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"08/07/2014",
+    "Cost":"14",
+    "Info":"End Date: 08/07/2014"
+  },
+  {
+    "Club":"Ring Of Kerry",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"08/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 08/07/2014\n  Tuesday Singles 15 GUI card holders only"
+  },
+  {
+    "Club":"Mount Juliet",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"08/07/2014",
+    "Cost":"50",
+    "Info":"End Date: 08/07/2014\n  Including burger/wrap at the 10th tee."
+  },
+  {
+    "Club":"Mullingar",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"08/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 08/07/2014\n  2 Person team event,"
+  },
+  {
+    "Club":"Roganstown",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"08/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 08/07/2014\n  http://www.brsgolf.com/roganstown/visitor_menu.php"
+  },
+  {
+    "Club":"Cairn",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"08/07/2014",
+    "Cost":"Sterling 7",
+    "Info":"End Date: 08/07/2014\n  SENIORS"
+  },
+  {
+    "Club":"Killeen",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"08/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 08/07/2014\n  Time/Sheet   045866003"
+  },
+  {
+    "Club":"Portlaoise",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"08/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 08/07/2014"
+  },
+  {
+    "Club":"Baltinglass",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"08/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 08/07/2014"
+  },
+  {
+    "Club":"Greenore",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"08/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 08/07/2014\n  Book on line or call the Pro Shop 042 9373212.  Full catering, Pro Shop, Buggies, Trolleys available"
+  },
+  {
+    "Club":"Highfield",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"08/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 08/07/2014\n  Call us on 0469731021 or log onto http://www.highfield-golf.ie/ for a tee time"
+  },
+  {
+    "Club":"Fernhill",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"12",
+    "Info":"End Date: 09/07/2014\n   Book on line at \"http://www.brsgolf.com/fernhill\" or ring (021)4372226. Members 5."
+  },
+  {
+    "Club":"Portarlington",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 09/07/2014"
+  },
+  {
+    "Club":"Co. Tipperary",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 09/07/2014"
+  },
+  {
+    "Club":"Rathbane",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 09/07/2014"
+  },
+  {
+    "Club":"Wexford",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 09/07/2014\n  Open Week Day 9: The Musgraves Cash & Carry Open Singles Competition"
+  },
+  {
+    "Club":"Glen of the Downs",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 09/07/2014\n  http://www.brsgolf.com/glenofthedowns/opens_home.php\nAge 50+"
+  },
+  {
+    "Club":"Greencastle",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"17",
+    "Info":"End Date: 09/07/2014"
+  },
+  {
+    "Club":"Clandeboye",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"Sterling 9",
+    "Info":"End Date: 09/07/2014\n  Visitors �Sterling 9, Members �Sterling 3, 2's �Sterling 1 extra"
+  },
+  {
+    "Club":"Black Bush",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 09/07/2014\n  Sponsor: SuperValu Dunshaughlin"
+  },
+  {
+    "Club":"Craddockstown",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 09/07/2014\n  http://www.brsgolf.com/craddockstown/opens_home.php"
+  },
+  {
+    "Club":"Royal Tara",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 09/07/2014"
+  },
+  {
+    "Club":"Courtown",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 09/07/2014"
+  },
+  {
+    "Club":"Edenderry",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"8",
+    "Info":"End Date: 09/07/2014\n  Open to Ladies & Men. see EdenderryGolfClub.ie"
+  },
+  {
+    "Club":"Royal Tara",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 09/07/2014"
+  },
+  {
+    "Club":"Rathbane",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 09/07/2014"
+  },
+  {
+    "Club":"Ballykisteen",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 09/07/2014\n  Open Singles Book on line or call the Pro Shop 062 32117. Full catering, Pro Shop, Buggies, Trolleys available"
+  },
+  {
+    "Club":"Castlewarden",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 09/07/2014"
+  },
+  {
+    "Club":"Luttrellstown Castle",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"30",
+    "Info":"End Date: 09/07/2014\n  GUI CARD REQUIRED. BOOKINGS 01-8609600 OR USE BRS. PRIZE VOUCHERS 1st 150eu/2nd 100eu/3rd 50eu."
+  },
+  {
+    "Club":"Ballycastle",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"Sterling 15",
+    "Info":"End Date: 09/07/2014"
+  },
+  {
+    "Club":"The Heath",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 09/07/2014"
+  },
+  {
+    "Club":"Bellewstown",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 09/07/2014\n  Book online at www.bellewstowngolfclub.ie/\nor phone 041 9882757"
+  },
+  {
+    "Club":"Mallow",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 09/07/2014\n  http://mallowgolfclub.net/visitors_tee_booking/tee_booking/"
+  },
+  {
+    "Club":"Highfield",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 09/07/2014\n  Call us on 0469731021 or log onto http://www.highfield-golf.ie/ for a tee time"
+  },
+  {
+    "Club":"Courtown",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 09/07/2014"
+  },
+  {
+    "Club":"St. Margarets",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 09/07/2014"
+  },
+  {
+    "Club":"Tuam",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 09/07/2014\n  tuamgolfclub@eircom.net"
+  },
+  {
+    "Club":"Lisheen Springs",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 09/07/2014"
+  },
+  {
+    "Club":"Millicent",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 09/07/2014"
+  },
+  {
+    "Club":"Bearna",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 09/07/2014"
+  },
+  {
+    "Club":"Clones",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 09/07/2014"
+  },
+  {
+    "Club":"Loughrea",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 09/07/2014"
+  },
+  {
+    "Club":"Bray",
+    "Format":"V Par",
+    "Fixture":"Fourball",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 09/07/2014\n  http://www.brsgolf.com/bray/opens_home.php"
+  },
+  {
+    "Club":"Fermoy",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 09/07/2014\n  Book online @ www.fermoygolfclub.ie or call 025 31472"
+  },
+  {
+    "Club":"Castlemartyr",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 09/07/2014\n  Wednesday Whites Singles Stableford"
+  },
+  {
+    "Club":"Bunclody",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 09/07/2014"
+  },
+  {
+    "Club":"Westport",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 09/07/2014\n  Open Wednesday, Ladies and Mens Singles Stableford\nEvery Wed, Apr-2014 to Sept 2014, Visitors 25.00, Members 7.00, www.westportgolfclub.ie"
+  },
+  {
+    "Club":"Portumna",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 09/07/2014\n  Gents Seniors Open Over 65's every Wed May/Sept Full Catering Facilities"
+  },
+  {
+    "Club":"Athlone",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 09/07/2014"
+  },
+  {
+    "Club":"Castleblayney",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 09/07/2014\n  GUI/ILGU OVer 50s Open Singles Stableford competition. Please book buggies in the office. To book online click here http://www.brsgolf.com/concrawood/visitor_home.php"
+  },
+  {
+    "Club":"Portumna",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 09/07/2014\n  Gents Seniors Open Over 65's every Wed May/Sept Full Catering Facilities"
+  },
+  {
+    "Club":"Kilkeel",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"Sterling 8",
+    "Info":"End Date: 09/07/2014"
+  },
+  {
+    "Club":"West Waterford",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 09/07/2014\n  Book online @ www.westwaterfordgolf.com or ring the office @ 058 43216. Subsequent entry fee is 15."
+  },
+  {
+    "Club":"Dundalk",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 09/07/2014"
+  },
+  {
+    "Club":"Waterford",
+    "Format":"Stableford",
+    "Fixture":"Fourball",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 09/07/2014"
+  },
+  {
+    "Club":"Castletroy",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 09/07/2014\n  Open Singles"
+  },
+  {
+    "Club":"Rathcore",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 09/07/2014\n  http://www.brsgolf.com/rathcore/visitor_home.php"
+  },
+  {
+    "Club":"Woodenbridge",
+    "Format":"Stableford",
+    "Fixture":"Fourball",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 09/07/2014"
+  },
+  {
+    "Club":"Rosslare",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 09/07/2014\n  Booking can be made at http://www.brsgolf.com/rosslare/opens_home.php"
+  },
+  {
+    "Club":"Greencastle",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"17",
+    "Info":"End Date: 09/07/2014"
+  },
+  {
+    "Club":"Ballina",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 09/07/2014"
+  },
+  {
+    "Club":"Castleblayney",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 09/07/2014\n  GUI/ILGU OVer 50s Open Singles Stableford competition. Please book buggies in the office. To book online click here http://www.brsgolf.com/concrawood/visitor_home.php"
+  },
+  {
+    "Club":"Shannon",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 09/07/2014\n  20.00 Visitor Fee before 12 noon"
+  },
+  {
+    "Club":"Dungarvan",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 09/07/2014\n  Open Gents Singles Stableford (Sponsor Deise Golf World)Booking available on club website www.dungarvangolfclub.com"
+  },
+  {
+    "Club":"Callan",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"12.50",
+    "Info":"End Date: 09/07/2014"
+  },
+  {
+    "Club":"Cahir Park",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 09/07/2014\n  only 12 before 11am. 100 first prize every week. Fantastic prizes to be won in ABP grand final on Sat 11th October. See website for details"
+  },
+  {
+    "Club":"Ballyclare",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"Sterling 10",
+    "Info":"End Date: 09/07/2014\n  Open Stableford.  Time sheet available on BRS 3 weeks prior to competition.  Times from 10:00am - 5:00pm."
+  },
+  {
+    "Club":"Hollystown",
+    "Format":"Stableford",
+    "Fixture":"Fourball",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"12.50",
+    "Info":"End Date: 09/07/2014\n  Can you qualify for the International Pairs Final Book 8207444\nwww.hollystown.com"
+  },
+  {
+    "Club":"Roscrea",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 09/07/2014"
+  },
+  {
+    "Club":"Black Bush",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"09/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 09/07/2014\n  Sponsor: SuperValu Dunshaughlin"
+  },
+  {
+    "Club":"Glen of the Downs",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 10/07/2014\n  http://www.brsgolf.com/glenofthedowns/opens_home.php"
+  },
+  {
+    "Club":"Kilkee",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 10/07/2014"
+  },
+  {
+    "Club":"Waterford Castle",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 10/07/2014\n  Open Singles Every Thursday. Please call 051 871633 to book or go www.waterfordcastle.com  Entry Fee is inclusive of Burger Meal"
+  },
+  {
+    "Club":"Slade Valley",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 10/07/2014\n  Ladies & Gents Competition"
+  },
+  {
+    "Club":"Esker Hills",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 10/07/2014\n  Esker Hills Open Singles Stableford Every Thursday, 20 per person or 25 per person including buggy"
+  },
+  {
+    "Club":"Macreddin",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 10/07/2014"
+  },
+  {
+    "Club":"Ballyheigue Castle",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 10/07/2014\n  Fee includes Tea/Coffee and a scone"
+  },
+  {
+    "Club":"Co. Cavan",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 10/07/2014"
+  },
+  {
+    "Club":"Kilkeel",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"Sterling 12",
+    "Info":"End Date: 10/07/2014"
+  },
+  {
+    "Club":"Dungarvan",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 10/07/2014\n  Open Gents Singles Stableford every Thursday 20 golf only or 25 golf and grill. Bookings available on  www.dungarvangolfclub.com"
+  },
+  {
+    "Club":"Royal Tara",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 10/07/2014"
+  },
+  {
+    "Club":"Cregmore Park",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 10/07/2014"
+  },
+  {
+    "Club":"Claremorris",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"12",
+    "Info":"End Date: 10/07/2014\n  Open Day Singles Stableford, Ladies or Gents"
+  },
+  {
+    "Club":"East Clare",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 10/07/2014"
+  },
+  {
+    "Club":"Highfield",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 10/07/2014\n  Call us on 0469731021 or log onto http://www.highfield-golf.ie/ for a tee time"
+  },
+  {
+    "Club":"Hollywood Lakes",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 10/07/2014"
+  },
+  {
+    "Club":"Banbridge",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"Sterling 10",
+    "Info":"End Date: 10/07/2014"
+  },
+  {
+    "Club":"Strabane",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"Sterling 13",
+    "Info":"End Date: 10/07/2014\n  strabanecatering.com Open Week"
+  },
+  {
+    "Club":"Carrick-on-suir",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"12",
+    "Info":"End Date: 10/07/2014\n  Open Qualifier, Buggies, catering. on-line booking:  www.carrickgolfclub.com play-off final. 27/09/2014"
+  },
+  {
+    "Club":"Castlerosse",
+    "Format":"Scramble",
+    "Fixture":"Team Events",
+    "Holes":9,
+    "Start Date":"10/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 10/07/2014"
+  },
+  {
+    "Club":"City of Derry",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"Sterling 15",
+    "Info":"End Date: 10/07/2014"
+  },
+  {
+    "Club":"Mannan Castle",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 10/07/2014\n  http://mannancastlegolfclub.ie/"
+  },
+  {
+    "Club":"City of Derry",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"Sterling 15",
+    "Info":"End Date: 10/07/2014"
+  },
+  {
+    "Club":"European",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"60",
+    "Info":"End Date: 10/07/2014\n  This competition is open to valid G.U.I. & I.L.G.U. handicap card holders only."
+  },
+  {
+    "Club":"Thurles",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 10/07/2014"
+  },
+  {
+    "Club":"Wicklow",
+    "Format":"Intermediate",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 10/07/2014\n  Men's 18 Hole Open Singles"
+  },
+  {
+    "Club":"Skibbereen",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 10/07/2014"
+  },
+  {
+    "Club":"Blarney",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 10/07/2014\n  brsgolf.com to book on line or call 0214516472"
+  },
+  {
+    "Club":"Howth",
+    "Format":"Stableford",
+    "Fixture":"Fourball",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 10/07/2014\n  Open Week Fourball. howthgolfclub.ie"
+  },
+  {
+    "Club":"Rathcore",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 10/07/2014\n  http://www.brsgolf.com/rathcore/visitor_home.php"
+  },
+  {
+    "Club":"Balbriggan",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 10/07/2014\n  Visitors can book tee times here http://www.brsgolf.com/balbriggan/opens_home.php"
+  },
+  {
+    "Club":"Banbridge",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"Sterling 10",
+    "Info":"End Date: 10/07/2014"
+  },
+  {
+    "Club":"Clonmel",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 10/07/2014\n  Online booking on BRS through our website: www.clonmelgolfclub.com"
+  },
+  {
+    "Club":"Greenore",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 10/07/2014\n  Book on line or call the Pro Shop 042 9373212.  Full catering, Pro Shop, Buggies, Trolleys available"
+  },
+  {
+    "Club":"Wexford",
+    "Format":"Strokes",
+    "Fixture":"Foursomes",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 10/07/2014\n  Open Week Day 10: Hynes Jewellers Open Mixed Scotch Foursomes"
+  },
+  {
+    "Club":"Dunmurry Springs",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 10/07/2014"
+  },
+  {
+    "Club":"Ardee",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 10/07/2014"
+  },
+  {
+    "Club":"Strabane",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"Sterling 13",
+    "Info":"End Date: 10/07/2014\n  strabanecatering.com Open Week"
+  },
+  {
+    "Club":"European",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"60",
+    "Info":"End Date: 10/07/2014\n  This competition is open to valid G.U.I. & I.L.G.U. handicap card holders only."
+  },
+  {
+    "Club":"Waterford Castle",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 10/07/2014\n  Open Singles Every Thursday. Please call 051 871633 to book or go www.waterfordcastle.com  Entry Fee is inclusive of Burger Meal"
+  },
+  {
+    "Club":"Esker Hills",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 10/07/2014\n  Esker Hills Open Singles Stableford Every Thursday, 20 per person or 25 per person including buggy"
+  },
+  {
+    "Club":"Enniscorthy",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 10/07/2014"
+  },
+  {
+    "Club":"Black Bush",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 10/07/2014\n  Ladies & Gents - Over 50"
+  },
+  {
+    "Club":"Macroom",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 10/07/2014\n  Open Singles every Thursday and Friday unless course booked for classic or other events."
+  },
+  {
+    "Club":"Bandon",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 10/07/2014"
+  },
+  {
+    "Club":"Castlecomer",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"10/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 10/07/2014\n  Special Offer: Golf competition plus 2 course meal for 20. Buggies 15 each. Book online at castlecomergolf.ie or by phoning (056)4441139"
+  },
+  {
+    "Club":"Ballinrobe",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"11/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 11/07/2014"
+  },
+  {
+    "Club":"Goldcoast",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"11/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 11/07/2014"
+  },
+  {
+    "Club":"Dungarvan",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"11/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 11/07/2014\n  Open Gents Singles S/F (Sponsor Tom Coffey & Son) Booking available on club website www.dungarvangolfclub.com"
+  },
+  {
+    "Club":"Roscrea",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"11/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 11/07/2014"
+  },
+  {
+    "Club":"Lurgan",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"11/07/2014",
+    "Cost":"Sterling 13",
+    "Info":"End Date: 11/07/2014"
+  },
+  {
+    "Club":"Dunmore East",
+    "Format":"Scramble",
+    "Fixture":"Team Events",
+    "Holes":9,
+    "Start Date":"11/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 11/07/2014\n  To book a Tee time Phone the clubhouse on 051-383151"
+  },
+  {
+    "Club":"Ballyneety",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"11/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 11/07/2014"
+  },
+  {
+    "Club":"Roscommon",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"11/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 11/07/2014"
+  },
+  {
+    "Club":"Galway Bay",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"11/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 11/07/2014\n  fee 25 online or 30 through the Golf Club"
+  },
+  {
+    "Club":"Mallow",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"11/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 11/07/2014\n  Please ring 022 21145 ext 2 or 3 for details - Open Singles most Fridays."
+  },
+  {
+    "Club":"Corballis Links",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"11/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 11/07/2014\n  OPEN SINGLES STABLEFORD -\nQUALIFYING COMPETITION"
+  },
+  {
+    "Club":"Wexford",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"11/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 11/07/2014\n  Open Week Day 11: Think Print & Design Open Singles"
+  },
+  {
+    "Club":"Ballycastle",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"11/07/2014",
+    "Cost":"Sterling 15",
+    "Info":"End Date: 11/07/2014"
+  },
+  {
+    "Club":"Monkstown",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"11/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 11/07/2014\n  Please Book online"
+  },
+  {
+    "Club":"Waterford",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"11/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 11/07/2014"
+  },
+  {
+    "Club":"Frankfield",
+    "Format":"Intermediate",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"11/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 12/07/2014\n  Intermediate Scratch Cup, timesheet in operation on Saturday Morning only."
+  },
+  {
+    "Club":"Waterford Castle",
+    "Format":"Stableford",
+    "Fixture":"Fourball",
+    "Holes":18,
+    "Start Date":"11/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 11/07/2014\n  Open Week Fourball Betterball, Please call 051 871633 or visit www.waterfordcastle.com to book your tee time"
+  },
+  {
+    "Club":"Tramore",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"11/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 11/07/2014\n  Visitors 25 Members 12 including a meal after golf.  book on line a www.tramoregolfclub.com"
+  },
+  {
+    "Club":"Donaghadee",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"11/07/2014",
+    "Cost":"Sterling 15",
+    "Info":"End Date: 11/07/2014"
+  },
+  {
+    "Club":"Beaufort",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"11/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 11/07/2014\n  Timesheet Open - One prize each week (depending on numbers taking part)"
+  },
+  {
+    "Club":"Kanturk",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"11/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 11/07/2014"
+  },
+  {
+    "Club":"Strandhill",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"11/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 11/07/2014"
+  },
+  {
+    "Club":"Mitchelstown",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"11/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 11/07/2014"
+  },
+  {
+    "Club":"Macroom",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"11/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 11/07/2014\n  Open Singles every Thursday and Friday unless course booked for classic or other events."
+  },
+  {
+    "Club":"Callan",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"11/07/2014",
+    "Cost":"12.50",
+    "Info":"End Date: 11/07/2014"
+  },
+  {
+    "Club":"Cahir Park",
+    "Format":"Strokes",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"11/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 13/07/2014\n  Blue sticks stroke!"
+  },
+  {
+    "Club":"Kilcock",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"11/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 11/07/2014"
+  },
+  {
+    "Club":"Ennis",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"11/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 11/07/2014\n  Main Course Meal 10"
+  },
+  {
+    "Club":"Howth",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"11/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 11/07/2014\n  Open  Week 4 man team competition. howthgolfclub.ie"
+  },
+  {
+    "Club":"Greencastle",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"11/07/2014",
+    "Cost":"17",
+    "Info":"End Date: 11/07/2014"
+  },
+  {
+    "Club":"Corballis Links",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"11/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 11/07/2014\n  OPEN SINGLES STABLEFORD\nQUALIFYING COMPETITION"
+  },
+  {
+    "Club":"Kilkee",
+    "Format":"Scotch",
+    "Fixture":"Foursomes",
+    "Holes":18,
+    "Start Date":"11/07/2014",
+    "Cost":"7.50",
+    "Info":"End Date: 27/07/2014"
+  },
+  {
+    "Club":"Greenore",
+    "Format":"Scramble",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"11/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 11/07/2014\n  Book on line or call the Pro Shop 042 9373212.  Full catering, Pro Shop, Buggies, Trolleys available"
+  },
+  {
+    "Club":"Greenore",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"12/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 12/07/2014\n  Book on line or call the Pro Shop 042 9373212.  Full catering, Pro Shop, Buggies, Trolleys available"
+  },
+  {
+    "Club":"Macroom",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"12/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 13/07/2014"
+  },
+  {
+    "Club":"Youghal",
+    "Format":"Stableford",
+    "Fixture":"Fourball",
+    "Holes":18,
+    "Start Date":"12/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 13/07/2014"
+  },
+  {
+    "Club":"Castlecomer",
+    "Format":"Strokes",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"12/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 12/07/2014\n  buggy hire 15"
+  },
+  {
+    "Club":"Waterford Castle",
+    "Format":"Rumble",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"12/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 12/07/2014\n  Open Week 3 Person Team Event, Please call 051 871633 or visit www.waterfordcastle.com to book your tee time"
+  },
+  {
+    "Club":"Dunmore East",
+    "Format":"Minor",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"12/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 12/07/2014\n  Contact clubhouse for tee times on 051383151"
+  },
+  {
+    "Club":"Tandragee",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"12/07/2014",
+    "Cost":"Sterling 12",
+    "Info":"End Date: 12/07/2014"
+  },
+  {
+    "Club":"Howth",
+    "Format":"Stableford",
+    "Fixture":"Foursomes",
+    "Holes":18,
+    "Start Date":"12/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 12/07/2014\n  Open week mixed foursomes. howthgolfclub.ie"
+  },
+  {
+    "Club":"Ballyliffin",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"12/07/2014",
+    "Cost":"40",
+    "Info":"End Date: 12/07/2014"
+  },
+  {
+    "Club":"Kilkeel",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"12/07/2014",
+    "Cost":"Sterling 12",
+    "Info":"End Date: 12/07/2014"
+  },
+  {
+    "Club":"Co. Armagh",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"12/07/2014",
+    "Cost":"Sterling 10",
+    "Info":"End Date: 12/07/2014\n  Open 4-ball classic sponsored by Bunzl McLaughlin.  Booking online Friday, 27 June from 7.10 pm"
+  },
+  {
+    "Club":"Carrick-on-suir",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"12/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 12/07/2014\n  Catering & limited No of buggies available, book on-line at www.carrickgolfclub.com or phone 051540047"
+  },
+  {
+    "Club":"Mountrath",
+    "Format":"Junior",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"12/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 13/07/2014\n  Online time sheets; \nhttp://www.brsgolf.com/mountrath/visitor_menu.php"
+  },
+  {
+    "Club":"Ardglass",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"12/07/2014",
+    "Cost":"Sterling 17",
+    "Info":"End Date: 12/07/2014\n  Fishermen's Mission Open"
+  },
+  {
+    "Club":"Co. Meath",
+    "Format":"Intermediate",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"12/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 13/07/2014"
+  },
+  {
+    "Club":"Dunmore East",
+    "Format":"Intermediate",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"12/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 12/07/2014\n  Contact clubhouse for tee times on 051383151"
+  },
+  {
+    "Club":"Co. Meath",
+    "Format":"Junior",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"12/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 13/07/2014"
+  },
+  {
+    "Club":"Mountrath",
+    "Format":"Junior",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"12/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 12/07/2014\n  Online time sheets; \nhttp://www.brsgolf.com/mountrath/visitor_menu.php"
+  },
+  {
+    "Club":"Rathbane",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"12/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 12/07/2014"
+  },
+  {
+    "Club":"Rathbane",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"12/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 12/07/2014"
+  },
+  {
+    "Club":"Ballycastle",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"12/07/2014",
+    "Cost":"Sterling 15",
+    "Info":"End Date: 12/07/2014"
+  },
+  {
+    "Club":"Wexford",
+    "Format":"Strokes",
+    "Fixture":"Fourball",
+    "Holes":18,
+    "Start Date":"12/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 12/07/2014\n  Open Week Day 12: The Sanrose Open Fourball Competition"
+  },
+  {
+    "Club":"Moyola Park",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"12/07/2014",
+    "Cost":"Sterling 20",
+    "Info":"End Date: 12/07/2014"
+  },
+  {
+    "Club":"Dunmore East",
+    "Format":"Junior",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"12/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 12/07/2014\n  To book a Tee time Phone the clubhouse on 051-383151"
+  },
+  {
+    "Club":"Co. Meath",
+    "Format":"Minor",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"12/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 13/07/2014"
+  },
+  {
+    "Club":"Mitchelstown",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"12/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 12/07/2014"
+  },
+  {
+    "Club":"Strabane",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"12/07/2014",
+    "Cost":"Sterling 15",
+    "Info":"End Date: 12/07/2014\n  Mark James Menswear Singles Open Week"
+  },
+  {
+    "Club":"Enniscorthy",
+    "Format":"Stableford",
+    "Fixture":"Fourball",
+    "Holes":18,
+    "Start Date":"12/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 13/07/2014"
+  },
+  {
+    "Club":"Ballycastle",
+    "Format":"Scramble",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"13/07/2014",
+    "Cost":"Sterling 12.5",
+    "Info":"End Date: 13/07/2014"
+  },
+  {
+    "Club":"Kilkee",
+    "Format":"Scotch",
+    "Fixture":"Foursomes",
+    "Holes":18,
+    "Start Date":"13/07/2014",
+    "Cost":"7.50",
+    "Info":"End Date: 13/07/2014"
+  },
+  {
+    "Club":"Kilkeel",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"13/07/2014",
+    "Cost":"Sterling 12",
+    "Info":"End Date: 13/07/2014\n  Tee Times from 7.00 - 13.00"
+  },
+  {
+    "Club":"Dunmore East",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"13/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 13/07/2014\n  Three person team event. To book a Tee time Phone the clubhouse on 051-383151"
+  },
+  {
+    "Club":"Waterford Castle",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"13/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 13/07/2014\n  Open Week Singles, Please call 051 871633 or visit www.waterfordcastle.com to book your tee time"
+  },
+  {
+    "Club":"Greenore",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"13/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 13/07/2014\n  Book on line or call the Pro Shop 042 9373212.  Full catering, Pro Shop, Buggies, Trolleys available"
+  },
+  {
+    "Club":"Massereene",
+    "Format":"Scotch",
+    "Fixture":"Foursomes",
+    "Holes":18,
+    "Start Date":"13/07/2014",
+    "Cost":"Sterling 8",
+    "Info":"End Date: 13/07/2014\n  Mixed"
+  },
+  {
+    "Club":"Wexford",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"13/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 13/07/2014\n  Open Week Day 13: Grannell Motors Open Singles"
+  },
+  {
+    "Club":"Mitchelstown",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"13/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 13/07/2014"
+  },
+  {
+    "Club":"Co. Armagh",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"13/07/2014",
+    "Cost":"Sterling 10",
+    "Info":"End Date: 13/07/2014\n  Ladies and Gents Open Stableford.  Booking online Friday, 27 June from 7.10 pm"
+  },
+  {
+    "Club":"Kilkeel",
+    "Format":"Stableford",
+    "Fixture":"Foursomes",
+    "Holes":18,
+    "Start Date":"13/07/2014",
+    "Cost":"Sterling 8",
+    "Info":"End Date: 13/07/2014\n  Mixed Greensomes Tee times from 13.30"
+  },
+  {
+    "Club":"City of Derry",
+    "Format":"Junior",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"13/07/2014",
+    "Cost":"Sterling 20",
+    "Info":"End Date: 13/07/2014"
+  },
+  {
+    "Club":"Strabane",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"13/07/2014",
+    "Cost":"Sterling 15",
+    "Info":"End Date: 13/07/2014\n  St Vincent de Paul Teams"
+  },
+  {
+    "Club":"Skibbereen",
+    "Format":"Stableford",
+    "Fixture":"Fourball",
+    "Holes":18,
+    "Start Date":"13/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 13/07/2014\n  http://www.brsgolf.com/skibbereen/opens_home.php"
+  },
+  {
+    "Club":"Ardglass",
+    "Format":"Stableford",
+    "Fixture":"Fourball",
+    "Holes":18,
+    "Start Date":"13/07/2014",
+    "Cost":"Sterling 10",
+    "Info":"End Date: 13/07/2014\n  Open Fourball"
+  },
+  {
+    "Club":"Lurgan",
+    "Format":"Stableford",
+    "Fixture":"Foursomes",
+    "Holes":18,
+    "Start Date":"13/07/2014",
+    "Cost":"Sterling 9",
+    "Info":"End Date: 13/07/2014\n  Mixed Greensomes"
+  },
+  {
+    "Club":"Castlecomer",
+    "Format":"Strokes",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"13/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 13/07/2014\n  buggy hire 15"
+  },
+  {
+    "Club":"Moate",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"13/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 13/07/2014\n  Book online at www.moategolfclub.ie. or call 090 64 81271"
+  },
+  {
+    "Club":"Tandragee",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"13/07/2014",
+    "Cost":"Sterling 12",
+    "Info":"End Date: 13/07/2014"
+  },
+  {
+    "Club":"Gowran Park",
+    "Format":"Intermediate",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"13/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 13/07/2014\n  INTERMEDIATE SCRATCH CUP - Book online for tel 056 7726699 for timesheet"
+  },
+  {
+    "Club":"Moyola Park",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"13/07/2014",
+    "Cost":"Sterling 20",
+    "Info":"End Date: 13/07/2014"
+  },
+  {
+    "Club":"Elm Park",
+    "Format":"Senior",
+    "Fixture":"Scratch Cup",
+    "Holes":36,
+    "Start Date":"13/07/2014",
+    "Cost":"35",
+    "Info":"End Date: 13/07/2014\n  Includes Lunch"
+  },
+  {
+    "Club":"Dublin Mountain",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"13/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 13/07/2014"
+  },
+  {
+    "Club":"Waterford Castle",
+    "Format":"Rumble",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"14/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 14/07/2014\n  Open Week 3 Person Rumble, Please call 051 871633 or visit www.waterfordcastle.com to book your tee time"
+  },
+  {
+    "Club":"Co. Tipperary",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"14/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 14/07/2014"
+  },
+  {
+    "Club":"Rathbane",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"14/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 14/07/2014"
+  },
+  {
+    "Club":"Limerick",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"14/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 14/07/2014\n  Timesheet opens 2 weeks in advance of Competition"
+  },
+  {
+    "Club":"Ballyneety",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"14/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 14/07/2014"
+  },
+  {
+    "Club":"Tandragee",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"14/07/2014",
+    "Cost":"Sterling 12",
+    "Info":"End Date: 14/07/2014"
+  },
+  {
+    "Club":"Massereene",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"14/07/2014",
+    "Cost":"Sterling 15",
+    "Info":"End Date: 14/07/2014"
+  },
+  {
+    "Club":"Strabane",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"14/07/2014",
+    "Cost":"Sterling 13",
+    "Info":"End Date: 14/07/2014\n  Monday Open Singles"
+  },
+  {
+    "Club":"Donabate",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"14/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 14/07/2014"
+  },
+  {
+    "Club":"The Heritage",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"14/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 14/07/2014\n  Weekly Open Singles S/Ford"
+  },
+  {
+    "Club":"Ashbourne",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"14/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 14/07/2014"
+  },
+  {
+    "Club":"Skerries",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"14/07/2014",
+    "Cost":"12.50",
+    "Info":"End Date: 14/07/2014\n  Mens Seniors Open 50+"
+  },
+  {
+    "Club":"Massereene",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"14/07/2014",
+    "Cost":"Sterling 15",
+    "Info":"End Date: 14/07/2014"
+  },
+  {
+    "Club":"Tullamore",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"14/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 14/07/2014\n  Booking at: tullamoregolfclub.ie"
+  },
+  {
+    "Club":"Castlereagh Hills",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"14/07/2014",
+    "Cost":"Sterling 12",
+    "Info":"End Date: 14/07/2014"
+  },
+  {
+    "Club":"Gort",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"14/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 14/07/2014"
+  },
+  {
+    "Club":"Portumna",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"14/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 14/07/2014\n  GentsOpenSingles Mondays 17 Mar/Oct Visitors 15 Catering Available"
+  },
+  {
+    "Club":"Bray",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"14/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 14/07/2014\n  http://www.brsgolf.com/bray/opens_home.php"
+  },
+  {
+    "Club":"Skibbereen",
+    "Format":"Junior",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"14/07/2014",
+    "Cost":"5",
+    "Info":"End Date: 14/07/2014"
+  },
+  {
+    "Club":"Portadown",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"14/07/2014",
+    "Cost":"Sterling 10",
+    "Info":"End Date: 14/07/2014\n  Bank Holiday Open For Ladies & Men"
+  },
+  {
+    "Club":"Cill Dara",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"14/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 14/07/2014"
+  },
+  {
+    "Club":"Tulfarris",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"14/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 14/07/2014\n  Bookings 045 867609\nhttp://www.brsgolf.com/tulfarris/visitor_home.php"
+  },
+  {
+    "Club":"Galgorm Castle",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"14/07/2014",
+    "Cost":"Sterling 20",
+    "Info":"End Date: 14/07/2014"
+  },
+  {
+    "Club":"Old Conna",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"14/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 14/07/2014"
+  },
+  {
+    "Club":"Killarney",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"14/07/2014",
+    "Cost":"30",
+    "Info":"End Date: 14/07/2014\n  Mahony's Point (Racing Cup)"
+  },
+  {
+    "Club":"Delgany",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"14/07/2014",
+    "Cost":"16",
+    "Info":"End Date: 14/07/2014"
+  },
+  {
+    "Club":"Ballykisteen",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"14/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 14/07/2014\n  Open Singles Book on line or call the Pro Shop 062 32117. Full catering, Pro Shop, Buggies, Trolleys available"
+  },
+  {
+    "Club":"Donegal",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"14/07/2014",
+    "Cost":"30",
+    "Info":"End Date: 14/07/2014"
+  },
+  {
+    "Club":"Bearna",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"14/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 14/07/2014"
+  },
+  {
+    "Club":"Bunclody",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"14/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 14/07/2014\n  Ladies & Gents Senior Open"
+  },
+  {
+    "Club":"Co. Meath",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"14/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 14/07/2014\n  Open Singles Stableford Competition - 18 Holes"
+  },
+  {
+    "Club":"Malahide",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"14/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 14/07/2014\n  All bookings must be made on line and pre-paid via the Club's web site, namely www.malahidegolfclub.ie"
+  },
+  {
+    "Club":"Rathbane",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"14/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 14/07/2014"
+  },
+  {
+    "Club":"Kanturk",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"14/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 14/07/2014"
+  },
+  {
+    "Club":"Malahide",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"14/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 14/07/2014\n  All bookings must be made on line and pre-paid via the Club's web site, namely www.malahidegolfclub.ie"
+  },
+  {
+    "Club":"Dungarvan",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"14/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 14/07/2014\n  Open Gents and Ladies Seniors (50+) Singles S/F every Monday. Bookings available on club website www.dungarvangolfclub.com"
+  },
+  {
+    "Club":"Delgany",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"14/07/2014",
+    "Cost":"16",
+    "Info":"End Date: 14/07/2014"
+  },
+  {
+    "Club":"Bray",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"14/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 14/07/2014\n  http://www.brsgolf.com/bray/opens_home.php"
+  },
+  {
+    "Club":"Lurgan",
+    "Format":"Strokes",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"14/07/2014",
+    "Cost":"Sterling 13",
+    "Info":"End Date: 14/07/2014"
+  },
+  {
+    "Club":"Corrstown",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"14/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 14/07/2014\n  Click the link to make your booking\nhttp://www.brsgolf.com/corrstown/opens_home.php"
+  },
+  {
+    "Club":"Ballycastle",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"14/07/2014",
+    "Cost":"Sterling 15",
+    "Info":"End Date: 14/07/2014"
+  },
+  {
+    "Club":"Kilkeel",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"14/07/2014",
+    "Cost":"Sterling 12",
+    "Info":"End Date: 14/07/2014"
+  },
+  {
+    "Club":"Clonmel",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"15/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 15/07/2014\n  Online booking on BRS through our website: www.clonmelgolfclub.com"
+  },
+  {
+    "Club":"Athenry",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"15/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 15/07/2014"
+  },
+  {
+    "Club":"Moyola Park",
+    "Format":"Junior",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"15/07/2014",
+    "Cost":"Sterling 16",
+    "Info":"End Date: 15/07/2014"
+  },
+  {
+    "Club":"Mullingar",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"15/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 15/07/2014\n  Ladies & Gents Open Singles Stableford,"
+  },
+  {
+    "Club":"Dunmore East",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":9,
+    "Start Date":"15/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 15/07/2014\n  This is a 2 person team event and will alternate between a fourball and a team event. Phone Clubhouse on 051383151 for details of format"
+  },
+  {
+    "Club":"Waterford Castle",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"15/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 15/07/2014\n  Open Week 3 Person Team Event, Please call 051 871633 or visit www.waterfordcastle.com to book your tee time"
+  },
+  {
+    "Club":"Goldcoast",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"15/07/2014",
+    "Cost":"12",
+    "Info":"End Date: 15/07/2014\n  Open to Ladies and Gents over 50. 12 for golf or 20 for golf and Carvery Lunch"
+  },
+  {
+    "Club":"Highfield",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"15/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 15/07/2014\n  Call us on 0469731021 or log onto http://www.highfield-golf.ie/ for a tee time"
+  },
+  {
+    "Club":"Galgorm Castle",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"15/07/2014",
+    "Cost":"Sterling 20",
+    "Info":"End Date: 15/07/2014"
+  },
+  {
+    "Club":"Ballycastle",
+    "Format":"Rumble",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"15/07/2014",
+    "Cost":"Sterling 15",
+    "Info":"End Date: 15/07/2014"
+  },
+  {
+    "Club":"Castleblayney",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"15/07/2014",
+    "Cost":"30",
+    "Info":"End Date: 15/07/2014\n  GUI/ILGU Open Singles Stableford competition. Please book buggies in the office. To book online click here http://www.brsgolf.com/concrawood/visitor_home.php"
+  },
+  {
+    "Club":"Baltinglass",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"15/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 15/07/2014"
+  },
+  {
+    "Club":"Killeen",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"15/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 15/07/2014\n  Time/Sheet   045866003"
+  },
+  {
+    "Club":"Cairn",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"15/07/2014",
+    "Cost":"Sterling 7",
+    "Info":"End Date: 15/07/2014\n  SENIORS"
+  },
+  {
+    "Club":"Castlemartyr",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"15/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 15/07/2014\n  Tuesday Blues Single Stableford"
+  },
+  {
+    "Club":"Clontarf",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"15/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 15/07/2014\n  SENIORS http://www.brsgolf.com/clontarf/opens_home.php \nMen over 50"
+  },
+  {
+    "Club":"New Ross",
+    "Format":"Stableford",
+    "Fixture":"Fourball",
+    "Holes":18,
+    "Start Date":"15/07/2014",
+    "Cost":"12",
+    "Info":"End Date: 15/07/2014\n  Tuesday Fourball - 10/14 holes.  Tee times can be booked online:\nhttp://www.brsgolf.com/newross/opens_home.php"
+  },
+  {
+    "Club":"Ring Of Kerry",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"15/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 15/07/2014\n  Tuesday Singles 15 GUI card holders only"
+  },
+  {
+    "Club":"Carrick-on-Shannon",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"15/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 15/07/2014\n  http://www.brsgolf.com/carrickonshannon/opens_home.php"
+  },
+  {
+    "Club":"Kilcoole",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"15/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 15/07/2014\n  Over 50 yrs  \nTelephone Booking 01  2872066"
+  },
+  {
+    "Club":"Adare Manor",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"15/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 15/07/2014"
+  },
+  {
+    "Club":"Roganstown",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"15/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 15/07/2014\n  http://www.brsgolf.com/roganstown/visitor_menu.php"
+  },
+  {
+    "Club":"Headfort",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"15/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 15/07/2014"
+  },
+  {
+    "Club":"Fermoy",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"15/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 15/07/2014\n  Book online @ www.fermoygolfclub.ie or call 025 31472"
+  },
+  {
+    "Club":"Killarney",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"15/07/2014",
+    "Cost":"30",
+    "Info":"End Date: 15/07/2014\n  Mahony's Point (Racing Cup)"
+  },
+  {
+    "Club":"Millicent",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"15/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 15/07/2014"
+  },
+  {
+    "Club":"Cairn",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"15/07/2014",
+    "Cost":"Sterling 10",
+    "Info":"End Date: 15/07/2014"
+  },
+  {
+    "Club":"Slieve Russell",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"15/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 15/07/2014\n  Seniors open 50+. Buggys @ 20.00 Call 0499525090 or book online"
+  },
+  {
+    "Club":"Athy",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"15/07/2014",
+    "Cost":"12",
+    "Info":"End Date: 15/07/2014\n  Members 9 p.p., Visitors 12 p.p. To book  go to  www.athygolfclub.com or contact the Club on 0598631729"
+  },
+  {
+    "Club":"European",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"15/07/2014",
+    "Cost":"60",
+    "Info":"End Date: 15/07/2014\n  This competition is open to valid G.U.I. & I.L.G.U. handicap card holders only."
+  },
+  {
+    "Club":"Kilkeel",
+    "Format":"Strokes",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"15/07/2014",
+    "Cost":"Sterling 12",
+    "Info":"End Date: 15/07/2014"
+  },
+  {
+    "Club":"Castleknock",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"15/07/2014",
+    "Cost":"30",
+    "Info":"End Date: 15/07/2014\n  www.castleknockgolfclub.ie\nFlex Members 20.00\nUnlimited Members 10.00"
+  },
+  {
+    "Club":"Greenore",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"15/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 15/07/2014\n  Book on line or call the Pro Shop 042 9373212.  Full catering, Pro Shop, Buggies, Trolleys available"
+  },
+  {
+    "Club":"Oughterard",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"15/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 15/07/2014\n  Open day every Tuesday, Full catering and Club/Buggy rental available"
+  },
+  {
+    "Club":"Portlaoise",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"15/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 15/07/2014"
+  },
+  {
+    "Club":"Lucan",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"15/07/2014",
+    "Cost":"19",
+    "Info":"End Date: 15/07/2014\n  GUI/ILGU Swipecard Entry.\nBooking on line www.lucangolfclub.ie or call (01) 628 0246"
+  },
+  {
+    "Club":"Rathdowney",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"15/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 15/07/2014\n  Check out our \"Race to Ping H.Q.\" for the winners of the Tuesday Open Singles"
+  },
+  {
+    "Club":"Muskerry",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"15/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 15/07/2014\n  O'Crualaoi Ladies and Gents Open Singles Qualifier for Grand Final on 16th September"
+  },
+  {
+    "Club":"Delvin Castle",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"15/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 15/07/2014"
+  },
+  {
+    "Club":"Birr",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"15/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 15/07/2014"
+  },
+  {
+    "Club":"Skibbereen",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"15/07/2014",
+    "Cost":"12",
+    "Info":"End Date: 15/07/2014"
+  },
+  {
+    "Club":"Woodstock",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 16/07/2014\n  Open Singles to be played of Back tees (White tees) last Wed of each month.Gross prize on offer on these days."
+  },
+  {
+    "Club":"Kilkenny",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"16",
+    "Info":"End Date: 16/07/2014"
+  },
+  {
+    "Club":"Castletroy",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 16/07/2014\n  Open Singles"
+  },
+  {
+    "Club":"The Heath",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 16/07/2014"
+  },
+  {
+    "Club":"Skibbereen",
+    "Format":"Scramble",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 16/07/2014"
+  },
+  {
+    "Club":"Craddockstown",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 16/07/2014\n  http://www.brsgolf.com/craddockstown/opens_home.php"
+  },
+  {
+    "Club":"Luttrellstown Castle",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"30",
+    "Info":"End Date: 16/07/2014\n  GUI CARD REQUIRED. BOOKINGS 01-8609600 OR USE BRS. PRIZE VOUCHERS 1st 150eu/2nd 100eu/3rd 50eu."
+  },
+  {
+    "Club":"Castlemartyr",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 16/07/2014\n  Wednesday Whites Singles Stableford"
+  },
+  {
+    "Club":"Lurgan",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"Sterling 13",
+    "Info":"End Date: 16/07/2014"
+  },
+  {
+    "Club":"Carlow",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 16/07/2014\n  Open Gents and Ladies Seniors 50+  See club website - Open Competitions - for online booking"
+  },
+  {
+    "Club":"Black Bush",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 16/07/2014\n  Sponsor: SuperValu Dunshaughlin"
+  },
+  {
+    "Club":"Royal Tara",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 16/07/2014"
+  },
+  {
+    "Club":"Westport",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 16/07/2014\n  Open Wednesday, Ladies and Mens Singles Stableford\nEvery Wed, Apr-2014 to Sept 2014, Visitors 25.00, Members 7.00, www.westportgolfclub.ie"
+  },
+  {
+    "Club":"Bunclody",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 16/07/2014"
+  },
+  {
+    "Club":"Balbriggan",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 16/07/2014\n  Visitors can book tee times here http://www.brsgolf.com/balbriggan/opens_home.php"
+  },
+  {
+    "Club":"Waterford Castle",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 16/07/2014\n  Open Week Ladies 3 Person Team Event from 7am - 3pm, Please call 051 871633 or visit www.waterfordcastle.com to book your tee time"
+  },
+  {
+    "Club":"Millicent",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 16/07/2014"
+  },
+  {
+    "Club":"Castleblayney",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 16/07/2014\n  GUI/ILGU OVer 50s Open Singles Stableford competition. Please book buggies in the office. To book online click here http://www.brsgolf.com/concrawood/visitor_home.php"
+  },
+  {
+    "Club":"Woodenbridge",
+    "Format":"Stableford",
+    "Fixture":"Fourball",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 16/07/2014"
+  },
+  {
+    "Club":"Portumna",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 16/07/2014\n  Gents Seniors Open Over 65's every Wed May/Sept Full Catering Facilities"
+  },
+  {
+    "Club":"Fernhill",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"12",
+    "Info":"End Date: 16/07/2014\n   Book on line at \"http://www.brsgolf.com/fernhill\" or ring (021)4372226. Members 5."
+  },
+  {
+    "Club":"Callan",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"12.50",
+    "Info":"End Date: 16/07/2014"
+  },
+  {
+    "Club":"Woodstock",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 16/07/2014\n  Open Singles to be played of Back tees (White tees) last Wed of each month.Gross prize on offer on these days."
+  },
+  {
+    "Club":"Ballyclare",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"Sterling 10",
+    "Info":"End Date: 16/07/2014\n  Open Stableford.  Time sheet available on BRS 3 weeks prior to competition.  Times from 10:00am - 5:00pm."
+  },
+  {
+    "Club":"Ballykisteen",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 16/07/2014\n  Open Singles Book on line or call the Pro Shop 062 32117. Full catering, Pro Shop, Buggies, Trolleys available"
+  },
+  {
+    "Club":"Rosslare",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 16/07/2014\n  Booking can be made at http://www.brsgolf.com/rosslare/opens_home.php"
+  },
+  {
+    "Club":"Tuam",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 16/07/2014\n  tuamgolfclub@eircom.net"
+  },
+  {
+    "Club":"Co. Longford",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 16/07/2014"
+  },
+  {
+    "Club":"Fermoy",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 16/07/2014\n  Book online @ www.fermoygolfclub.ie or call 025 31472"
+  },
+  {
+    "Club":"Ballycastle",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"Sterling 15",
+    "Info":"End Date: 16/07/2014"
+  },
+  {
+    "Club":"Rathcore",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 16/07/2014\n  http://www.brsgolf.com/rathcore/visitor_home.php"
+  },
+  {
+    "Club":"Courtown",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 16/07/2014\n  Cheshire Home Benefit Day"
+  },
+  {
+    "Club":"Hollystown",
+    "Format":"Stableford",
+    "Fixture":"Fourball",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"12.50",
+    "Info":"End Date: 16/07/2014\n  Can you qualify for the International Pairs Final Book 8207444\nwww.hollystown.com"
+  },
+  {
+    "Club":"Wexford",
+    "Format":"Stableford",
+    "Fixture":"Fourball",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 16/07/2014\n  Ladies & Gents Open Fourball Competition 14 hole"
+  },
+  {
+    "Club":"Cahir Park",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 16/07/2014\n  only 12 before 11am. 100 first prize every week. Fantastic prizes to be won in ABP grand final on Sat 11th October. See website for details"
+  },
+  {
+    "Club":"Kilkeel",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"Sterling 12",
+    "Info":"End Date: 16/07/2014"
+  },
+  {
+    "Club":"Edenderry",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"8",
+    "Info":"End Date: 16/07/2014\n  Open to Ladies & Men. see EdenderryGolfClub.ie"
+  },
+  {
+    "Club":"Ballycastle",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"Sterling 10",
+    "Info":"End Date: 16/07/2014"
+  },
+  {
+    "Club":"Mallow",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 16/07/2014\n  http://mallowgolfclub.net/visitors_tee_booking/tee_booking/"
+  },
+  {
+    "Club":"Lisheen Springs",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 16/07/2014"
+  },
+  {
+    "Club":"Galgorm Castle",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"Sterling 20",
+    "Info":"End Date: 16/07/2014"
+  },
+  {
+    "Club":"Loughrea",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 16/07/2014"
+  },
+  {
+    "Club":"Bearna",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 16/07/2014"
+  },
+  {
+    "Club":"Shannon",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 16/07/2014\n  20.00 Visitor Fee before 12 noon"
+  },
+  {
+    "Club":"Bray",
+    "Format":"Rumble",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 16/07/2014\n  http://www.brsgolf.com/bray/opens_home.php"
+  },
+  {
+    "Club":"Killarney",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"30",
+    "Info":"End Date: 16/07/2014\n  Mahony's Point (Racing Cup)"
+  },
+  {
+    "Club":"Clones",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 16/07/2014"
+  },
+  {
+    "Club":"Greencastle",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"17",
+    "Info":"End Date: 16/07/2014"
+  },
+  {
+    "Club":"Roscrea",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 16/07/2014"
+  },
+  {
+    "Club":"Co. Tipperary",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 16/07/2014"
+  },
+  {
+    "Club":"St. Margarets",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 16/07/2014"
+  },
+  {
+    "Club":"Athlone",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 16/07/2014\n  Visitors 15 Members7"
+  },
+  {
+    "Club":"Bundoran",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 16/07/2014\n  20.00 inlcudes green fee, competition fee and a long neck bottle of lager or a large mineral"
+  },
+  {
+    "Club":"Highfield",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 16/07/2014\n  Call us on 0469731021 or log onto http://www.highfield-golf.ie/ for a tee time"
+  },
+  {
+    "Club":"Athlone",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 16/07/2014"
+  },
+  {
+    "Club":"Rathbane",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 16/07/2014"
+  },
+  {
+    "Club":"Headfort",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 16/07/2014"
+  },
+  {
+    "Club":"Portarlington",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 16/07/2014"
+  },
+  {
+    "Club":"Bellewstown",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 16/07/2014\n  Book online at www.bellewstowngolfclub.ie/\nor phone 041 9882757"
+  },
+  {
+    "Club":"Ballina",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 16/07/2014"
+  },
+  {
+    "Club":"Waterford",
+    "Format":"Stableford",
+    "Fixture":"Fourball",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 16/07/2014"
+  },
+  {
+    "Club":"Kinsale",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 16/07/2014\n  Open Singles Every Wedensday Sponsored By The Gleeson Group"
+  },
+  {
+    "Club":"Waterford Castle",
+    "Format":"Stableford",
+    "Fixture":"Fourball",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"12",
+    "Info":"End Date: 16/07/2014\n  Open Week 10 Hole 2 Person Team Event, Please call 051 871633 or visit www.waterfordcastle.com to book your tee time"
+  },
+  {
+    "Club":"Co. Meath",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 16/07/2014\n  Open 2 Person Team (14 Hole Competition)"
+  },
+  {
+    "Club":"Dundalk",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 16/07/2014"
+  },
+  {
+    "Club":"Castlewarden",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 16/07/2014"
+  },
+  {
+    "Club":"Rathbane",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 16/07/2014"
+  },
+  {
+    "Club":"West Waterford",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"16/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 16/07/2014\n  Book online @ www.westwaterfordgolf.com or ring the office @ 058 43216. Subsequent entry fee is 15."
+  },
+  {
+    "Club":"Hollywood Lakes",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 17/07/2014"
+  },
+  {
+    "Club":"Balbriggan",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 17/07/2014\n  Visitors can book tee times here http://www.brsgolf.com/balbriggan/opens_home.php"
+  },
+  {
+    "Club":"Strabane",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"Sterling 13",
+    "Info":"End Date: 17/07/2014\n  Murphys on the Green Open Singles"
+  },
+  {
+    "Club":"Cregmore Park",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 17/07/2014"
+  },
+  {
+    "Club":"Moate",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 17/07/2014\n  Book online at www.moategolfclub.ie.   Entry Fee: Members 5 & Visitors 10"
+  },
+  {
+    "Club":"Castlerosse",
+    "Format":"Scramble",
+    "Fixture":"Team Events",
+    "Holes":9,
+    "Start Date":"17/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 17/07/2014"
+  },
+  {
+    "Club":"Claremorris",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"12",
+    "Info":"End Date: 17/07/2014\n  Open Day Singles Stableford, Ladies or Gents"
+  },
+  {
+    "Club":"Ballyheigue Castle",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 17/07/2014\n  Fee includes Tea/Coffee and a scone"
+  },
+  {
+    "Club":"Co. Cavan",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 17/07/2014"
+  },
+  {
+    "Club":"Delgany",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"8",
+    "Info":"End Date: 17/07/2014\n  Book on www.delganygolfclub.com/onlinebookings. Time sheet opens two weeks in advance. For buggy hire please phone the Pro Shop on 2874697"
+  },
+  {
+    "Club":"Mahon",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 17/07/2014"
+  },
+  {
+    "Club":"Kilkeel",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"Sterling 12",
+    "Info":"End Date: 17/07/2014"
+  },
+  {
+    "Club":"Mannan Castle",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 17/07/2014\n  http://mannancastlegolfclub.ie/"
+  },
+  {
+    "Club":"New Ross",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 17/07/2014\n  Monthly Open Seniors, open to non-seniors. Prizes available for different age categories.  Tee times can be booked online:\nhttp://www.brsgolf.com/newross/opens_home.php"
+  },
+  {
+    "Club":"Macroom",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 17/07/2014\n  Open Singles every Thursday and Friday unless course booked for classic or other events."
+  },
+  {
+    "Club":"Banbridge",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"Sterling 10",
+    "Info":"End Date: 17/07/2014"
+  },
+  {
+    "Club":"Wicklow",
+    "Format":"Stableford",
+    "Fixture":"Fourball",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 17/07/2014\n  Men's 18 Holes Open Fourball"
+  },
+  {
+    "Club":"Ardee",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 17/07/2014"
+  },
+  {
+    "Club":"Dunmurry Springs",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 17/07/2014"
+  },
+  {
+    "Club":"Dungarvan",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 17/07/2014\n  Open Gents Singles Stableford every Thursday 20 golf only or 25 golf and grill. Bookings available on www.dungarvangolfclub.com"
+  },
+  {
+    "Club":"Lismore",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 17/07/2014"
+  },
+  {
+    "Club":"Moyola Park",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"Sterling 16",
+    "Info":"End Date: 17/07/2014"
+  },
+  {
+    "Club":"Blarney",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 17/07/2014\n  brsgolf.com to book on line or call 0214516472"
+  },
+  {
+    "Club":"Clonmel",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 17/07/2014\n  Online booking on BRS through our website: www.clonmelgolfclub.com"
+  },
+  {
+    "Club":"Newcastle West",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 17/07/2014"
+  },
+  {
+    "Club":"Waterford Castle",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 17/07/2014\n  Open Week Singles, Please call 051 871633 or visit www.waterfordcastle.com to book your tee time"
+  },
+  {
+    "Club":"Skibbereen",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 17/07/2014"
+  },
+  {
+    "Club":"Carrick-on-suir",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"12",
+    "Info":"End Date: 17/07/2014\n  Open Qualifier, Buggies, catering. on-line booking:  www.carrickgolfclub.com play-off final. 27/09/2014"
+  },
+  {
+    "Club":"Esker Hills",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 17/07/2014\n  Esker Hills Open Singles Stableford Every Thursday, 20 per person or 25 per person including buggy"
+  },
+  {
+    "Club":"Highfield",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 17/07/2014\n  Call us on 0469731021 or log onto http://www.highfield-golf.ie/ for a tee time"
+  },
+  {
+    "Club":"Macreddin",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 17/07/2014"
+  },
+  {
+    "Club":"East Clare",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 17/07/2014"
+  },
+  {
+    "Club":"Ardglass",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"Sterling 17",
+    "Info":"End Date: 17/07/2014\n  Open Single Stableford"
+  },
+  {
+    "Club":"Ballycastle",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"Sterling 12.5",
+    "Info":"End Date: 17/07/2014"
+  },
+  {
+    "Club":"Bandon",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 17/07/2014"
+  },
+  {
+    "Club":"Ballycastle",
+    "Format":"Junior",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"Sterling 5",
+    "Info":"End Date: 17/07/2014"
+  },
+  {
+    "Club":"Mountrath",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"12",
+    "Info":"End Date: 17/07/2014\n  Online Booking- \nhttp://www.brsgolf.com/mountrath/visitor_menu.php"
+  },
+  {
+    "Club":"Rathcore",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 17/07/2014\n  http://www.brsgolf.com/rathcore/visitor_home.php"
+  },
+  {
+    "Club":"Thurles",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 17/07/2014"
+  },
+  {
+    "Club":"Black Bush",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 17/07/2014\n  Ladies & Gents - Over 50"
+  },
+  {
+    "Club":"European",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"60",
+    "Info":"End Date: 17/07/2014\n  This competition is open to valid G.U.I. & I.L.G.U. handicap card holders only."
+  },
+  {
+    "Club":"Glen of the Downs",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 17/07/2014\n  http://www.brsgolf.com/glenofthedowns/opens_home.php"
+  },
+  {
+    "Club":"Tullamore",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"8",
+    "Info":"End Date: 17/07/2014\n  Booking at: tullamoregolfclub.ie"
+  },
+  {
+    "Club":"Waterford Castle",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 17/07/2014\n  Open Singles Every Thursday. Please call 051 871633 to book or go www.waterfordcastle.com  Entry Fee is inclusive of Burger Meal"
+  },
+  {
+    "Club":"Royal Tara",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 17/07/2014"
+  },
+  {
+    "Club":"City of Derry",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"Sterling 15",
+    "Info":"End Date: 17/07/2014"
+  },
+  {
+    "Club":"Castlecomer",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 17/07/2014\n  Special Offer: Golf competition plus 2 course meal for 20. Buggies 15 each. Book online at castlecomergolf.ie or by phoning (056)4441139"
+  },
+  {
+    "Club":"Kilkee",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"17/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 17/07/2014"
+  },
+  {
+    "Club":"Donaghadee",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"18/07/2014",
+    "Cost":"Sterling 15",
+    "Info":"End Date: 18/07/2014"
+  },
+  {
+    "Club":"Tramore",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"18/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 18/07/2014\n  Visitors 25 Members 12 including a meal after golf.  book on line a www.tramoregolfclub.com"
+  },
+  {
+    "Club":"Macroom",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"18/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 18/07/2014\n  Open Singles every Thursday and Friday unless course booked for classic or other events."
+  },
+  {
+    "Club":"Strandhill",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"18/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 18/07/2014"
+  },
+  {
+    "Club":"Kilcock",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"18/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 18/07/2014"
+  },
+  {
+    "Club":"Ballinrobe",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"18/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 18/07/2014"
+  },
+  {
+    "Club":"Frankfield",
+    "Format":"Minor",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"18/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 19/07/2014\n  Minor Scratch Cup, timesheet in operation on Saturday Morning only."
+  },
+  {
+    "Club":"Dunmore East",
+    "Format":"Scramble",
+    "Fixture":"Team Events",
+    "Holes":9,
+    "Start Date":"18/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 18/07/2014\n  To book a Tee time Phone the clubhouse on 051-383151"
+  },
+  {
+    "Club":"Corballis Links",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"18/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 18/07/2014\n  OPEN SINGLES STABLEFORD -\nQUALIFYING COMPETITION"
+  },
+  {
+    "Club":"Goldcoast",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"18/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 18/07/2014"
+  },
+  {
+    "Club":"Beaufort",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"18/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 18/07/2014\n  Timesheet Open - One prize each week (depending on numbers taking part)"
+  },
+  {
+    "Club":"Strandhill",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"18/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 18/07/2014"
+  },
+  {
+    "Club":"Ballyneety",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"18/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 18/07/2014"
+  },
+  {
+    "Club":"Ballyneety",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"18/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 18/07/2014"
+  },
+  {
+    "Club":"Galgorm Castle",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"18/07/2014",
+    "Cost":"Sterling 20",
+    "Info":"End Date: 18/07/2014"
+  },
+  {
+    "Club":"Waterford Castle",
+    "Format":"Scramble",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"18/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 18/07/2014\n  Open Week 3 Person Team Scramble, Please call 051 871633 or visit www.waterfordcastle.com to book your tee time"
+  },
+  {
+    "Club":"Kanturk",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"18/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 18/07/2014"
+  },
+  {
+    "Club":"Waterford",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"18/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 18/07/2014"
+  },
+  {
+    "Club":"Goldcoast",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"18/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 18/07/2014"
+  },
+  {
+    "Club":"Galway Bay",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"18/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 18/07/2014\n  fee 25 online or 30 through the Golf Club"
+  },
+  {
+    "Club":"Cobh",
+    "Format":"Intermediate",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"18/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 20/07/2014"
+  },
+  {
+    "Club":"Mallow",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"18/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 18/07/2014\n  Please ring 022 21145 ext 2 or 3 for details - Open Singles most Fridays."
+  },
+  {
+    "Club":"Cobh",
+    "Format":"Senior",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"18/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 20/07/2014"
+  },
+  {
+    "Club":"Roscommon",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"18/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 18/07/2014"
+  },
+  {
+    "Club":"Greencastle",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"18/07/2014",
+    "Cost":"17",
+    "Info":"End Date: 18/07/2014"
+  },
+  {
+    "Club":"Kilkeel",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"18/07/2014",
+    "Cost":"Sterling 12",
+    "Info":"End Date: 18/07/2014"
+  },
+  {
+    "Club":"Cobh",
+    "Format":"Junior",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"18/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 20/07/2014"
+  },
+  {
+    "Club":"Esker Hills",
+    "Format":"Scramble",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"18/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 20/07/2014\n  Club Classic Weekend.  100 per team. 4 Person Champagne Scramble."
+  },
+  {
+    "Club":"Frankfield",
+    "Format":"Junior",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"18/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 19/07/2014\n  Junior Scratch Cup, timesheet in operation on Saturday Morning only."
+  },
+  {
+    "Club":"Wexford",
+    "Format":"Scramble",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"18/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 18/07/2014\n  Ladies & Gents Open 3 Person Team Event (18 Hole)"
+  },
+  {
+    "Club":"Roscrea",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"18/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 18/07/2014"
+  },
+  {
+    "Club":"Corballis Links",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"18/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 18/07/2014\n  OPEN SINGLES STABLEFORD\nQUALIFYING COMPETITION"
+  },
+  {
+    "Club":"Edenderry",
+    "Format":"Intermediate",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"19/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 20/07/2014\n  see EdenderryGolfClub.ie"
+  },
+  {
+    "Club":"Royal Tara",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"19/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 19/07/2014"
+  },
+  {
+    "Club":"Rathbane",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"19/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 19/07/2014"
+  },
+  {
+    "Club":"Monkstown",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"19/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 19/07/2014\n  Irish Open Singles Please Book Online"
+  },
+  {
+    "Club":"Rathbane",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"19/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 19/07/2014"
+  },
+  {
+    "Club":"Balbriggan",
+    "Format":"Junior",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"19/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 19/07/2014\n  Visitors may book tee times at http://www.brsgolf.com/balbriggan/opens_home.php"
+  },
+  {
+    "Club":"Co. Armagh",
+    "Format":"Intermediate",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"19/07/2014",
+    "Cost":"Sterling 10",
+    "Info":"End Date: 19/07/2014\n  Intermediate Scratch Cup sponsored by J Keeley Motors, Armagh.  Booking online Friday, 4 July from 7.10 pm"
+  },
+  {
+    "Club":"Kilkeel",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"19/07/2014",
+    "Cost":"Sterling 12",
+    "Info":"End Date: 19/07/2014"
+  },
+  {
+    "Club":"Co. Armagh",
+    "Format":"Minor",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"19/07/2014",
+    "Cost":"Sterling 10",
+    "Info":"End Date: 19/07/2014\n  Minor Scratch Cup sponsored by J Keeley Motors, Armagh.  Booking online Friday, 4 July from 7.10 pm"
+  },
+  {
+    "Club":"Bray",
+    "Format":"Senior",
+    "Fixture":"Scratch Cup",
+    "Holes":36,
+    "Start Date":"19/07/2014",
+    "Cost":"30",
+    "Info":"End Date: 19/07/2014\n  http://www.brsgolf.com/bray/opens_home.php"
+  },
+  {
+    "Club":"Castlecomer",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"19/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 19/07/2014\n  buggy hire 15"
+  },
+  {
+    "Club":"Raffeen Creek",
+    "Format":"Minor",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"19/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 19/07/2014\n  (19 - 28). Timesheet: http://www.raffeencreek.ie/raffeen-creek-golf-club"
+  },
+  {
+    "Club":"Waterford Castle",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"19/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 19/07/2014\n  Open Week 3 Person Team Event, Please call 051 871633 or visit www.waterfordcastle.com to book your tee time"
+  },
+  {
+    "Club":"Omagh",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"19/07/2014",
+    "Cost":"Sterling 15",
+    "Info":"End Date: 19/07/2014\n  Sponsor O'Donnell & Mellon"
+  },
+  {
+    "Club":"Athenry",
+    "Format":"Stableford",
+    "Fixture":"Fourball",
+    "Holes":18,
+    "Start Date":"19/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 19/07/2014"
+  },
+  {
+    "Club":"Rathbane",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"19/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 19/07/2014"
+  },
+  {
+    "Club":"Macroom",
+    "Format":"Junior",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"19/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 19/07/2014\n  Hcaps  5-10"
+  },
+  {
+    "Club":"Co. Louth",
+    "Format":"Intermediate",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"19/07/2014",
+    "Cost":"30",
+    "Info":"End Date: 19/07/2014\n  Handicap Limit 10-17"
+  },
+  {
+    "Club":"Monkstown",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"19/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 19/07/2014\n  Irish Open Singles Please Book Online"
+  },
+  {
+    "Club":"Strabane",
+    "Format":"Strokes",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"19/07/2014",
+    "Cost":"Sterling 15",
+    "Info":"End Date: 19/07/2014\n  Oysters Restaurant Medal - Open"
+  },
+  {
+    "Club":"Edenderry",
+    "Format":"Minor",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"19/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 20/07/2014\n  Open to Ladies & Men. see EdenderryGolfClub.ie"
+  },
+  {
+    "Club":"Royal Tara",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"19/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 19/07/2014"
+  },
+  {
+    "Club":"Royal Tara",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"19/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 19/07/2014"
+  },
+  {
+    "Club":"Portlaoise",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"19/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 19/07/2014"
+  },
+  {
+    "Club":"Royal Tara",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"19/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 19/07/2014"
+  },
+  {
+    "Club":"Raffeen Creek",
+    "Format":"Intermediate",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"19/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 20/07/2014\n  (12 - 18). Timesheet: http://www.raffeencreek.ie/raffeen-creek-golf-club"
+  },
+  {
+    "Club":"Skibbereen",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"19/07/2014",
+    "Cost":"50",
+    "Info":"End Date: 20/07/2014"
+  },
+  {
+    "Club":"Macroom",
+    "Format":"Minor",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"19/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 19/07/2014\n  Hcaps 18-28"
+  },
+  {
+    "Club":"Shandon Park",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"19/07/2014",
+    "Cost":"Sterling 14",
+    "Info":"End Date: 26/07/2014\n  OPEN WEEK - see club website www.shandonpark.net for details"
+  },
+  {
+    "Club":"Edenderry",
+    "Format":"Junior",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"19/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 20/07/2014\n  see EdenderryGolfClub.ie"
+  },
+  {
+    "Club":"Macroom",
+    "Format":"Intermediate",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"19/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 19/07/2014\n  Hcaps 11-17"
+  },
+  {
+    "Club":"Co. Armagh",
+    "Format":"Junior",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"19/07/2014",
+    "Cost":"Sterling 10",
+    "Info":"End Date: 19/07/2014\n  Junior Scratch Cup sponsored by J Keeley Motors, Armagh.  Booking online Friday, 4 July from 7.10 pm"
+  },
+  {
+    "Club":"Grange",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"20/07/2014",
+    "Cost":"30",
+    "Info":"End Date: 20/07/2014\n  This is the 5th of 5 Open Ryder Cup Challenge qualifying events taking place through Spring & Summer. The Grand Final is in September"
+  },
+  {
+    "Club":"Portadown",
+    "Format":"Stableford",
+    "Fixture":"Foursomes",
+    "Holes":18,
+    "Start Date":"20/07/2014",
+    "Cost":"Sterling 12",
+    "Info":"End Date: 20/07/2014\n  Mixed Open Greensomes"
+  },
+  {
+    "Club":"Lurgan",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"20/07/2014",
+    "Cost":"Sterling 13",
+    "Info":"End Date: 20/07/2014"
+  },
+  {
+    "Club":"Macroom",
+    "Format":"Intermediate",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"20/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 20/07/2014\n  Hcaps 11-17"
+  },
+  {
+    "Club":"Moyola Park",
+    "Format":"Scramble",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"20/07/2014",
+    "Cost":"Sterling 20",
+    "Info":"End Date: 20/07/2014"
+  },
+  {
+    "Club":"Gowran Park",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"20/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 20/07/2014\n  OPEN 3 PERSON TEAM EVENT - Visitor 20.00  Member 5.00  ALL WELCOME"
+  },
+  {
+    "Club":"Bunclody",
+    "Format":"Stableford",
+    "Fixture":"Fourball",
+    "Holes":18,
+    "Start Date":"20/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 21/07/2014\n  Open Week 20/7/2014 - 26/7/2014"
+  },
+  {
+    "Club":"Macroom",
+    "Format":"Junior",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"20/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 20/07/2014\n  Hcaps 5- 10"
+  },
+  {
+    "Club":"Macroom",
+    "Format":"Minor",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"20/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 20/07/2014\n  Hcaps 18-28"
+  },
+  {
+    "Club":"Donabate",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"20/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 20/07/2014"
+  },
+  {
+    "Club":"Raffeen Creek",
+    "Format":"Junior",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"20/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 20/07/2014\n  (5 - 11). Timesheet: http://www.raffeencreek.ie/raffeen-creek-golf-club"
+  },
+  {
+    "Club":"Lee Valley",
+    "Format":"Intermediate",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"20/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 20/07/2014"
+  },
+  {
+    "Club":"Old Conna",
+    "Format":"Junior",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"20/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 20/07/2014\n  Handicap 4-9"
+  },
+  {
+    "Club":"Balbriggan",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"20/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 20/07/2014\n  Visitors may book tee times at http://www.brsgolf.com/balbriggan/opens_home.php"
+  },
+  {
+    "Club":"Lee Valley",
+    "Format":"Minor",
+    "Fixture":"Scratch Cup",
+    "Holes":18,
+    "Start Date":"20/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 20/07/2014"
+  },
+  {
+    "Club":"Athenry",
+    "Format":"Junior",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"20/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 20/07/2014"
+  },
+  {
+    "Club":"Delgany",
+    "Format":"Senior",
+    "Fixture":"Scratch Cup",
+    "Holes":36,
+    "Start Date":"20/07/2014",
+    "Cost":"35",
+    "Info":"End Date: 20/07/2014\n  Wicklow Scratch Cup in partnership with TopGolfer. See www.topgolfer.ie for furthr details. Entry includes Soup/Sandwiches."
+  },
+  {
+    "Club":"Strabane",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"20/07/2014",
+    "Cost":"Sterling 15",
+    "Info":"End Date: 20/07/2014\n  St Patrick's GAA Gortin Singles Open"
+  },
+  {
+    "Club":"Castlecomer",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"20/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 20/07/2014\n  buggy hire 15"
+  },
+  {
+    "Club":"Ardee",
+    "Format":"Strokes",
+    "Fixture":"Foursomes",
+    "Holes":18,
+    "Start Date":"20/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 20/07/2014"
+  },
+  {
+    "Club":"Muskerry",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"20/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 20/07/2014\n  Play for the Chance to win a Years membership in Muskerry"
+  },
+  {
+    "Club":"Portumna",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"21/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 21/07/2014\n  GentsOpenSingles Mondays 17 Mar/Oct Visitors 15 Catering Available"
+  },
+  {
+    "Club":"Co. Tipperary",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"21/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 21/07/2014"
+  },
+  {
+    "Club":"Limerick",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"21/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 21/07/2014\n  Timesheet opens 2 weeks in advance of Competition"
+  },
+  {
+    "Club":"Rathbane",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"21/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 21/07/2014"
+  },
+  {
+    "Club":"Co. Meath",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"21/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 21/07/2014\n  Open Singles Stableford Competition - 18 Holes"
+  },
+  {
+    "Club":"Wicklow",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"21/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 21/07/2014\n  Jim Murphy Memorial Day"
+  },
+  {
+    "Club":"Craddockstown",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"21/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 21/07/2014\n  http://www.brsgolf.com/craddockstown/opens_home.php"
+  },
+  {
+    "Club":"Tulfarris",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"21/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 21/07/2014\n  Bookings 045 867609\nhttp://www.brsgolf.com/tulfarris/visitor_home.php"
+  },
+  {
+    "Club":"Royal Tara",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"21/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 21/07/2014"
+  },
+  {
+    "Club":"Bray",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"21/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 21/07/2014\n  http://www.brsgolf.com/bray/opens_home.php"
+  },
+  {
+    "Club":"Gort",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"21/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 21/07/2014"
+  },
+  {
+    "Club":"Ballyneety",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"21/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 21/07/2014"
+  },
+  {
+    "Club":"Donabate",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"21/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 21/07/2014"
+  },
+  {
+    "Club":"Ballykisteen",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"21/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 21/07/2014\n  Open Singles Book on line or call the Pro Shop 062 32117. Full catering, Pro Shop, Buggies, Trolleys available"
+  },
+  {
+    "Club":"Strabane",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"21/07/2014",
+    "Cost":"Sterling 10",
+    "Info":"End Date: 21/07/2014\n  July Seniors - Over 50's"
+  },
+  {
+    "Club":"Rathbane",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"21/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 21/07/2014"
+  },
+  {
+    "Club":"Edenmore",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"21/07/2014",
+    "Cost":"Sterling 10",
+    "Info":"End Date: 21/07/2014"
+  },
+  {
+    "Club":"The Heritage",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"21/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 21/07/2014\n  Weekly Open Singles S/Ford"
+  },
+  {
+    "Club":"Dungarvan",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"21/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 21/07/2014\n  Open Gents and Ladies Seniors (50+) Singles S/F every Monday. Bookings available on club website www.dungarvangolfclub.com"
+  },
+  {
+    "Club":"Tullamore",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"21/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 21/07/2014"
+  },
+  {
+    "Club":"Bearna",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"21/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 21/07/2014"
+  },
+  {
+    "Club":"Enniscrone",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"21/07/2014",
+    "Cost":"30",
+    "Info":"End Date: 21/07/2014\n  Bank Holiday Monday 40 per person"
+  },
+  {
+    "Club":"Athenry",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"21/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 21/07/2014"
+  },
+  {
+    "Club":"Abbeyleix",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"21/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 21/07/2014\n  Junior/Juvenile Open Day. Entry 10"
+  },
+  {
+    "Club":"Oughterard",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"22/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 22/07/2014\n  Open day every Tuesday, Full catering and Club/Buggy rental available"
+  },
+  {
+    "Club":"Bunclody",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"22/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 22/07/2014\n  Open Week 20/7/2014 - 26/7/2014"
+  },
+  {
+    "Club":"Kilcoole",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"22/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 22/07/2014\n  Over 50 yrs  \nTelephone Booking 01  2872066"
+  },
+  {
+    "Club":"Portlaoise",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"22/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 22/07/2014"
+  },
+  {
+    "Club":"Loughgall",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"22/07/2014",
+    "Cost":"Sterling 10",
+    "Info":"End Date: 22/07/2014"
+  },
+  {
+    "Club":"Rathdowney",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"22/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 22/07/2014\n  Check out our \"Race to Ping H.Q.\" for the winners of the Tuesday Open Singles"
+  },
+  {
+    "Club":"Ring Of Kerry",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"22/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 22/07/2014\n  Tuesday Singles 15 GUI card holders only"
+  },
+  {
+    "Club":"Slieve Russell",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"22/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 22/07/2014\n  Seniors open 50+. Buggys @ 20.00 Call 0499525090 or book online"
+  },
+  {
+    "Club":"Lucan",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"22/07/2014",
+    "Cost":"19",
+    "Info":"End Date: 22/07/2014\n  GUI/ILGU Swipecard Entry.\nBooking on line www.lucangolfclub.ie or call (01) 628 0246"
+  },
+  {
+    "Club":"Castleblayney",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"22/07/2014",
+    "Cost":"30",
+    "Info":"End Date: 22/07/2014\n  GUI/ILGU Open Singles Stableford competition. Please book buggies in the office. To book online click here http://www.brsgolf.com/concrawood/visitor_home.php"
+  },
+  {
+    "Club":"Dunmore East",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":9,
+    "Start Date":"22/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 22/07/2014\n  This is a 2 person team event and will alternate between a fourball and a team event. Phone Clubhouse on 051383151 for details of format"
+  },
+  {
+    "Club":"Mount Juliet",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"22/07/2014",
+    "Cost":"50",
+    "Info":"End Date: 22/07/2014\n  Including burger/wrap at the 10th tee."
+  },
+  {
+    "Club":"Goldcoast",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"22/07/2014",
+    "Cost":"12",
+    "Info":"End Date: 22/07/2014\n  Open to Ladies and Gents over 50. 12 for golf or 20 for golf and Carvery Lunch"
+  },
+  {
+    "Club":"Castlebar",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"22/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 22/07/2014"
+  },
+  {
+    "Club":"Castleknock",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"22/07/2014",
+    "Cost":"30",
+    "Info":"End Date: 22/07/2014\n  www.castleknockgolfclub.ie\nFlex Members 20.00\nUnlimited Members 10.00"
+  },
+  {
+    "Club":"Greenore",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"22/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 22/07/2014\n  Book on line or call the Pro Shop 042 9373212.  Full catering, Pro Shop, Buggies, Trolleys available"
+  },
+  {
+    "Club":"Millicent",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"22/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 22/07/2014"
+  },
+  {
+    "Club":"Castlemartyr",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"22/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 22/07/2014\n  Tuesday Blues Single Stableford"
+  },
+  {
+    "Club":"Mount Juliet",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"22/07/2014",
+    "Cost":"50",
+    "Info":"End Date: 22/07/2014\n  Including burger/wrap at the 10th tee."
+  },
+  {
+    "Club":"Mullingar",
+    "Format":"Stableford",
+    "Fixture":"Fourball",
+    "Holes":18,
+    "Start Date":"22/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 22/07/2014\n  Ladies & Gents Open Fourball Any Combination,"
+  },
+  {
+    "Club":"Carrick-on-Shannon",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"22/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 22/07/2014\n  http://www.brsgolf.com/carrickonshannon/opens_home.php"
+  },
+  {
+    "Club":"Killeen",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"22/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 22/07/2014\n  Time/Sheet   045866003"
+  },
+  {
+    "Club":"Delvin Castle",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"22/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 22/07/2014"
+  },
+  {
+    "Club":"Clonmel",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"22/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 22/07/2014\n  Online booking on BRS through our website: www.clonmelgolfclub.com"
+  },
+  {
+    "Club":"Birr",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"22/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 22/07/2014"
+  },
+  {
+    "Club":"Headfort",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"22/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 22/07/2014"
+  },
+  {
+    "Club":"Howth",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"22/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 22/07/2014\n  howthgolfclub.ie"
+  },
+  {
+    "Club":"New Ross",
+    "Format":"Stableford",
+    "Fixture":"Fourball",
+    "Holes":18,
+    "Start Date":"22/07/2014",
+    "Cost":"12",
+    "Info":"End Date: 22/07/2014\n  Tuesday Fourball - 10/14 holes.  Tee times can be booked online:\nhttp://www.brsgolf.com/newross/opens_home.php"
+  },
+  {
+    "Club":"Killeen",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"22/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 22/07/2014\n  Time/Sheet   045866003"
+  },
+  {
+    "Club":"Baltinglass",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"22/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 22/07/2014"
+  },
+  {
+    "Club":"Athy",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"22/07/2014",
+    "Cost":"12",
+    "Info":"End Date: 22/07/2014\n  Members 9 p.p., Visitors 12 p.p. To book  go to  www.athygolfclub.com or contact the Club on 0598631729"
+  },
+  {
+    "Club":"European",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"22/07/2014",
+    "Cost":"60",
+    "Info":"End Date: 22/07/2014\n  This competition is open to valid G.U.I. & I.L.G.U. handicap card holders only."
+  },
+  {
+    "Club":"Muskerry",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"22/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 22/07/2014\n  O'Crualaoi Ladies and Gents Open Singles Qualifier for Grand Final on 16th September"
+  },
+  {
+    "Club":"Athenry",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"22/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 22/07/2014"
+  },
+  {
+    "Club":"Adare Manor",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"22/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 22/07/2014"
+  },
+  {
+    "Club":"Castleblayney",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"22/07/2014",
+    "Cost":"30",
+    "Info":"End Date: 22/07/2014\n  GUI/ILGU Open Singles Stableford competition. Please book buggies in the office. To book online click here http://www.brsgolf.com/concrawood/visitor_home.php"
+  },
+  {
+    "Club":"Highfield",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"22/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 22/07/2014\n  Call us on 0469731021 or log onto http://www.highfield-golf.ie/ for a tee time"
+  },
+  {
+    "Club":"Roganstown",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"22/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 22/07/2014\n  http://www.brsgolf.com/roganstown/visitor_menu.php"
+  },
+  {
+    "Club":"Hollystown",
+    "Format":"Stableford",
+    "Fixture":"Fourball",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"12.50",
+    "Info":"End Date: 23/07/2014\n  Can you qualify for the International Pairs Final Book 8207444\nwww.hollystown.com"
+  },
+  {
+    "Club":"Courtown",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 23/07/2014"
+  },
+  {
+    "Club":"St. Margarets",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 23/07/2014"
+  },
+  {
+    "Club":"Edenderry",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"8",
+    "Info":"End Date: 23/07/2014\n  Open to Ladies & Men. see EdenderryGolfClub.ie"
+  },
+  {
+    "Club":"Fernhill",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"12",
+    "Info":"End Date: 23/07/2014\n   Book on line at \"http://www.brsgolf.com/fernhill\" or ring (021)4372226. Members 5."
+  },
+  {
+    "Club":"West Waterford",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 23/07/2014\n  Book online @ www.westwaterfordgolf.com or ring the office @ 058 43216. Subsequent entry fee is 15."
+  },
+  {
+    "Club":"Fermoy",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 23/07/2014\n  Book online @ www.fermoygolfclub.ie or call 025 31472"
+  },
+  {
+    "Club":"Castlewarden",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 23/07/2014"
+  },
+  {
+    "Club":"Dundalk",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 23/07/2014"
+  },
+  {
+    "Club":"Castlewarden",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 23/07/2014"
+  },
+  {
+    "Club":"Co. Tipperary",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 23/07/2014"
+  },
+  {
+    "Club":"Bunclody",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 23/07/2014"
+  },
+  {
+    "Club":"Kilcock",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 23/07/2014\n  OVER 50s"
+  },
+  {
+    "Club":"Black Bush",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 23/07/2014\n  Sponsor: SuperValu Dunshaughlin"
+  },
+  {
+    "Club":"Ballycastle",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"Sterling 15",
+    "Info":"End Date: 23/07/2014"
+  },
+  {
+    "Club":"Castlewarden",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 23/07/2014"
+  },
+  {
+    "Club":"St. Margarets",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 23/07/2014"
+  },
+  {
+    "Club":"Tuam",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 23/07/2014\n  tuamgolfclub@eircom.net"
+  },
+  {
+    "Club":"Athlone",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 23/07/2014"
+  },
+  {
+    "Club":"St. Margarets",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 23/07/2014"
+  },
+  {
+    "Club":"Rathbane",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 23/07/2014"
+  },
+  {
+    "Club":"Castlewarden",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 23/07/2014"
+  },
+  {
+    "Club":"Co. Meath",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 23/07/2014\n  Open 2 Person Team (14 Hole Competition)"
+  },
+  {
+    "Club":"Highfield",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 23/07/2014\n  Call us on 0469731021 or log onto http://www.highfield-golf.ie/ for a tee time"
+  },
+  {
+    "Club":"Bellewstown",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 23/07/2014\n  Book online at www.bellewstowngolfclub.ie/\nor phone 041 9882757"
+  },
+  {
+    "Club":"Portumna",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 23/07/2014\n  Gents Seniors Open Over 65's every Wed May/Sept Full Catering Facilities"
+  },
+  {
+    "Club":"Woodstock",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 23/07/2014\n  Open Singles to be played of Back tees (White tees) last Wed of each month.Gross prize on offer on these days."
+  },
+  {
+    "Club":"Bellewstown",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 23/07/2014\n  Book online at www.bellewstowngolfclub.ie/\nor phone 041 9882757"
+  },
+  {
+    "Club":"Co. Longford",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 23/07/2014"
+  },
+  {
+    "Club":"Shannon",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 23/07/2014\n  20.00 Visitor Fee before 12 noon"
+  },
+  {
+    "Club":"Rathcore",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 23/07/2014\n  http://www.brsgolf.com/rathcore/visitor_home.php"
+  },
+  {
+    "Club":"Ballykisteen",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 23/07/2014\n  Open Singles Book on line or call the Pro Shop 062 32117. Full catering, Pro Shop, Buggies, Trolleys available"
+  },
+  {
+    "Club":"Bundoran",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 23/07/2014\n  20.00 inlcudes green fee, competition fee and a long neck bottle of lager or a large mineral"
+  },
+  {
+    "Club":"Millicent",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 23/07/2014"
+  },
+  {
+    "Club":"Ballycastle",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"Sterling 15",
+    "Info":"End Date: 23/07/2014"
+  },
+  {
+    "Club":"Craddockstown",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 23/07/2014\n  http://www.brsgolf.com/craddockstown/opens_home.php"
+  },
+  {
+    "Club":"Wexford",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 23/07/2014\n  Open Ladies & Gents Singles - kindly sponsored by Wexford Golf Club"
+  },
+  {
+    "Club":"Ballyclare",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"Sterling 10",
+    "Info":"End Date: 23/07/2014\n  Open Stableford.  Time sheet available on BRS 3 weeks prior to competition.  Times from 10:00am - 5:00pm."
+  },
+  {
+    "Club":"Luttrellstown Castle",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"30",
+    "Info":"End Date: 23/07/2014\n  GUI CARD REQUIRED. BOOKINGS 01-8609600 OR USE BRS. PRIZE VOUCHERS 1st 150eu/2nd 100eu/3rd 50eu."
+  },
+  {
+    "Club":"Lisheen Springs",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 23/07/2014"
+  },
+  {
+    "Club":"Ballycastle",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"Sterling 15",
+    "Info":"End Date: 23/07/2014"
+  },
+  {
+    "Club":"Portarlington",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 23/07/2014"
+  },
+  {
+    "Club":"Waterford",
+    "Format":"Stableford",
+    "Fixture":"Fourball",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 23/07/2014"
+  },
+  {
+    "Club":"Fernhill",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"12",
+    "Info":"End Date: 23/07/2014\n   Book on line at \"http://www.brsgolf.com/fernhill\" or ring (021)4372226. Members 5."
+  },
+  {
+    "Club":"Craddockstown",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 23/07/2014\n  http://www.brsgolf.com/craddockstown/opens_home.php"
+  },
+  {
+    "Club":"Rosslare",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 23/07/2014\n  Booking can be made at http://www.brsgolf.com/rosslare/opens_home.php"
+  },
+  {
+    "Club":"Castlemartyr",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 23/07/2014\n  Wednesday Whites Singles Stableford"
+  },
+  {
+    "Club":"Woodstock",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 23/07/2014\n  Open Singles to be played of Back tees (White tees) last Wed of each month.Gross prize on offer on these days."
+  },
+  {
+    "Club":"Fernhill",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"12",
+    "Info":"End Date: 23/07/2014\n   Book on line at \"http://www.brsgolf.com/fernhill\" or ring (021)4372226. Members 5."
+  },
+  {
+    "Club":"Bellewstown",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 23/07/2014\n  Book online at www.bellewstowngolfclub.ie/\nor phone 041 9882757"
+  },
+  {
+    "Club":"Roscrea",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 23/07/2014"
+  },
+  {
+    "Club":"Kinsale",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 23/07/2014\n  Open Singles Every Wedensday Sponsored By The Gleeson Group"
+  },
+  {
+    "Club":"Bray",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 23/07/2014\n  http://www.brsgolf.com/bray/opens_home.php"
+  },
+  {
+    "Club":"Bellewstown",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 23/07/2014\n  Book online at www.bellewstowngolfclub.ie/\nor phone 041 9882757"
+  },
+  {
+    "Club":"Castlemartyr",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 23/07/2014\n  Wednesday Whites Singles Stableford"
+  },
+  {
+    "Club":"Rathbane",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 23/07/2014"
+  },
+  {
+    "Club":"Fernhill",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"12",
+    "Info":"End Date: 23/07/2014\n   Book on line at \"http://www.brsgolf.com/fernhill\" or ring (021)4372226. Members 5."
+  },
+  {
+    "Club":"Greencastle",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"17",
+    "Info":"End Date: 23/07/2014"
+  },
+  {
+    "Club":"Cairn",
+    "Format":"V Par",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"Sterling 15",
+    "Info":"End Date: 23/07/2014"
+  },
+  {
+    "Club":"St. Margarets",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 23/07/2014"
+  },
+  {
+    "Club":"The Heath",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 23/07/2014"
+  },
+  {
+    "Club":"Castlemartyr",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 23/07/2014\n  Wednesday Whites Singles Stableford"
+  },
+  {
+    "Club":"Westport",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 23/07/2014\n  Open Wednesday, Ladies and Mens Singles Stableford\nEvery Wed, Apr-2014 to Sept 2014, Visitors 25.00, Members 7.00, www.westportgolfclub.ie"
+  },
+  {
+    "Club":"Bearna",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 23/07/2014"
+  },
+  {
+    "Club":"Castletroy",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 23/07/2014\n  Open Singles"
+  },
+  {
+    "Club":"Ballycastle",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"Sterling 15",
+    "Info":"End Date: 23/07/2014"
+  },
+  {
+    "Club":"Craddockstown",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 23/07/2014\n  http://www.brsgolf.com/craddockstown/opens_home.php"
+  },
+  {
+    "Club":"Callan",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"12.50",
+    "Info":"End Date: 23/07/2014"
+  },
+  {
+    "Club":"Mallow",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 23/07/2014\n  http://mallowgolfclub.net/visitors_tee_booking/tee_booking/"
+  },
+  {
+    "Club":"Clones",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 23/07/2014"
+  },
+  {
+    "Club":"Castleblayney",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 23/07/2014\n  GUI/ILGU OVer 50s Open Singles Stableford competition. Please book buggies in the office. To book online click here http://www.brsgolf.com/concrawood/visitor_home.php"
+  },
+  {
+    "Club":"Woodenbridge",
+    "Format":"Stableford",
+    "Fixture":"Fourball",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 23/07/2014"
+  },
+  {
+    "Club":"Craddockstown",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 23/07/2014\n  http://www.brsgolf.com/craddockstown/opens_home.php"
+  },
+  {
+    "Club":"Castlemartyr",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 23/07/2014\n  Wednesday Whites Singles Stableford"
+  },
+  {
+    "Club":"Athlone",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 23/07/2014\n  Visitors 15 Members7"
+  },
+  {
+    "Club":"Loughrea",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 23/07/2014"
+  },
+  {
+    "Club":"Cahir Park",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 23/07/2014\n  only 12 before 11am. 100 first prize every week. Fantastic prizes to be won in ABP grand final on Sat 11th October. See website for details"
+  },
+  {
+    "Club":"Ballina",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 23/07/2014"
+  },
+  {
+    "Club":"Royal Tara",
+    "Format":"Stableford",
+    "Fixture":"Team Events",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 23/07/2014"
+  },
+  {
+    "Club":"Athenry",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"23/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 23/07/2014"
+  },
+  {
+    "Club":"Athenry",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 24/07/2014"
+  },
+  {
+    "Club":"Knock",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"Sterling 10",
+    "Info":"End Date: 24/07/2014"
+  },
+  {
+    "Club":"Malahide",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 24/07/2014\n  JUVENILE OPEN 8AM - 2PM\nAll bookings must be made on line and pre-paid via the Club's web site, namely www.malahidegolfclub.ie\nBookings must be made on line via the Clubs web site www.malahidegolfclub.ie"
+  },
+  {
+    "Club":"Dungarvan",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 24/07/2014\n  Open Gents Singles Stableford every Thursday 20 golf only or 25 golf and grill. Bookings available on www.dungarvangolfclub.com"
+  },
+  {
+    "Club":"Cregmore Park",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 24/07/2014"
+  },
+  {
+    "Club":"Macroom",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 24/07/2014\n  Open Singles every Thursday and Friday unless course booked for classic or other events."
+  },
+  {
+    "Club":"Co. Cavan",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 24/07/2014"
+  },
+  {
+    "Club":"Knock",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"Sterling 10",
+    "Info":"End Date: 24/07/2014"
+  },
+  {
+    "Club":"Blarney",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 24/07/2014\n  brsgolf.com to book on line or call 0214516472"
+  },
+  {
+    "Club":"Royal Curragh",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 24/07/2014\n  6 Nett and 1 Gross Score qualify for Newbridge Silverware Grand Final on September 18th"
+  },
+  {
+    "Club":"Malahide",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 24/07/2014\n  JUVENILE OPEN 8AM - 2PM\nAll bookings must be made on line and pre-paid via the Club's web site, namely www.malahidegolfclub.ie\nBookings must be made on line via the Clubs web site www.malahidegolfclub.ie"
+  },
+  {
+    "Club":"Dungarvan",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 24/07/2014\n  Open Gents Singles Stableford every Thursday 20 golf only or 25 golf and grill. Bookings available on www.dungarvangolfclub.com"
+  },
+  {
+    "Club":"Balbriggan",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 24/07/2014\n  Visitors can book tee times here http://www.brsgolf.com/balbriggan/opens_home.php"
+  },
+  {
+    "Club":"Macroom",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 24/07/2014\n  Open Singles every Thursday and Friday unless course booked for classic or other events."
+  },
+  {
+    "Club":"Glen of the Downs",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 24/07/2014\n  http://www.brsgolf.com/glenofthedowns/opens_home.php"
+  },
+  {
+    "Club":"Cregmore Park",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 24/07/2014"
+  },
+  {
+    "Club":"Cregmore Park",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 24/07/2014"
+  },
+  {
+    "Club":"Macroom",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 24/07/2014\n  Open Singles every Thursday and Friday unless course booked for classic or other events."
+  },
+  {
+    "Club":"Carlow",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 24/07/2014\n  Ladies & Gents Eligible  - See club website - Open Competitions - for online booking"
+  },
+  {
+    "Club":"Glen of the Downs",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 24/07/2014\n  http://www.brsgolf.com/glenofthedowns/opens_home.php"
+  },
+  {
+    "Club":"Co. Cavan",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 24/07/2014"
+  },
+  {
+    "Club":"Ardee",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 24/07/2014"
+  },
+  {
+    "Club":"Knock",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"Sterling 10",
+    "Info":"End Date: 24/07/2014"
+  },
+  {
+    "Club":"Athenry",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 24/07/2014"
+  },
+  {
+    "Club":"Dungarvan",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 24/07/2014\n  Open Gents Singles Stableford every Thursday 20 golf only or 25 golf and grill. Bookings available on www.dungarvangolfclub.com"
+  },
+  {
+    "Club":"Co. Cavan",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 24/07/2014"
+  },
+  {
+    "Club":"Carlow",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 24/07/2014\n  Ladies & Gents Eligible  - See club website - Open Competitions - for online booking"
+  },
+  {
+    "Club":"Carlow",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 24/07/2014\n  Ladies & Gents Eligible  - See club website - Open Competitions - for online booking"
+  },
+  {
+    "Club":"Balbriggan",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 24/07/2014\n  Visitors can book tee times here http://www.brsgolf.com/balbriggan/opens_home.php"
+  },
+  {
+    "Club":"Royal Curragh",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 24/07/2014\n  6 Nett and 1 Gross Score qualify for Newbridge Silverware Grand Final on September 18th"
+  },
+  {
+    "Club":"Royal Curragh",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 24/07/2014\n  6 Nett and 1 Gross Score qualify for Newbridge Silverware Grand Final on September 18th"
+  },
+  {
+    "Club":"Ardee",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 24/07/2014"
+  },
+  {
+    "Club":"Co. Cavan",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 24/07/2014"
+  },
+  {
+    "Club":"Knock",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"Sterling 10",
+    "Info":"End Date: 24/07/2014"
+  },
+  {
+    "Club":"Ardee",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 24/07/2014"
+  },
+  {
+    "Club":"Cregmore Park",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 24/07/2014"
+  },
+  {
+    "Club":"Blarney",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 24/07/2014\n  brsgolf.com to book on line or call 0214516472"
+  },
+  {
+    "Club":"Glen of the Downs",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 24/07/2014\n  http://www.brsgolf.com/glenofthedowns/opens_home.php"
+  },
+  {
+    "Club":"Macroom",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 24/07/2014\n  Open Singles every Thursday and Friday unless course booked for classic or other events."
+  },
+  {
+    "Club":"Carlow",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 24/07/2014\n  Ladies & Gents Eligible  - See club website - Open Competitions - for online booking"
+  },
+  {
+    "Club":"Royal Curragh",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 24/07/2014\n  6 Nett and 1 Gross Score qualify for Newbridge Silverware Grand Final on September 18th"
+  },
+  {
+    "Club":"Malahide",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 24/07/2014\n  JUVENILE OPEN 8AM - 2PM\nAll bookings must be made on line and pre-paid via the Club's web site, namely www.malahidegolfclub.ie\nBookings must be made on line via the Clubs web site www.malahidegolfclub.ie"
+  },
+  {
+    "Club":"Balbriggan",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 24/07/2014\n  Visitors can book tee times here http://www.brsgolf.com/balbriggan/opens_home.php"
+  },
+  {
+    "Club":"Athenry",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 24/07/2014"
+  },
+  {
+    "Club":"Blarney",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 24/07/2014\n  brsgolf.com to book on line or call 0214516472"
+  },
+  {
+    "Club":"Blarney",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 24/07/2014\n  brsgolf.com to book on line or call 0214516472"
+  },
+  {
+    "Club":"Athenry",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 24/07/2014"
+  },
+  {
+    "Club":"Malahide",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"10",
+    "Info":"End Date: 24/07/2014\n  JUVENILE OPEN 8AM - 2PM\nAll bookings must be made on line and pre-paid via the Club's web site, namely www.malahidegolfclub.ie\nBookings must be made on line via the Clubs web site www.malahidegolfclub.ie"
+  },
+  {
+    "Club":"Balbriggan",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 24/07/2014\n  Visitors can book tee times here http://www.brsgolf.com/balbriggan/opens_home.php"
+  },
+  {
+    "Club":"Glen of the Downs",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"25",
+    "Info":"End Date: 24/07/2014\n  http://www.brsgolf.com/glenofthedowns/opens_home.php"
+  },
+  {
+    "Club":"Dungarvan",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"20",
+    "Info":"End Date: 24/07/2014\n  Open Gents Singles Stableford every Thursday 20 golf only or 25 golf and grill. Bookings available on www.dungarvangolfclub.com"
+  },
+  {
+    "Club":"Ardee",
+    "Format":"Stableford",
+    "Fixture":"Singles",
+    "Holes":18,
+    "Start Date":"24/07/2014",
+    "Cost":"15",
+    "Info":"End Date: 24/07/2014"
+  }
+]
