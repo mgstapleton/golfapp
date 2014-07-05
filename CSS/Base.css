@@ -19,6 +19,8 @@ header {
 	/*font-size: 2em;*/
 }
 
+#logo { text-align: center; }
+
 footer {
 	font-family: Garamond, "Times New Roman", serif;
 }
@@ -26,6 +28,7 @@ footer {
 img {
 	box-shadow: 0px 0px 50px white;
 	-webkit-box-shadow: 0px 0px 50px white; /* Safari & Chrome */
+    align="middle": 
 }
 
 .main {
