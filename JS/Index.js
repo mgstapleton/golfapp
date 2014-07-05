@@ -82,7 +82,7 @@ function addClub () {
 			$(newId + ">nav>img").attr("src", "images/" + item.image);
             //$(newId + ">nav>img#image").html(item.image);
 			$(newId + ">nav>p#address").html(item.address);
-            $(newId + ">nav>p#phone").html(item.phone);
+            $(newId + ">nav>p#phone").html("<a href=tel:" + item.phone + ">" + item.phone + "</a>");
 		});
 		$("#clubs").listview('refresh');
 		$("#clubs").trigger('create'); // TODO: Needed?
