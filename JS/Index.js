@@ -99,7 +99,8 @@ var insertIntoDB = function () {
 		  }
 		)
 	})
-     alert("table created");
+     $('.readyToGo').fadeIn(400).delay(3000).fadeOut(400);
+     console.log("table created");
 }
 
 // Save index of selected location
