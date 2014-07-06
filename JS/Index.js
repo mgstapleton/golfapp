@@ -8,7 +8,7 @@ $(document).ready(function () {
 	addClub();
 	createDb();
     $(logo).attr('align', 'absmiddle');
-
+    dateFormat();
 	bounds = new google.maps.LatLngBounds();
 
 	if (typeof jQuery === "undefined") {
@@ -91,6 +91,20 @@ function addClub () {
 	}
 };
 
+function dateFormat (){
+    var fullDate = new Date()
+    //Thu May 19 2011 17:25:38 GMT+1000 {}
+    //convert month to 2 digits
+    var twoDigitMonth = ((fullDate.getMonth().length+1) === 1) ?(fullDate.getMonth()+1) : '0' + (fullDate.getMonth()+1); 
+    var twoDigitDate = ((fullDate.getDate().length+1) === 1) ? (fullDate.getDate()) : '0' + (fullDate.getDate());
+    currentDate = twoDigitDate + "/" + twoDigitMonth + "/" + fullDate.getFullYear();
+    var tomorrowCalc = parseInt(twoDigitDate) + 1;
+        if (tomorrowCalc < 10) {tomorrowCalc = "0"+tomorrowCalc }
+            tomorrow = tomorrowCalc + "/" + twoDigitMonth + "/" + fullDate.getFullYear();
+    currentDateArit = fullDate.getFullYear() + twoDigitMonth + twoDigitDate;
+    tomorrowArit = parseInt(currentDateArit) + 1; 
+};
+
 var insertIntoDB = function () {
      console.log("insert called");
 	 db.transaction(function (tx) {
@@ -120,21 +134,19 @@ function searchResults() {
   return;
  }
  
-// this line clears out any content in the #lbUsers element on the page so that the next few lines will show updated
-// content and not just keep repeating lines
+// this line clears out any content in the #searchResult element on the page so that the next few lines will show updated content and not just keep repeating lines
  $('#searchResults').html('');
  
-// this next section will select all the content from the User table and then go through it row by row
-// appending the UserId  FirstName  LastName to the  #searchResults element on the page
+// this next section will select all the content from the comps table and then go through it row by row appending the selected cols to the  #searchResults element on the page
  db.transaction(function(transaction) {
-   transaction.executeSql('SELECT * FROM open_comps limit 10;', [],
+     console.log("currentD " + currentDate,currentDateArit,"tom " + tomorrow, tomorrowArit);
+   transaction.executeSql('SELECT * FROM open_comps where start_date in ("'+ tomorrow + '","' + currentDate + '") limit 40;', [],
      function(transaction, result) {
       if (result != null && result.rows != null) {
         for (var i = 0; i < result.rows.length; i++) {
           var row = result.rows.item(i);
-            line = row.club + ' ' + row.fixture+ ' ' + row.start_date + ' €' + row.cost;
+            line = row.club + ' ' + row.fixture+ ' ' + row.start_date + ' Cost: ' + row.cost;
             $("<li>").append(line).appendTo('#searchResults');
-        //  $('#searchResults').append('<br>' + row.club + ' ' + row.Fixture+ ' ' + row.Start_date + ' €' + row.Cost);
         }
       }
      },errorHandler);
@@ -145,7 +157,94 @@ function searchResults() {
  $("#searchResults").trigger('create');
 }
 
+function searchResultsTable() {
+    console.log("Table Called");
+    // clear div
+    $('#resultsTable').html('');
+    var myTableDiv = document.getElementById("resultsTable")
+    
+    var cols = getHeaders(fixtures);
+    
+     if (!window.openDatabase) {
+      alert('Databases are not supported in this browser.');
+      return;
+     }
+    
+     db.transaction(function(transaction) {
+        transaction.executeSql('SELECT * FROM open_comps where start_date in ("'+ tomorrow + '","' + currentDate + '") limit 40;', [],
+     function(transaction, result) {
+      if (result != null && result.rows != null) {
+        $('#resultsTable').html(createTable(result, cols));  
+//          var tr = document.createElement('TR');
+//            tableBody.appendChild(tr);
+//            for (i = 0; i < result.rows.length; i++) {
+//                var th = document.createElement('TH')
+//                th.width = '75';
+//                th.appendChild(document.createTextNode(result.row[i]));
+//                tr.appendChild(th);
+//            }
+//        for (var j = 0; j < 40; j++) {  //result.rows.length
+//            
+//            var row = result.rows.item(j);
+//            
+//            var tr = document.createElement('TR');
+//                for (k = 0; k < row.length; k++) { //row[k].length
+//                    console.log("rowLen" + row.length);
+//                    var td = document.createElement('TD')
+//                    td.appendChild(document.createTextNode(row[k]));
+//                    tr.appendChild(td)
+//    }
+//    tableBody.appendChild(tr);
+        }
+      },errorHandler);
+     },errorHandler,nullHandler);
+    
+    $("#resultsTable").table('refresh');
+    $("#resultsTable").trigger('create');
+ };
+// return;
+//};
 
+function getHeaders(obj) {
+        var cols = new Array();
+        var p = obj[0];
+        for (var key in p) {
+            //alert(' name=' + key + ' value=' + p[key]);
+            cols.push(key);
+        }
+    console.log(cols);
+        return cols;
+    };
+
+function createTable(result, cols) {
+    var table = document.createElement('TABLE')
+    var tableBody = document.createElement('TBODY')
+    table.border = '1'
+    table.appendChild(tableBody);
+    console.log("Table Created");
+    console.log(result.rows);
+        var table = $('<table border=1 data-role="table" data-mode="columntoggle" class="ui-responsive"></table>');
+        var th = $('<tr></tr>');
+        for (var i = 0; i < cols.length; i++) {
+            th.append('<th>' + cols[i] + '</th>');
+        }
+        table.append(th);
+    
+    for (var j = 0; j < 40; j++) {  //result.rows.length
+            
+            var row = result.rows.item(j);
+            
+            var tr = document.createElement('TR');
+                for (k = 0; k < row.length; k++) { //row[k].length
+                    console.log("rowLen" + row.length);
+                    var td = document.createElement('TD')
+                    td.appendChild(document.createTextNode(row[k]));
+                    tr.appendChild(td)
+    }
+    tableBody.appendChild(tr);
+    }
+    return table;
+};
 
 // Save index of selected location
 var locationClicked = function (locat) {
@@ -249,12 +348,21 @@ var locator = (function () {
 			alert("Can't get location - there is no local storage support on this browser.");
 		}
 	}
+    
+    var getFix = function () {
+		if (typeof(Storage) !== "undefined") {
+			return sessionStorage.fixtures;
+		} else {
+			alert("Can't get fixtures - there is no local storage support on this browser.");
+		}
+	}
 
 	return {
 		// Exposed functions
 		setLocation : setLoc,
-		getLocation : getLoc
+		getLocation : getLoc,
+        getFixtures : getFix
 	};
-
 }
+
 	());
