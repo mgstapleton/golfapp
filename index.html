@@ -18,7 +18,9 @@
 			<header data-role="header">
 				<h1>Golf Open Comps</h1>
 			</header>
-            <div class='readyToGo' style='display:none' style="text-align: center" style="width: 100%; height: 100%;"><h4>Lets Go!</h4></div>
+            <div class='readyToGo' style='display:none' style="text-align: center" style="width: 100%; height: 100%;"><h4>Lets Go!</h4>
+            </div>
+            <div><p id="geolocation">Finding geolocation...</p></div>
 			<div class="container_img" align="center"> 
                 <img id="logo" alt="We Love Golf" src="images/golf.jpg" width="250" height="201" >
             </div>
@@ -29,7 +31,7 @@
 					<ul id="clubs" data-role="listview" data-filter="true" data-filter-reveal="true" data-filter-placeholder="Search Golf Clubs" data-inset="true" data-autodividers="false"> </ul>
 			    	</div>
 			    <div data-role="collapsible" style="width: 100%; height: 100%;">
-					<h4>Open Competitions</h4>
+					<h4>Search Open Competitions</h4>
 					<form method="post" action="demoform.asp">
 					<div class="ui-field-contain">
 					<fieldset class="ui-field-contain">
@@ -43,12 +45,14 @@
 					    </select>
 					  </fieldset>
 					  <fieldset class="ui-field-contain">
-					    <label for="comptype">Select Competition Type</label>
+					    <label for="comptype">Select Competition Format</label>
 					    <select name="comptype" id="comptype">
                            <option value="All">All</option>
-					       <option value="Singles">Singles</option>
+					       <option value="Singles">Stableford</option>
 					       <option value="Team">Team Event</option>
-					       <option value="Scratch Cup">Scratch Cup</option>
+					       <option value="Intermediate">Intermediate Scratch Cup</option>
+					       <option value="Junior">Junior Scratch Cup</option>
+					       <option value="Senior">Senior Scratch Cup</option>
 					    </select>
 					  </fieldset>
   						<label for="switch">Flip toggle switch checkbox:</label>

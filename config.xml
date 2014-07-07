@@ -15,5 +15,5 @@
 
     <author href="https://www.google.com" >
     </author>
-
+    <plugin name="Geolocation" value="org.apache.cordova.GeoBroker" />
 </widget>
