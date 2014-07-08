@@ -28,6 +28,9 @@
 				<div data-role="collapsible" style="width: 100%; height: 100%;">
 					<h4>Golf Courses</h4>
 					<a href="#all_clubs_map_page" data-role="button">Show All Golf Clubs</a>
+                    <a href="#rad_map_page" data-role="button">Show All Golf Clubs within Radius</a>
+                    <label for="slider-1">Adjust Range:</label>
+                    <input type="range" name="rad-slider" id="rad-slider" value="60" min="0" max="1000" data-highlight="true">
 					<ul id="clubs" data-role="listview" data-filter="true" data-filter-reveal="true" data-filter-placeholder="Search Golf Clubs" data-inset="true" data-autodividers="false"> </ul>
 			    	</div>
 			    <div data-role="collapsible" style="width: 100%; height: 100%;">
@@ -122,6 +125,20 @@
 			</nav>
 			<footer data-role="footer" data-postion="fixed">
 				<h2>&copy; Golf Club</h2>
+			</footer>
+		</div>
+        		<!- Radius on Map page -->
+		<div id="rad_map_page" data-role="page" data-cache="false" style="width: 100%; height: 100%; position: relative;">
+			<header data-role="header">
+				<a data-role="button" data-rel="back" data-icon="back">Back</a>
+				<h1>Golf Clubs close by</h1>
+				<a href="#home_page" data-role="button" data-icon="home" data-iconpos="right">Home</a>
+			</header>
+			<nav data-role="content" style="width: 100%; height: 100%; padding: 0;">
+				<div id="map_canvas3" style="width: 100%; height: 500px;"> </div>
+			</nav>
+			<footer data-role="footer" data-postion="fixed">
+				<h2>&copy; Radius Page</h2>
 			</footer>
 		</div>
 		<script type="text/javascript" src="JS/Index.js"></script>

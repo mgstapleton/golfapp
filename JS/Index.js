@@ -5,6 +5,8 @@
 
 $(document).ready(function () {
     var locID = null;
+    var locID2 = null;
+    sessionStorage.clear;
     console.log("loaded index.js");
 	addClub();
 	createDb();
@@ -12,6 +14,8 @@ $(document).ready(function () {
     dateFormat();
 	bounds = new google.maps.LatLngBounds();
     locID = navigator.geolocation.getCurrentPosition(onSuccess, onError);
+    locID2 = navigator.geolocation.getCurrentPosition(getDistsFromPhone, onError);
+    //getDistsFromPhone(locID);
 	if (typeof jQuery === "undefined") {
 		alert("Jquery not present");
 	}
@@ -38,10 +42,14 @@ $(document).ready(function () {
 				map.setOptions(myOptions);
 			});
 			$(document).on("pageshow", "#all_clubs_map_page", function () {
-				console.log("map page show all resize triggered");
+				console.log("map page show all triggered");
 				showAllClubs();
-				//google.maps.event.trigger(mapAll, 'resize');
-				//mapAll.setOptions(myOptions);
+			});
+            $(document).on("pageshow", "#rad_map_page", function () {
+				console.log("rad map page triggered");
+                var radius = parseInt($("#rad-slider").val());
+                console.log("radius " + radius);
+				ShowClubsRad(radius);
 			});
 		//});
 	} ;
@@ -66,7 +74,7 @@ function addClub () {
 		console.log('jQuery Mobile not defined.');
 		for (inx = 0; inx < clubList.length; inx++) {
 			node = document.createElement("a");
-			document.getElementById("clubs").appendChild(document.createElement("li")).appendChild(node);
+            document.getElementById("clubs").appendChild(document.createElement("li")).appendChild(node);
 			node.setAttribute('href', 'HTML/Club.html');
 			node.setAttribute('onclick', 'locationClicked(' + inx + ')');
 			node.innerHTML = clubList[inx].club
@@ -176,26 +184,6 @@ function searchResultsTable() {
      function(transaction, result) {
       if (result != null && result.rows != null) {
         $('#resultsTable').html(createTable(result, cols));  
-//          var tr = document.createElement('TR');
-//            tableBody.appendChild(tr);
-//            for (i = 0; i < result.rows.length; i++) {
-//                var th = document.createElement('TH')
-//                th.width = '75';
-//                th.appendChild(document.createTextNode(result.row[i]));
-//                tr.appendChild(th);
-//            }
-//        for (var j = 0; j < 40; j++) {  //result.rows.length
-//            
-//            var row = result.rows.item(j);
-//            
-//            var tr = document.createElement('TR');
-//                for (k = 0; k < row.length; k++) { //row[k].length
-//                    console.log("rowLen" + row.length);
-//                    var td = document.createElement('TD')
-//                    td.appendChild(document.createTextNode(row[k]));
-//                    tr.appendChild(td)
-//    }
-//    tableBody.appendChild(tr);
         }
       },errorHandler);
      },errorHandler,nullHandler);
@@ -247,6 +235,37 @@ function createTable(result, cols) {
     return table;
 };
 
+function getDistsFromPhone(position){
+    clubDists = {};
+    $.each(clubList, function (i, item) {
+        var lat2=item.location.lat;
+        var lon2=item.location.lon;
+        var dist1=getDistanceFromLatLonInKm(position.coords.latitude,position.coords.longitude,lat2,lon2);
+        clubDists[item.club]=dist1;
+        sessionStorage.setItem(item.club,dist1);
+    });
+    
+}
+
+function getDistanceFromLatLonInKm(lat1,lon1,lat2,lon2) {
+  var R = 6371; // Radius of the earth in km
+  var dLat = deg2rad(lat2-lat1);  // deg2rad below
+  var dLon = deg2rad(lon2-lon1); 
+  var a = 
+    Math.sin(dLat/2) * Math.sin(dLat/2) +
+    Math.cos(deg2rad(lat1)) * Math.cos(deg2rad(lat2)) * 
+    Math.sin(dLon/2) * Math.sin(dLon/2)
+    ; 
+  var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
+  var d = R * c; // Distance in km
+  var dist = d.toFixed(2);
+  return dist;
+}
+
+function deg2rad(deg) {
+  return deg * (Math.PI/180)
+}
+
 // Save index of selected location
 var locationClicked = function (locat) {
 	(locat !== "") ? locator.setLocation(locat) : locator.setLocation("blank");
@@ -288,10 +307,38 @@ var getMap = function () {
 		});
 };
 
+function ShowClubsRad(radius){
+    var distance;
+    console.log("showClubsRad triggered");
+    var bounds = new google.maps.LatLngBounds();
+	var myOptions = {
+		zoom : 6,
+		mapTypeId : google.maps.MapTypeId.ROADMAP
+	}
+	mapRad = new google.maps.Map(document.getElementById("map_canvas3"), myOptions);
+    var infoWindow = new google.maps.InfoWindow(), marker,i;
+    $.each(clubList, function (i, gc) {
+    distance = sessionStorage.getItem(gc.club);
+    //if distance less than radius show marker on map
+    if (distance < radius){
+        var position = new google.maps.LatLng(gc.location.lat, gc.location.lon);
+        var radMarker = new google.maps.Marker({
+				position : position,
+				map : mapRad,
+				title : gc.club+ " GC " + distance + "km away"
+			});
+        bounds.extend(position);
+        var infoText = gc.club + " GC\n" + distance + "km away";
+        bindInfoWindow(radMarker, mapRad, infoWindow, infoText);
+    } 
+});
+    mapRad.fitBounds(bounds);
+}
+
 var showAllClubs = function () {
 	console.log("showAllClubs triggered from document");
 	var bounds = new google.maps.LatLngBounds();
-	myOptions = {
+	var myOptions = {
 		zoom : 7,
 		mapTypeId : google.maps.MapTypeId.ROADMAP
 	}
@@ -304,14 +351,15 @@ var showAllClubs = function () {
 		var club1 = clubList[locator.getLocation()];
 		var position = new google.maps.LatLng(club1.location.lat, club1.location.lon);
 		bounds.extend(position);
-		marker = new google.maps.Marker({
+		var marker = new google.maps.Marker({
 				position : position,
 				map : mapAll,
 				title : club1.club + " Golf Club"
 			});
         
 		// Allow each marker to have an info window
-        bindInfoWindow(marker, mapAll, infoWindow, club1.club);
+        var infoText=club1.club + " Golf Club";
+        bindInfoWindow(marker, mapAll, infoWindow, infoText);
 
 		// Automatically center the map fitting all markers on the screen
 		mapAll.fitBounds(bounds);
@@ -326,7 +374,7 @@ var showAllClubs = function () {
 
 function bindInfoWindow(marker, map, infowindow, strDescription) {
     google.maps.event.addListener(marker, 'click', function() {
-        infowindow.setContent(strDescription + " Golf Club");
+        infowindow.setContent(strDescription);
         infowindow.open(map, marker);
     });
 }
@@ -337,10 +385,11 @@ function onSuccess(position) {
                             'Longitude: '          + position.coords.longitude             + '<br />' +
                             'Altitude: '           + position.coords.altitude              + '<br />' +
                             'Accuracy: '           + position.coords.accuracy              + '<br />' +
-                            'Altitude Accuracy: '  + position.coords.altitudeAccuracy      + '<br />' +
-                            'Heading: '            + position.coords.heading               + '<br />' +
-                            'Speed: '              + position.coords.speed                 + '<br />' +
-                            'Timestamp: '          +                                   position.timestamp          + '<br />';
+                    //        'Altitude Accuracy: '  + position.coords.altitudeAccuracy      + '<br />' +
+                    //        'Heading: '            + position.coords.heading               + '<br />' +
+                            'Speed: '              + position.coords.speed                 + '<br />' 
+                    //      +  'Timestamp: '          + position.timestamp          + '<br />'
+            ;
     }
 
     // onError Callback receives a PositionError object
@@ -361,7 +410,7 @@ var locator = (function () {
 		}
 	}
 
-	var getLoc = function () {
+var getLoc = function () {
 		if (typeof(Storage) !== "undefined") {
 			return sessionStorage.location;
 		} else {
@@ -369,7 +418,7 @@ var locator = (function () {
 		}
 	}
     
-    var getFix = function () {
+var getFix = function () {
 		if (typeof(Storage) !== "undefined") {
 			return sessionStorage.fixtures;
 		} else {
