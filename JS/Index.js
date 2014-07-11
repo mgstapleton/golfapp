@@ -9,13 +9,17 @@ $(document).ready(function () {
     sessionStorage.clear;
     console.log("loaded index.js");
 	addClub();
-	createDb();
+    //var firstrun = localStorage.getItem("runned");
+    //if (firstrun === null){
+        createDb();
+    //    var j = localStorage.setItem("runned", "1");
+    //};
     $(logo).attr('align', 'absmiddle');
     dateFormat();
 	bounds = new google.maps.LatLngBounds();
     locID = navigator.geolocation.getCurrentPosition(onSuccess, onError);
     locID2 = navigator.geolocation.getCurrentPosition(getDistsFromPhone, onError);
-    //getDistsFromPhone(locID);
+    
 	if (typeof jQuery === "undefined") {
 		alert("Jquery not present");
 	}
@@ -51,10 +55,20 @@ $(document).ready(function () {
                 console.log("radius " + radius);
 				ShowClubsRad(radius);
 			});
+            $("#rad-slider").change(function() {
+                var slider_value = $("#rad-slider").val();
+                var slider_value_days = $("#rad-slider-days").val();
+                $("#AllGolfClubRadButn").html("Show Clubs within " + slider_value + " km");
+                $("#ListOpens").html("Show Open Competitions within " + slider_value + " km in the next " + slider_value_days + " days")
+            });
+            $("#rad-slider-days").change(function() {
+                var slider_value = $("#rad-slider").val();
+                var slider_value_days = $("#rad-slider-days").val();
+                $("#ListOpens").html("Show Open Competitions within " + slider_value + " km in the next " + slider_value_days + " days")
+            });
 		//});
 	} ;
 });
-
 
 function createDb () {
 	db = null;
@@ -62,7 +76,35 @@ function createDb () {
 	db = window.openDatabase("golfapp_db", "1.0", "golfapp", 1000000);
 	console.log("Database created");
 	insertIntoDB();
-	// });
+}
+
+var insertIntoDB = function () {
+     console.log("insert called");
+	 db.transaction(function (tx) {
+		tx.executeSql('DROP TABLE IF EXISTS open_comps');
+		tx.executeSql('CREATE TABLE IF NOT EXISTS open_comps (club , format, fixture, holes, start_date, cost, info)');
+		$.each(fixtures, function (i, comp) {
+			tx.executeSql('INSERT INTO open_comps (club, format, fixture, holes, start_date, cost, info) VALUES (?, ?, ?, ?, ?, ?, ?)', [comp.Club, comp.Format, comp.Fixture, comp.Holes, comp.Start_date, comp.Cost, comp.Info]);
+		  }
+		)
+	})
+     $('.readyToGo').fadeIn(400).delay(2000).fadeOut(400);
+     console.log("table created");
+}
+
+// to be completed to update the DB with new fixtures
+var updateDB = function () {
+     console.log("update called");
+	 db.transaction(function (tx) {
+		tx.executeSql('DROP TABLE IF EXISTS open_comps');
+		tx.executeSql('CREATE TABLE IF NOT EXISTS open_comps (club , format, fixture, holes, start_date, cost, info)');
+		$.each(fixtures, function (i, comp) {
+			tx.executeSql('INSERT INTO open_comps (club, format, fixture, holes, start_date, cost, info) VALUES (?, ?, ?, ?, ?, ?, ?)', [comp.Club, comp.Format, comp.Fixture, comp.Holes, comp.Start_date, comp.Cost, comp.Info]);
+		  }
+		)
+	})
+     $('.readyToGo').fadeIn(400).delay(2000).fadeOut(400);
+     console.log("table created");
 }
 
 // Populate index page list with golf club locations
@@ -104,29 +146,31 @@ function dateFormat (){
     var fullDate = new Date()
     //Thu May 19 2011 17:25:38 GMT+1000 {}
     //convert month to 2 digits
-    var twoDigitMonth = ((fullDate.getMonth().length+1) === 1) ?(fullDate.getMonth()+1) : '0' + (fullDate.getMonth()+1); 
-    var twoDigitDate = ((fullDate.getDate().length+1) === 1) ? (fullDate.getDate()) : '0' + (fullDate.getDate());
+    var twoDigitMonth = ((fullDate.getMonth().length+1) === 1) ?(fullDate.getMonth()+1) : '0' + (fullDate.getMonth()+1);
+    console.log("Current Date " + fullDate.getDate());
+    var day = fullDate.getDate();
+    var dayString=day.toString();
+    var twoDigitDate = day;
+    if (day<10){twoDigitDate = "0"+day};
+    //var twoDigitDate = ((fullDate.getDate().length+1) === 2) ? (fullDate.getDate()) : '0' + (fullDate.getDate());
     currentDate = twoDigitDate + "/" + twoDigitMonth + "/" + fullDate.getFullYear();
-    var tomorrowCalc = parseInt(twoDigitDate) + 1;
-        if (tomorrowCalc < 10) {tomorrowCalc = "0"+tomorrowCalc }
-            tomorrow = tomorrowCalc + "/" + twoDigitMonth + "/" + fullDate.getFullYear();
-    currentDateArit = fullDate.getFullYear() + twoDigitMonth + twoDigitDate;
-    tomorrowArit = parseInt(currentDateArit) + 1; 
+    console.log(currentDate);
+    
+    days = parseInt($("#rad-slider-days").val());
+    for (var i = 1; i <= days; i++) {
+        var nextDay = new Date();
+        nextDay.setDate(fullDate.getDate() + i);
+        var twoDigitMonthi = ((nextDay.getMonth().length+1) === 1) ?(nextDay.getMonth()+1) : '0' + (nextDay.getMonth()+1);
+        var dayi = nextDay.getDate();
+        //parseInt(dayi);
+        console.log(dayi);
+        var twoDigitDatei = dayi;
+        if (dayi<10){twoDigitDatei = "0"+dayi};
+        var datei = twoDigitDatei + "/" + twoDigitMonthi + "/" + nextDay.getFullYear();
+        sessionStorage.setItem("day" + i, datei)
+        console.log(datei);
+    }        
 };
-
-var insertIntoDB = function () {
-     console.log("insert called");
-	 db.transaction(function (tx) {
-		tx.executeSql('DROP TABLE IF EXISTS open_comps');
-		tx.executeSql('CREATE TABLE IF NOT EXISTS open_comps (club , format, fixture, holes, start_date, cost, info)');
-		$.each(fixtures, function (i, comp) {
-			tx.executeSql('INSERT INTO open_comps (club , format, fixture, holes, start_date, cost, info) VALUES (?, ?, ?, ?, ?, ?, ?)', [comp.Club, comp.Format, comp.Fixture, comp.Holes, comp.Start_date, comp.Cost, comp.Info]);
-		  }
-		)
-	})
-     $('.readyToGo').fadeIn(400).delay(2000).fadeOut(400);
-     console.log("table created");
-}
 
 // this is called when an error happens in a transaction
 function errorHandler(transaction, error) {
@@ -137,6 +181,11 @@ function errorHandler(transaction, error) {
 function nullHandler(){};
 
 function searchResults() {
+    var datesList = '\"' + currentDate + '\"';
+    for (var i = 1; i <= days; i++) {
+        var nextday = sessionStorage.getItem("day"+i);
+        datesList = datesList + "," + '\"' + nextday + '\"';
+    }
  var line;
  if (!window.openDatabase) {
   alert('Databases are not supported in this browser.');
@@ -145,17 +194,21 @@ function searchResults() {
  
 // this line clears out any content in the #searchResult element on the page so that the next few lines will show updated content and not just keep repeating lines
  $('#searchResults').html('');
- 
+ var radius = parseInt($("#rad-slider").val())
 // this next section will select all the content from the comps table and then go through it row by row appending the selected cols to the  #searchResults element on the page
  db.transaction(function(transaction) {
-     console.log("currentD " + currentDate,currentDateArit,"tom " + tomorrow, tomorrowArit);
-   transaction.executeSql('SELECT * FROM open_comps where start_date in ("'+ tomorrow + '","' + currentDate + '") limit 40;', [],
+     console.log("dates = " + datesList);
+     transaction.executeSql('SELECT * FROM open_comps where start_date in (' + datesList + ');', [],
      function(transaction, result) {
       if (result != null && result.rows != null) {
         for (var i = 0; i < result.rows.length; i++) {
           var row = result.rows.item(i);
-            line = row.club + ' ' + row.fixture+ ' ' + row.start_date + ' Cost: ' + row.cost;
+            var distance = sessionStorage.getItem(row.club);
+            console.log("Club is " + row.club);
+            if (distance < radius){
+            line = row.club + ' ' + row.fixture+ ' ' + row.start_date + ' Cost: €' + row.cost;
             $("<li>").append(line).appendTo('#searchResults');
+            }
         }
       }
      },errorHandler);
@@ -180,7 +233,7 @@ function searchResultsTable() {
      }
     
      db.transaction(function(transaction) {
-        transaction.executeSql('SELECT * FROM open_comps where start_date in ("'+ tomorrow + '","' + currentDate + '") limit 40;', [],
+        transaction.executeSql('SELECT * FROM open_comps where start_date in ("'+ tomorrow + '","' + currentDate + '");', [],
      function(transaction, result) {
       if (result != null && result.rows != null) {
         $('#resultsTable').html(createTable(result, cols));  

@@ -1,13 +1,13 @@
 <!DOCTYPE html> 
 <html> 
 	<head> 
-	<title>My Page</title> 
+	<title>Golfapp</title> 
 	<meta name="viewport" content="width=device-width, initial-scale=1"> 
 	<link rel="stylesheet" href="CSS/jquery.mobile-1.4.3.min.css" />
-	<script src="JS/jquery-1.11.1.min.js"></script>
+    <script src="JS/jquery-1.11.1.min.js"></script>
 	<script src="JS/jquery.mobile-1.4.3.min.js"></script>
     <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?&sensor=true"></script>
-</head> 
+    </head> 
 <body> 
 
 	<body id="body_page" style="width: 100%; height: 100%;">
@@ -20,66 +20,41 @@
 			</header>
             <div class='readyToGo' style='display:none' style="text-align: center" style="width: 100%; height: 100%;"><h4>Lets Go!</h4>
             </div>
-            <div><p id="geolocation">Finding geolocation...</p></div>
+            <div><p id="geolocation"></p></div>
 			<div class="container_img" align="center"> 
                 <img id="logo" alt="We Love Golf" src="images/golf.jpg" width="250" height="201" >
             </div>
             <nav class="main" data-role="content">
+                <div >                    
+                    <label for="slider-1">Adjust Range:</label>
+                    <input type="range" name="rad-slider" id="rad-slider" value="60" min="0" max="400" data-highlight="true">
+                </div>
 				<div data-role="collapsible" style="width: 100%; height: 100%;">
 					<h4>Golf Courses</h4>
 					<a href="#all_clubs_map_page" data-role="button">Show All Golf Clubs</a>
-                    
-                    <label for="slider-1">Adjust Range:</label>
-                    <input type="range" name="rad-slider" id="rad-slider" value="60" min="0" max="400" data-highlight="true">
-                    <a href="#rad_map_page" data-role="button">Show All Golf Clubs within Radius</a>
+                    <a href="#rad_map_page" data-role="button" id="AllGolfClubRadButn">Golf Club Search</a>
 					<ul id="clubs" data-role="listview" data-filter="true" data-filter-reveal="true" data-filter-placeholder="Search Golf Clubs" data-inset="true" data-autodividers="false"> </ul>
-			    	</div>
+			     </div>
+                
 			    <div data-role="collapsible" style="width: 100%; height: 100%;">
 					<h4>Search Open Competitions</h4>
-					<form method="post" action="demoform.asp">
-					<div class="ui-field-contain">
-					<fieldset class="ui-field-contain">
-					    <label for="province">Select Province</label>
-					    <select name="province" id="province">
-                          <option value="all">All</option>
-					      <option value="Leinster">Leinster</option>
-					      <option value="Munster">Munster</option>
-					      <option value="Connacht">Connacht</option>
-					      <option value="Ulster">Ulster</option>
-					    </select>
-					  </fieldset>
-					  <fieldset class="ui-field-contain">
-					    <label for="comptype">Select Competition Format</label>
-					    <select name="comptype" id="comptype">
-                           <option value="All">All</option>
-					       <option value="Singles">Stableford</option>
-					       <option value="Team">Team Event</option>
-					       <option value="Intermediate">Intermediate Scratch Cup</option>
-					       <option value="Junior">Junior Scratch Cup</option>
-					       <option value="Senior">Senior Scratch Cup</option>
-					    </select>
-					  </fieldset>
-  						<label for="switch">Flip toggle switch checkbox:</label>
-    						<input type="checkbox" data-role="flipswitch" name="switch" id="switch">
-    						<input type="reset" value="Reset Button">
-						<input type="submit" value="Submit Button ">
-					</div>
-					</form>
-				</div>
-                <div style="width: 100%; height: 100%;">
-                    <button onclick="searchResults();">List Today and Tomorrows Opens</button>
-                    <button onclick="searchResultsTable();">Table Today and Tomorrows Opens</button>
-                    <div id="resultsTable">
-    
-                    </div>
-<!--                    <table data-role="table" data-mode="columntoggle" class="ui-responsive" id="resultsTable">-->
+                    <label for="slider-1">Adjust Date Range:</label>
+                    <input type="range" name="rad-slider" id="rad-slider-days" value="4" min="0" max="10" data-highlight="true">
+                    <button onclick="searchResults();" id="ListOpens">Search Open Comps</button>
+                    <div>
                     <span style="font-weight:bold;">Search Results:</span>
                     <ul data-role="listview" id="searchResults" data-theme="c" data-filter="false" data-inset="true" data-filter-reveal="false" data-filter-placeholder="Search Results" ></ul>
-            </div>
+                    </div>
+				</div>
+                
+                <div style="width: 100%; height: 100%;">
+                    <button onclick="searchResultsTable();">Table Today and Tomorrows Opens</button>
+                <div id="resultsTable">
+    
 			</nav>
             
 			<footer data-role="footer" data-postion="fixed" >
-				<h2>&copy; Copyright by MS</h2>
+				<h2>&copy; Copyright Golfapp</h2>
 			</footer>
 		</div>
 		
@@ -142,6 +117,8 @@
 				<h2>&copy; Radius Page</h2>
 			</footer>
 		</div>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+               
 		<script type="text/javascript" src="JS/Index.js"></script>
 		<script type="text/javascript" src="JS/Golf_Clubs.json"></script>
 		<script type="text/javascript" src="JS/julyfixtures.json"></script>

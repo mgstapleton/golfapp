@@ -1620,10 +1620,10 @@ clubList = [{
    },
   {
     club:'Killarney',
-    location: {lat: 53.176792, lon: -6.095417},
-    address: ' address',
-    phone: '045 12345 ', 
-    image: 'clonmel.jpg',
+    location: {lat: 52.060646, lon: -9.563304},
+    address: 'Mahonys Point, Killarney, Co. Kerry, Ireland',
+    phone: '+353 64 663 1034', 
+    image: 'killarney.jpg',
    },
   {
     club:'Killeen',
