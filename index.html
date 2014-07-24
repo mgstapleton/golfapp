@@ -24,7 +24,7 @@
 			<div class="container_img" align="center"> 
                 <img id="logo" alt="We Love Golf" src="images/golf.jpg" width="250" height="201" >
             </div>
-            <nav class="main" data-role="content">
+            <div class="ui-content" role="main">
                 <div >                    
                     <label for="slider-1">Adjust Range:</label>
                     <input type="range" name="rad-slider" id="rad-slider" value="60" min="0" max="400" data-highlight="true">
@@ -32,26 +32,31 @@
 				<div data-role="collapsible" style="width: 100%; height: 100%;">
 					<h4>Golf Courses</h4>
 					<a href="#all_clubs_map_page" data-role="button">Show All Golf Clubs</a>
-                    <a href="#rad_map_page" data-role="button" id="AllGolfClubRadButn">Golf Club Search</a>
+                    <a href="#rad_map_page" data-role="button" id="AllGolfClubRadButn">Local Golf Clubs</a><br>
 					<ul id="clubs" data-role="listview" data-filter="true" data-filter-reveal="true" data-filter-placeholder="Search Golf Clubs" data-inset="true" data-autodividers="false"> </ul>
 			     </div>
                 
 			    <div data-role="collapsible" style="width: 100%; height: 100%;">
 					<h4>Search Open Competitions</h4>
+                    <div>
                     <label for="slider-1">Adjust Date Range:</label>
                     <input type="range" name="rad-slider" id="rad-slider-days" value="4" min="0" max="10" data-highlight="true">
                     <button onclick="searchResults();" id="ListOpens">Search Open Comps</button>
+                    <span><br></span>
+                    </div>
                     <div>
-                    <span style="font-weight:bold;">Search Results:</span>
-                    <ul data-role="listview" id="searchResults" data-theme="c" data-filter="false" data-inset="true" data-filter-reveal="false" data-filter-placeholder="Search Results" ></ul>
+                    <ul data-role="listview" id="searchResults"></ul>
                     </div>
 				</div>
                 
+<!--                    <span style="font-weight:bold;">Search Results:<br></span>-->
+<!--
                 <div style="width: 100%; height: 100%;">
                     <button onclick="searchResultsTable();">Table Today and Tomorrows Opens</button>
                 <div id="resultsTable">
+-->
     
-			</nav>
+			</div>
             
 			<footer data-role="footer" data-postion="fixed" >
 				<h2>&copy; Copyright Golfapp</h2>
@@ -69,6 +74,7 @@
 				<img id="image" src="" width="300" height="120" />
 				<p id="address"> </p>
                 <p id="phone"></p>
+                <a class="website_button" data-role="button" id="website" data-theme="b">Visit website</a>
 				<a class="map_button" href="#map_page" data-role="button" data-icon="search" data-theme="b">Map Course</a>
 			</nav>
 			<footer data-role="footer" data-postion="fixed">

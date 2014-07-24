@@ -124,18 +124,21 @@ function addClub () {
 	} else {
 		// Iterate through list of clubs
 		$.each(clubList, function (i, item) {
-			newId = '#' + item.club.split(" ").join('_');
+            var clubName = item.club.split(" ").join('_')
+			newId = '#' + clubName ;
 			// Populate list of clubs
-			newLink = $("<a>").text(item.club).attr("href", newId).attr("onclick", 'locationClicked(' + i + ')');
+			var newLink = $("<a>").text(item.club).attr("href", newId).attr("onclick", 'locationClicked(' + i + ')');
+            //localStorage.setItem(clubName + "_link",JSON.stringify(newLink));
 			$("<li>").append(newLink).appendTo('#clubs');
             
 			newPage = $("#sub_page").clone().attr("id", item.club.split(" ").join('_')).appendTo("body");
 			// Clone template page and populate with club details
 			$(newId + ">header>h1").html(item.club);
-			$(newId + ">nav>img").attr("src", "images/" + item.image);
+			$(newId + ">nav>img").attr("src", item.image);
             //$(newId + ">nav>img#image").html(item.image);
 			$(newId + ">nav>p#address").html(item.address);
             $(newId + ">nav>p#phone").html("<a href=tel:" + item.phone + ">" + item.phone + "</a>");
+            $(newId + ">nav>a#website").attr("href", item.website).attr("alt", item.website);
 		});
 		$("#clubs").listview('refresh');
 		$("#clubs").trigger('create'); // TODO: Needed?
@@ -206,17 +209,20 @@ function searchResults() {
             var distance = sessionStorage.getItem(row.club);
             console.log("Club is " + row.club);
             if (distance < radius){
-            line = row.club + ' ' + row.fixture+ ' ' + row.start_date + ' Cost: €' + row.cost;
-            $("<li>").append(line).appendTo('#searchResults');
+            //var link = JSON.parse(localStorage.getItem(row.club.split(" ").join('_') + "_link"));
+            line = '<a href=index.html#' + row.club.split(" ").join('_') + '> '+ row.club +'</a> Fixture type: ' + row.fixture + '<br>Start Date: ' + row.start_date + '<br> Cost: €' + row.cost;
+//            var newComp = '<li>'+line+'</li>';
+                $("<li>").attr('class','ui-first-child ui-last-child').append(line).appendTo('#searchResults');
+//               $("<li>").append(line).appendTo('#searchResults');
             }
         }
+          $("#searchResults").listview('refresh');
+          console.log("Refreshing listview search");     
+          $("#searchResults").trigger('create');
       }
      },errorHandler);
  },errorHandler,nullHandler);
- 
- return;
- $("#searchResults").listview('refresh');
- $("#searchResults").trigger('create');
+ //return;
 }
 
 function searchResultsTable() {
