@@ -210,7 +210,7 @@ function searchResults() {
             console.log("Club is " + row.club);
             if (distance < radius){
             //var link = JSON.parse(localStorage.getItem(row.club.split(" ").join('_') + "_link"));
-            line = '<a href=index.html#' + row.club.split(" ").join('_') + '> '+ row.club +'</a> Fixture type: ' + row.fixture + '<br>Start Date: ' + row.start_date + '<br> Cost: €' + row.cost;
+            line = '<a href=index.html#' + row.club.split(" ").join('_') + '> '+ row.club +' <p><strong>Fixture type:</strong> ' + row.fixture + '  <strong>    Start Date: </strong>' + row.start_date + '    <strong>    Cost: </strong>' + row.cost + '</p></a>';
 //            var newComp = '<li>'+line+'</li>';
                 $("<li>").attr('class','ui-first-child ui-last-child').append(line).appendTo('#searchResults');
 //               $("<li>").append(line).appendTo('#searchResults');
