@@ -134,7 +134,7 @@ function addClub () {
             //$(newId + ">nav>img#image").html(item.image);
 			$(newId + ">nav>p#address").html(item.address);
             var distance = parseInt(sessionStorage.getItem(item.club));
-			$(newId + ">nav>p#dist").html(distance + "km");
+			$(newId + ">nav>p#dist").html(distance + "km away");
             $(newId + ">nav>p#phone").html("<a href=tel:" + item.phone + ">" + item.phone + "</a>");
             $(newId + ">nav>a#website").attr("href", item.website).attr("alt", item.website);
             if (item.opensite !== 'none'){
@@ -189,7 +189,7 @@ function getList(newId,clubReturn){
                         for (var i = 0; i < results.rows.length; i++) {
                           var row = results.rows.item(i);
                             console.log("Club is " + row.club);
-                            var line = '<li><strong>Fixture type:</strong> ' + row.fixture + '<strong>   Start Date: </strong>' + 
+                            var line = '<li><strong>Fixture type:</strong> ' + row.fixture + '<br><strong>   Start Date: </strong>' + 
                                     row.start_date + '<strong>    Cost: </strong>' + row.cost + '</li>';
                             listgroup+=line;
                              console.log("litem:" + listgroup);
