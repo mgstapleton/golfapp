@@ -131,7 +131,6 @@ function addClub () {
 			// Clone template page and populate with club details
 			$(newId + ">header>h1").html(item.club);
 			$(newId + ">nav>img").attr("src", item.image).attr("align","centre");
-            //$(newId + ">nav>img#image").html(item.image);
 			$(newId + ">nav>p#address").html(item.address);
             var distance = parseInt(sessionStorage.getItem(item.club));
 			$(newId + ">nav>p#dist").html(distance + "km away");
@@ -145,30 +144,8 @@ function addClub () {
                 $(newId + ">nav>a#opensite").hide()
             }
             
-            // Populate list items with open competitions form each club
-            var clubName = item.club.replace(/"/g, "");
-            
-            
-//            db.transaction(queryDB);
-//            
-//            function querySuccess(transcation, results){
-//                var len = results.rows.length;
-//                console.log("length " + len);
-//                    if (results != null && results.rows != null) {
-//                        for (var i = 0; i < results.rows.length; i++) {
-//                        var row = results.rows.item(i);
-//                        console.log("Club is " + row.club);
-//                        var line = '<li><strong>Fixture type:</strong> ' + row.fixture + '<strong>   Start Date: </strong>' + 
-//                                    row.start_date + '<strong>    Cost: </strong>' + row.cost + '</li>';
-//                        listgroup+=line; 
-//                        return listgroup;
-//                    }
-//                    $(newId + ">nav>ul#localComps1").html(item.club);
-//                    console.log("litem:" + listgroup);
-//                    $(newId + ">nav>ul#localComps").html(listgroup);
-//                }
-//                };
-             clubReturn = item.club;
+            // Populate list items with open competitions form each club 
+             clubReturn = item.club.replace(/"/g, "");
              getList(newId,clubReturn);       
 		});
 	}
