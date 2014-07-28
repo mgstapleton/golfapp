@@ -8,12 +8,8 @@ $(document).ready(function () {
     var locID2 = null;
     sessionStorage.clear;
     console.log("loaded index.js");
+    createDb();
 	addClub();
-    //var firstrun = localStorage.getItem("runned");
-    //if (firstrun === null){
-        createDb();
-    //    var j = localStorage.setItem("runned", "1");
-    //};
     $(logo).attr('align', 'absmiddle');
     dateFormat();
 	bounds = new google.maps.LatLngBounds();
@@ -87,7 +83,7 @@ var insertIntoDB = function () {
 			tx.executeSql('INSERT INTO open_comps (club, format, fixture, holes, start_date, cost, info) VALUES (?, ?, ?, ?, ?, ?, ?)', [comp.Club, comp.Format, comp.Fixture, comp.Holes, comp.Start_date, comp.Cost, comp.Info]);
 		  }
 		)
-	})
+	},errorCB, successCB)
      $('.readyToGo').fadeIn(400).delay(2000).fadeOut(400);
      console.log("table created");
 }
@@ -102,7 +98,7 @@ var updateDB = function () {
 			tx.executeSql('INSERT INTO open_comps (club, format, fixture, holes, start_date, cost, info) VALUES (?, ?, ?, ?, ?, ?, ?)', [comp.Club, comp.Format, comp.Fixture, comp.Holes, comp.Start_date, comp.Cost, comp.Info]);
 		  }
 		)
-	})
+	},errorCB, successCB)
      $('.readyToGo').fadeIn(400).delay(2000).fadeOut(400);
      console.log("table created");
 }
@@ -124,40 +120,135 @@ function addClub () {
 	} else {
 		// Iterate through list of clubs
 		$.each(clubList, function (i, item) {
-            var clubName = item.club.split(" ").join('_')
+            var clubName = item.club.split(" ").join('_');
 			newId = '#' + clubName ;
 			// Populate list of clubs
 			var newLink = $("<a>").text(item.club).attr("href", newId).attr("onclick", 'locationClicked(' + i + ')');
-            //localStorage.setItem(clubName + "_link",JSON.stringify(newLink));
+            
 			$("<li>").append(newLink).appendTo('#clubs');
             
 			newPage = $("#sub_page").clone().attr("id", item.club.split(" ").join('_')).appendTo("body");
 			// Clone template page and populate with club details
 			$(newId + ">header>h1").html(item.club);
-			$(newId + ">nav>img").attr("src", item.image);
+			$(newId + ">nav>img").attr("src", item.image).attr("align","centre");
             //$(newId + ">nav>img#image").html(item.image);
 			$(newId + ">nav>p#address").html(item.address);
+            var distance = parseInt(sessionStorage.getItem(item.club));
+			$(newId + ">nav>p#dist").html(distance + "km");
             $(newId + ">nav>p#phone").html("<a href=tel:" + item.phone + ">" + item.phone + "</a>");
             $(newId + ">nav>a#website").attr("href", item.website).attr("alt", item.website);
+            if (item.opensite !== 'none'){
+            $(newId + ">nav>a#opensite").attr("href", item.opensite).attr("alt", item.opensite).html("Book Open Comp");
+            }
+            else
+            {
+                $(newId + ">nav>a#opensite").hide()
+            }
+            
+            // Populate list items with open competitions form each club
+            var clubName = item.club.replace(/"/g, "");
+            
+            
+//            db.transaction(queryDB);
+//            
+//            function querySuccess(transcation, results){
+//                var len = results.rows.length;
+//                console.log("length " + len);
+//                    if (results != null && results.rows != null) {
+//                        for (var i = 0; i < results.rows.length; i++) {
+//                        var row = results.rows.item(i);
+//                        console.log("Club is " + row.club);
+//                        var line = '<li><strong>Fixture type:</strong> ' + row.fixture + '<strong>   Start Date: </strong>' + 
+//                                    row.start_date + '<strong>    Cost: </strong>' + row.cost + '</li>';
+//                        listgroup+=line; 
+//                        return listgroup;
+//                    }
+//                    $(newId + ">nav>ul#localComps1").html(item.club);
+//                    console.log("litem:" + listgroup);
+//                    $(newId + ">nav>ul#localComps").html(listgroup);
+//                }
+//                };
+             clubReturn = item.club;
+             getList(newId,clubReturn);       
 		});
-		$("#clubs").listview('refresh');
-		$("#clubs").trigger('create'); // TODO: Needed?
 	}
 };
+
+function getList(newId,clubReturn){
+     console.log("club is:" + clubReturn + newId);
+     var listgroup = "";
+     db.transaction(
+         function(transaction) {
+            transaction.executeSql(
+                'SELECT * FROM open_comps where club = "' + clubReturn +'"', 
+                [],
+                function(transaction, results) {
+                    var len = results.rows.length;
+                    console.log("len" + len);
+                    if (results != null && results.rows != null) {
+                        for (var i = 0; i < results.rows.length; i++) {
+                          var row = results.rows.item(i);
+                            console.log("Club is " + row.club);
+                            var line = '<li><strong>Fixture type:</strong> ' + row.fixture + '<strong>   Start Date: </strong>' + 
+                                    row.start_date + '<strong>    Cost: </strong>' + row.cost + '</li>';
+                            listgroup+=line;
+                             console.log("litem:" + listgroup);
+                             $(newId + ">nav>ul#localComps").html(listgroup);
+                             $(newId + ">nav>p#localComps").listview('refresh');
+                             console.log("Refreshing listview search2");     
+                             $(newId + ">nav>ul#localComps").trigger('create');
+                            }
+                        }
+                     console.log(listgroup);
+                    //callback(listgroup);
+                },errorHandler);
+            },errorCB, successCB, nullHandler);
+};
+
+function retrieveLabels(callback) {
+    var labels = [];
+    var getLabelsQuery = "SELECT DISTINCT label FROM items ORDER BY label;"
+    db.transaction(function(tx) {
+        tx.executeSql(getLabelsQuery, [],
+            function(tx, labelsResults) {
+                for (var x = 0; x < labelsResults.rows.length; x++) {
+                    var labelsRow = labelsResults.rows.item(x);
+                    labels.push(labelsRow['label']);
+                }               
+
+                callback(labels);
+            }           
+        );      
+    }); 
+}
+
+function refreshLists (){
+    $.each(clubList, function (i, item) {
+        var clubName = item.club.split(" ").join('_');
+        newId2 = '#' + clubName ;
+          $(newId2 + ">nav>p#localComps").listview('refresh');
+          console.log("Refreshing listview search2");     
+          $(newId2 + ">nav>ul#localComps").trigger('create');
+ });   
+}
+
+function queryDB(transaction, club){
+    transaction.executeSql('SELECT * FROM open_comps where club = "' + club +'"', [], querySuccess, errorCB);
+}
 
 function dateFormat (){
     var fullDate = new Date()
     //Thu May 19 2011 17:25:38 GMT+1000 {}
     //convert month to 2 digits
     var twoDigitMonth = ((fullDate.getMonth().length+1) === 1) ?(fullDate.getMonth()+1) : '0' + (fullDate.getMonth()+1);
-    console.log("Current Date " + fullDate.getDate());
+    //console.log("Current Date " + fullDate.getDate());
     var day = fullDate.getDate();
     var dayString=day.toString();
     var twoDigitDate = day;
     if (day<10){twoDigitDate = "0"+day};
     //var twoDigitDate = ((fullDate.getDate().length+1) === 2) ? (fullDate.getDate()) : '0' + (fullDate.getDate());
     currentDate = twoDigitDate + "/" + twoDigitMonth + "/" + fullDate.getFullYear();
-    console.log(currentDate);
+    //console.log(currentDate);
     
     days = parseInt($("#rad-slider-days").val());
     for (var i = 1; i <= days; i++) {
@@ -166,12 +257,12 @@ function dateFormat (){
         var twoDigitMonthi = ((nextDay.getMonth().length+1) === 1) ?(nextDay.getMonth()+1) : '0' + (nextDay.getMonth()+1);
         var dayi = nextDay.getDate();
         //parseInt(dayi);
-        console.log(dayi);
+        //console.log(dayi);
         var twoDigitDatei = dayi;
         if (dayi<10){twoDigitDatei = "0"+dayi};
         var datei = twoDigitDatei + "/" + twoDigitMonthi + "/" + nextDay.getFullYear();
         sessionStorage.setItem("day" + i, datei)
-        console.log(datei);
+        //console.log(datei);
     }        
 };
 
@@ -189,18 +280,17 @@ function searchResults() {
         var nextday = sessionStorage.getItem("day"+i);
         datesList = datesList + "," + '\"' + nextday + '\"';
     }
- var line;
- if (!window.openDatabase) {
-  alert('Databases are not supported in this browser.');
-  return;
- }
+    var line;
+     if (!window.openDatabase) {
+      alert('Databases are not supported in this browser.');
+      return;
+     }
  
 // this line clears out any content in the #searchResult element on the page so that the next few lines will show updated content and not just keep repeating lines
- $('#searchResults').html('');
- var radius = parseInt($("#rad-slider").val())
+    $('#searchResults').html('');
+    var radius = parseInt($("#rad-slider").val())
 // this next section will select all the content from the comps table and then go through it row by row appending the selected cols to the  #searchResults element on the page
- db.transaction(function(transaction) {
-     console.log("dates = " + datesList);
+    db.transaction(function(transaction) {
      transaction.executeSql('SELECT * FROM open_comps where start_date in (' + datesList + ');', [],
      function(transaction, result) {
       if (result != null && result.rows != null) {
@@ -213,7 +303,6 @@ function searchResults() {
             line = '<a href=index.html#' + row.club.split(" ").join('_') + '> '+ row.club +' <p><strong>Fixture type:</strong> ' + row.fixture + '  <strong>    Start Date: </strong>' + row.start_date + '    <strong>    Cost: </strong>' + row.cost + '</p></a>';
 //            var newComp = '<li>'+line+'</li>';
                 $("<li>").attr('class','ui-first-child ui-last-child').append(line).appendTo('#searchResults');
-//               $("<li>").append(line).appendTo('#searchResults');
             }
         }
           $("#searchResults").listview('refresh');
@@ -245,7 +334,7 @@ function searchResultsTable() {
         $('#resultsTable').html(createTable(result, cols));  
         }
       },errorHandler);
-     },errorHandler,nullHandler);
+     },errorCB, successCB,nullHandler);
     
     $("#resultsTable").table('refresh');
     $("#resultsTable").trigger('create');
@@ -293,6 +382,16 @@ function createTable(result, cols) {
     }
     return table;
 };
+
+function errorCB(err) {
+    alert("Error processing SQL: "+err);
+    console.log("Error processing SQL: "+err);
+}
+
+function successCB() {
+    alert("success!");
+    console.log("Success");
+}
 
 function getDistsFromPhone(position){
     clubDists = {};
