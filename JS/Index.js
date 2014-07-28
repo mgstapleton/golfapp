@@ -389,7 +389,6 @@ function errorCB(err) {
 }
 
 function successCB() {
-    alert("success!");
     console.log("Success");
 }
 
