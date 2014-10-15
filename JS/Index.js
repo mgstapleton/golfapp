@@ -87,11 +87,20 @@ $(document).ready(function () {
 });
 
 function createDb () {
+	var firstrun = localStorage.getItem("runned");
+	if ( firstrun === null ) {
+	console.log("setting runned")
+    localStorage.setItem("runned", "1"); 
+	}
+	else{	
+	console.log("creating database from scratch");
+//create a new database and populate it.
+	alert("Creating Database for first run");
 	db = null;
-	//var resultJSON;
 	db = window.openDatabase("golfapp_db", "1.0", "golfapp", 1000000);
 	console.log("Database created");
 	insertIntoDB();
+	}
 }
 
 var insertIntoDB = function () {
@@ -173,12 +182,8 @@ function addClub () {
             {
                 $(newId + ">nav>a#opensite").hide();
             }
-           	 	var playedButton = $("<img>").attr("src","images/tick.jpg").attr("onclick", "markPlayed('" + item.club + "')");
+           	 	var playedButton = $("<img>").attr("src","images/tick.jpg").attr("onclick", "togglePlayed('" + item.club + "')");
 				$(newId + ">nav>a#playedMarker").append(playedButton);
-			 	//playedButton.addEventListener('click', markPlayed.bind(null, item.club) , false);
-            
-             //$(newId + ">nav>a#playedMarker").attr("href",item.club).attr("onclick", 'markPlayed(' + item.club + ')');
-            	//<script type="text/javascript"> $("#Marker'+ item.club +'").click(markPlayed(' + item.club + ')); </script>'
             
             // Populate list items with open competitions form each club 
              var clubReturn = item.club.replace(/"/g, "");
@@ -416,9 +421,11 @@ function successMAPTCB() {
 
 function successClubAddCB(club) {
     console.log(club + " Successfully marked as played");
+	alert("Marked as played");
 }
 function successClubRemCB(club) {
     console.log(club + " Successfully marked as unplayed");
+	alert("Marked as not played");
 }
 
 function getDistsFromPhone(position){
@@ -552,13 +559,7 @@ var showAllClubs = function () {
 		// Automatically center the map fitting all markers on the screen
 		mapAll.fitBounds(bounds);
 	}
-	// Override our map zoom level once our fitBounds function runs (Make sure it only runs once)
-//	var boundsListener = google.maps.event.addListener((mapAll), 'bounds_changed', function (event) {
-//			this.setZoom(5);
-//			google.maps.event.removeListener(boundsListener);
-//		});
 };
-//};
 
 var showClubsPlayed = function () {
 	console.log("showClubsPlayed triggered from document");
@@ -568,7 +569,7 @@ var showClubsPlayed = function () {
 		mapTypeId : google.maps.MapTypeId.ROADMAP
 	};
 	mapPlayed = new google.maps.Map(document.getElementById("map_canvas4"), myOptions);
-
+    var infoWindow = new google.maps.InfoWindow(), playerMarker, i;
 	// Display multiple markers on a map
          db.transaction(
          function(transaction) {
@@ -606,15 +607,38 @@ var showClubsPlayed = function () {
                                     icon : 'http://maps.google.com/mapfiles/ms/icons/green-dot.png'
 			                        });
                             }
+									// Allow each marker to have an info window
+        					var infoText=club1.club + " Golf Club";
+        					bindInfoWindow(playedMarker, mapPlayed, infoWindow, infoText);
                             mapPlayed.fitBounds(bounds);
                             }
                         }
-                     //console.log(listgroup);
-                    //callback(listgroup);
                 },errorHandler);
             },errorCB, successMAPTCB, nullHandler);
-
 	};
+
+function togglePlayed(club) {
+         console.log(club + " toggling");
+         db.transaction(
+         function(transaction) {
+            transaction.executeSql(
+                'Select played from tracker where club = "' + club + '"', 
+                [],
+                function(transaction, results) {
+					
+                    if (results !== null && results.rows !== null)  {
+                         var status = results.rows.item(0);
+						 if (status.played === 'N'){
+							  markPlayed(club);
+							  }
+						else {
+							  UnmarkPlayed(club);
+							  }
+					}
+					
+                },errorHandler);
+            },errorCB, successCB(), nullHandler);
+}
 
 function markPlayed(club) {
          console.log(club + " marked");
@@ -637,6 +661,7 @@ function UnmarkPlayed(club) {
                 function(transaction, results) {
                 },errorHandler);
             },errorCB, successClubRemCB(club), nullHandler);
+      alert("Marked as not played");
 }
 
 function bindInfoWindow(marker, map, infowindow, strDescription) {
