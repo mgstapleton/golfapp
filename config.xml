@@ -43,11 +43,11 @@
     <!-- Plugins -->
 
     <!-- Core plugins -->
-    <gap:plugin name="org.apache.cordova.battery-status" />
+   <!-- <gap:plugin name="org.apache.cordova.battery-status" />
     <gap:plugin name="org.apache.cordova.camera" />
     <gap:plugin name="org.apache.cordova.media-capture" />
     <gap:plugin name="org.apache.cordova.console" />
-    <gap:plugin name="org.apache.cordova.contacts" />
+    <gap:plugin name="org.apache.cordova.contacts" /> -->
     <gap:plugin name="org.apache.cordova.device" />
     <gap:plugin name="org.apache.cordova.device-motion" />
     <gap:plugin name="org.apache.cordova.device-orientation" />
@@ -70,10 +70,16 @@
 
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
+<!--
     <icon src="res/icon/android/icon-36-ldpi.png"   gap:platform="android"    gap:qualifier="ldpi" />
     <icon src="res/icon/android/icon-48-mdpi.png"   gap:platform="android"    gap:qualifier="mdpi" />
     <icon src="res/icon/android/icon-72-hdpi.png"   gap:platform="android"    gap:qualifier="hdpi" />
     <icon src="res/icon/android/icon-96-xhdpi.png"  gap:platform="android"    gap:qualifier="xhdpi" />
+-->
+    <icon src="images\5480c4f02e7d0\platform\android\res\drawable-ldpi\appicon.png"   gap:platform="android"    gap:qualifier="ldpi" />
+    <icon src="images\5480c4f02e7d0\platform\android\res\drawable-mdpi\appicon.png"   gap:platform="android"    gap:qualifier="mdpi" />
+    <icon src="images\5480c4f02e7d0\platform\android\res\drawable-hdpi\appicon.png"   gap:platform="android"    gap:qualifier="hdpi" />
+    <icon src="images\5480c4f02e7d0\platform\android\res\drawable-xhdpi\appicon.png"  gap:platform="android"    gap:qualifier="xhdpi" />
     <icon src="res/icon/blackberry/icon-80.png"     gap:platform="blackberry" />
     <icon src="res/icon/blackberry/icon-80.png"     gap:platform="blackberry" gap:state="hover"/>
     <icon src="res/icon/ios/icon-57.png"            gap:platform="ios"        width="57" height="57" />
@@ -85,10 +91,17 @@
     <icon src="res/icon/windows-phone/icon-173.png" gap:platform="winphone"   gap:role="background" />
 
     <!-- Define app splash screen for each platform. -->
+<!--
     <gap:splash src="res/screen/android/screen-ldpi-portrait.png"       gap:platform="android" gap:qualifier="port-ldpi" />
     <gap:splash src="res/screen/android/screen-mdpi-portrait.png"       gap:platform="android" gap:qualifier="port-mdpi" />
     <gap:splash src="res/screen/android/screen-hdpi-portrait.png"       gap:platform="android" gap:qualifier="port-hdpi" />
     <gap:splash src="res/screen/android/screen-xhdpi-portrait.png"      gap:platform="android" gap:qualifier="port-xhdpi" />
+-->
+    <gap:splash src="splash.png" />   
+    <gap:splash src="images\5480c4f02e7d0\app\assets\android\images\res-notlong-port-ldpi\default.png"       gap:platform="android" gap:qualifier="port-ldpi" />        
+    <gap:splash src="images\5480c4f02e7d0\app\assets\android\images\res-notlong-port-mdpi\default.png"       gap:platform="android" gap:qualifier="port-mdpi" />
+    <gap:splash src="images\5480c4f02e7d0\app\assets\android\images\res-notlong-port-hdpi\default.png"       gap:platform="android" gap:qualifier="port-hdpi" />
+    <gap:splash src="images\5480c4f02e7d0\app\assets\android\images\res-notlong-port-xhdpi\default.png"      gap:platform="android" gap:qualifier="port-xhdpi" />
     <gap:splash src="res/screen/blackberry/screen-225.png"              gap:platform="blackberry" />
     <gap:splash src="res/screen/ios/screen-iphone-portrait.png"         gap:platform="ios"     width="320" height="480" />
     <gap:splash src="res/screen/ios/screen-iphone-portrait-2x.png"      gap:platform="ios"     width="640" height="960" />
