@@ -8,16 +8,6 @@ $(document).ready(function () {
     var locID2 = null;
     sessionStorage.clear();
     console.log("loaded index.js");
-    createDb();
-	addClub();
-	refreshClubList();
-    //$(logo).attr('align', 'absmiddle');
-    dateFormat();
-	bounds = new google.maps.LatLngBounds();
-//    var testloc = navigator.geolocation.getCurrentPosition;
-//    alert(testloc);
-    locID = navigator.geolocation.getCurrentPosition(onSuccess, onError);
-    locID2 = navigator.geolocation.getCurrentPosition(getDistsFromPhone, onError);
     
 	if (typeof jQuery === "undefined") {
 		alert("Jquery not present");
@@ -25,20 +15,11 @@ $(document).ready(function () {
 
 	if (typeof jQuery !== "undefined") {
 		console.log("jQuery binding initialization called");
-		// Initialization that runs when each page loads for the first time
-        // Pages:
-        //          home_page
-        //          map_page
-        //          all_clubs_map_page
-        //          rap_map_page
 
 		$(document).on("pageshow", "#home_page", function (event) {
 			// Do stuff now that the DOM is ready
 			console.log("home pageshow triggered from document");
 			console.log("event target id is: " + event.target.id);
-			// $(".map_button").on('click', function (event, ui) {
-			// getMap();
-			// });
         });
 			$(document).on("pagebeforeshow", "#map_page", function () {
 				console.log("Other pagecreate for #map_page triggered");
@@ -84,38 +65,69 @@ $(document).ready(function () {
             });
 		//});
 	} 
+    createDb();
+	addClub();
+	refreshClubList();
+    dateFormat();
+	bounds = new google.maps.LatLngBounds();
+//    var testloc = navigator.geolocation.getCurrentPosition;
+//    alert(testloc);
+    locID = navigator.geolocation.getCurrentPosition(onSuccess, onError);
+    locID2 = navigator.geolocation.getCurrentPosition(getDistsFromPhone, onError);
+    console.log("End of initial load");
 });
 
-function createDb () {
-	var firstrun = localStorage.getItem("runned");
-	if ( firstrun === null ) {
-	console.log("setting runned")
-    localStorage.setItem("runned", "1"); 
-	}
-	else{	
-	console.log("creating database from scratch");
-//create a new database and populate it.
-	alert("Creating Database for first run");
-	db = null;
+function createDb () {	
+    console.log("creating database if it does not already exist");
+//	db = null;
 	db = window.openDatabase("golfapp_db", "1.0", "golfapp", 1000000);
-	console.log("Database created");
-	insertIntoDB();
-	}
+	console.log("Database opened/created");
+    var tables = [];
+   // checkExistsOpenComps(tables);
+    checkExistsTables(tables);
+	//insertIntoDB(tables, trackers);
+//}
 }
+
+var checkExistsTables = function (tables){
+     // determine whether tables exists or are populated
+    var getTableQuery = "SELECT name FROM sqlite_master WHERE type='table' order by name;";
+    db.transaction(function(tx) {
+        tx.executeSql(getTableQuery, [],
+            function(tx, results) {
+                for (var x = 0; x < results.rows.length; x++) {
+                    var tablesRow = results.rows.item(x);
+                    tables.push(tablesRow.name);
+                }     
+            console.log(tables[0], tables[1], tables[2]);
+            if("open_comps" !== tables[1] && "tracker" !== tables[2] ) {
+                insertIntoDB();
+                }
+            }           
+        );      
+    });
+};
 
 var insertIntoDB = function () {
      console.log("insert called");
+    
+   //  if (tables.length === 0 || typeof tables.length === "undefined") {
+     console.log("Creating and populating open_comps");
 	 db.transaction(function (tx) {
-		tx.executeSql('DROP TABLE IF EXISTS open_comps');
+	 //	tx.executeSql('DROP TABLE IF EXISTS open_comps');
 		tx.executeSql('CREATE TABLE IF NOT EXISTS open_comps (club , format, fixture, holes, start_date, cost, info)');
 		$.each(fixtures, function (i, comp) {
 			tx.executeSql('INSERT INTO open_comps (club, format, fixture, holes, start_date, cost, info) VALUES (?, ?, ?, ?, ?, ?, ?)', [comp.Club, comp.Format, comp.Fixture, comp.Holes, comp.Start_date, comp.Cost, comp.Info]);
 		  }
 		);
-	},errorCB, successCB);
+	},errorCB, successInsCB);
      //$('.readyToGo').fadeIn(400).delay(2000).fadeOut(400);
      console.log("open comps table created");
+    //}
     
+    //determine tracker size
+   // if (trackers.length === 0 || typeof trackers.length === "undefined"){
+    console.log("Creating and populating tracker");
      db.transaction(function (tx) {
         tx.executeSql('DROP TABLE IF EXISTS tracker');
 		tx.executeSql('CREATE TABLE IF NOT EXISTS tracker (club , played, rating)');
@@ -123,8 +135,10 @@ var insertIntoDB = function () {
 			tx.executeSql('INSERT INTO tracker (club, played, rating) VALUES (?, ?, ?)', [track.club, 'N' , 0]);
 		  }
 		);
-	},errorCB, successCB);
+	},errorCB, successTrackerCB);
+        
     console.log("tracker table created");
+   // }
 };
 
 // to be completed to update the DB with new fixtures
@@ -137,7 +151,7 @@ var updateDB = function () {
 			tx.executeSql('INSERT INTO open_comps (club, format, fixture, holes, start_date, cost, info) VALUES (?, ?, ?, ?, ?, ?, ?)', [comp.Club, comp.Format, comp.Fixture, comp.Holes, comp.Start_date, comp.Cost, comp.Info]);
 		  }
 		);
-	},errorCB, successCB);
+	},errorCB, successUpdCB);
      $('.readyToGo').fadeIn(400).delay(2000).fadeOut(400);
      console.log("table created");
 };
@@ -169,7 +183,7 @@ function addClub () {
 			newPage = $("#sub_page").clone().attr("id", item.club.split(" ").join('_')).appendTo("body");
 			// Clone template page and populate with club details
 			$(newId + ">header>h1").html(item.club);
-			$(newId + ">nav>img#image").attr("src", item.image).attr("align","centre");
+		//	$(newId + ">nav>img#image").attr("src", item.image).attr("align","centre");
 			$(newId + ">nav>p#address").html(item.address);
             var distance = Math.ceil(sessionStorage.getItem(item.club));
 			$(newId + ">nav>p#dist").html('<img id="pin" src="images/redpin.jpg">' + distance + "km");
@@ -182,13 +196,17 @@ function addClub () {
             {
                 $(newId + ">nav>a#opensite").hide();
             }
-           	 	var playedButton = $("<img>").attr("src","images/tick.jpg").attr("onclick", "togglePlayed('" + item.club + "')");
-				$(newId + ">nav>a#playedMarker").append(playedButton);
+            $(newId + ">nav>a#website").attr("href", item.website).attr("alt", item.website);
+           	 //var playedButton = $("<img>").attr("src","images/tick.jpg").attr("onclick", "togglePlayed('" + item.club + "')");
+             //$(newId + ">nav>a#playedMarker").append(playedButton);
+            $(newId + ">nav>a#playedMarker").attr("onclick", "togglePlayed('" + item.club + "','" + newId + "')");
+            $(newId + ">nav>a#opens").attr("onclick", "getList('" + newId + "','" + item.club + "')");
             
             // Populate list items with open competitions form each club 
-             var clubReturn = item.club.replace(/"/g, "");
-             getList(newId,clubReturn);  
+            //  var clubReturn = item.club.replace(/"/g, "");
+            //     getList(newId,clubReturn);  
 		});
+        console.log("addclub completed");
          //    $(newId + ">nav>p#clubs").listview('refresh');
          //    $(newId + ">nav>ul#clubs").trigger('create');
 	}
@@ -222,7 +240,7 @@ function getList(newId,clubReturn){
                      //console.log(listgroup);
                     //callback(listgroup);
                 },errorHandler);
-            },errorCB, successCB, nullHandler);
+            },errorCB, successGetListCB, nullHandler);
 }
 
 function retrieveLabels(callback) {
@@ -256,7 +274,7 @@ function refreshClubList (){
     $("#clubs").listview('refresh');
 }
 
-function queryDB(transaction, club){
+function queryOpen_comps(transaction, club){
     transaction.executeSql('SELECT * FROM open_comps where club = "' + club +'"', [], querySuccess, errorCB);
 }
 
@@ -415,17 +433,37 @@ function successCB() {
     console.log("Success");
 }
 
+function successInsCB() {
+    console.log("Insert Success");
+}
+
+function successUpdCB() {
+    console.log("Update Success");
+}
+
+function successTrackerCB() {
+    console.log("Tracker Success");
+}
+
+function successGetListCB() {
+    console.log("Get List Success");
+}
+
 function successMAPTCB() {
     console.log("Tracker Map Successfully loaded");
 }
 
-function successClubAddCB(club) {
-    console.log(club + " Successfully marked as played");
-	alert("Marked as played");
+function successClubAddCB(club, PgId) {    
+       // $(PgId + ">nav>a#playedMarker").html("Played"); //buttonMarkup( "data-theme", "b" )
+        $(PgId + ">nav>a#playedMarker").text("Played");
+        console.log(club + " Successfully marked as played " + PgId);
+	    $('.playedMarker').fadeIn(4000).delay(10000).fadeOut(4000);
 }
-function successClubRemCB(club) {
-    console.log(club + " Successfully marked as unplayed");
-	alert("Marked as not played");
+function successClubRemCB(club, PgId) {
+    //$(PgId + ">nav>a#playedMarker").html("Not Played"); //.buttonMarkup( "data-theme","a" )
+    $(PgId + ">nav>a#playedMarker").text("Not Played");
+    console.log(club + " Successfully marked as unplayed " + PgId );
+	$('.playedMarker').fadeIn(4000).delay(10000).fadeOut(4000);
 }
 
 function getDistsFromPhone(position){
@@ -617,8 +655,8 @@ var showClubsPlayed = function () {
             },errorCB, successMAPTCB, nullHandler);
 	};
 
-function togglePlayed(club) {
-         console.log(club + " toggling");
+function togglePlayed(club, PgId) {
+         console.log(club + " toggling " + PgId);
          db.transaction(
          function(transaction) {
             transaction.executeSql(
@@ -629,19 +667,19 @@ function togglePlayed(club) {
                     if (results !== null && results.rows !== null)  {
                          var status = results.rows.item(0);
 						 if (status.played === 'N'){
-							  markPlayed(club);
+							  markPlayed(club, PgId);
 							  }
 						else {
-							  UnmarkPlayed(club);
+							  UnmarkPlayed(club, PgId);
 							  }
 					}
 					
                 },errorHandler);
             },errorCB, successCB(), nullHandler);
+    
 }
 
-function markPlayed(club) {
-         console.log(club + " marked");
+function markPlayed(club, PgId) {
          db.transaction(
          function(transaction) {
             transaction.executeSql(
@@ -649,19 +687,20 @@ function markPlayed(club) {
                 [],
                 function(transaction, results) {
                 },errorHandler);
-            },errorCB, successClubAddCB(club), nullHandler);
+            },errorCB, successClubAddCB(club, PgId), nullHandler);
 }
 
-function UnmarkPlayed(club) {
-            db.transaction(
+function UnmarkPlayed(club, PgId) {       
+    db.transaction(
          function(transaction) {
             transaction.executeSql(
                 'Update tracker set played = "N" where club = "' + club + '"', 
                 [],
                 function(transaction, results) {
                 },errorHandler);
-            },errorCB, successClubRemCB(club), nullHandler);
-      alert("Marked as not played");
+            },errorCB, successClubRemCB(club, PgId), nullHandler);
+    //$('#mark_played_button');
+    //$(PgId).listview('refresh');
 }
 
 function bindInfoWindow(marker, map, infowindow, strDescription) {

@@ -68,12 +68,6 @@
 -->
     
 			</div>
-            
-<!--
-			<footer data-role="footer" data-postion="fixed" >
-				<h2>&copy; Copyright Golfapp</h2>
-			</footer>
--->
 		</div>
 		
 <!-- Address page -->
@@ -83,8 +77,9 @@
 				<h1>Golf Club Location</h1>
 				<a href="#home_page" data-role="button" data-icon="home" data-iconpos="right">Home</a>
 			</header>
+            
 			<nav class="main" data-role="content">
-				<img id="image" src="" width="300" height="120" />
+				<img id="image" src="" />
 				<p id="address"> </p>
                 <p id="dist"> </p>
                 <p id="phone"></p>
@@ -92,7 +87,8 @@
                 <a class="opensite_button" data-role="button" id="opensite" data-icon="arrow-r" data-iconpos="right" data-theme="b"></a>
 				<a class="map_button" href="#map_page" data-role="button" data-icon="arrow-r" data-iconpos="right" data-theme="b">Map Course</a>
                 <a class="mark_played_button" data-role="button" id="playedMarker">Mark Played</a>
-                <h3>Upcoming Opens</h3>
+                <div class='played' style='display:none' style="text-align: center" style="width: 100%; height: 100%;"><h4>Saved!</h4>   </div>
+                <a class="opens" data-role="button" id="opens" data-icon="arrow-r" data-iconpos="right" data-theme="b">Load Open Competitions</a>
                 <ul data-role="listview" id="localComps"></ul>
             </nav>
 
