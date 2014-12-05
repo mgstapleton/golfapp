@@ -65,15 +65,17 @@ $(document).ready(function () {
             });
 		//});
 	} 
+//    var testloc = navigator.geolocation.getCurrentPosition;
+//    alert(testloc);
+    locID = navigator.geolocation.getCurrentPosition(onSuccess, onError);
+    locID2 = navigator.geolocation.getCurrentPosition(getDistsFromPhone, onError);
+    
     createDb();
 	addClub();
 	refreshClubList();
     dateFormat();
 	bounds = new google.maps.LatLngBounds();
-//    var testloc = navigator.geolocation.getCurrentPosition;
-//    alert(testloc);
-    locID = navigator.geolocation.getCurrentPosition(onSuccess, onError);
-    locID2 = navigator.geolocation.getCurrentPosition(getDistsFromPhone, onError);
+
     console.log("End of initial load");
 });
 
@@ -185,8 +187,9 @@ function addClub () {
 			$(newId + ">header>h1").html(item.club);
 		//	$(newId + ">nav>img#image").attr("src", item.image).attr("align","centre");
 			$(newId + ">nav>p#address").html(item.address);
-            var distance = Math.ceil(sessionStorage.getItem(item.club));
-			$(newId + ">nav>p#dist").html('<img id="pin" src="images/redpin.jpg">' + distance + "km");
+//            var distance = Math.ceil(sessionStorage.getItem(item.club));
+//            console.log(item.club + ": " + distance);
+//			$(newId + ">nav>p#dist").html('<img id="pin" src="images/redpin.jpg">' + distance + "km");
             $(newId + ">nav>p#phone").html("Phone: <a href=tel:" + item.phone + ">" + item.phone + "</a>");
             $(newId + ">nav>a#website").attr("href", item.website).attr("alt", item.website);
             if (item.opensite !== 'none'){
@@ -474,8 +477,15 @@ function getDistsFromPhone(position){
         var dist1=getDistanceFromLatLonInKm(position.coords.latitude,position.coords.longitude,lat2,lon2);
         clubDists[item.club]=dist1;
         sessionStorage.setItem(item.club,dist1);
+        
+        var clubName = item.club.split(" ").join('_');
+        var newId1 = '#' + clubName;
+       $(newId1 + ">nav>p#dist").html('<img id="pin" src="images/redpin.jpg">' + item.club,dist1 + "km");
+        
+        console.log(clubName + ": " + newId1 + ": " + item.club,dist1 + " km");
+        
     });   
-}
+} 
 
 //use google maps matrix in future version to get driving distances
 function getDistanceFromLatLonInKm(lat1,lon1,lat2,lon2) {
@@ -712,15 +722,15 @@ function bindInfoWindow(marker, map, infowindow, strDescription) {
 
 function onSuccess(position) {
         var element = document.getElementById('geolocation');
-//        element.innerHTML = 'Latitude: '           + position.coords.latitude              + '<br />' +
-//                            'Longitude: '          + position.coords.longitude             + '<br />' +
+        element.innerHTML = 'Latitude: '           + position.coords.latitude              + ' --  ' +
+                            'Longitude: '          + position.coords.longitude             + '<br />' //+
 //                            'Altitude: '           + position.coords.altitude              + '<br />' +
 //                            'Accuracy: '           + position.coords.accuracy              + '<br />' +
 //                            'Altitude Accuracy: '  + position.coords.altitudeAccuracy      + '<br />' +
 //                            'Heading: '            + position.coords.heading               + '<br />' +
-//                            'Speed: '              + position.coords.speed                 + '<br />' 
-//                          +  'Timestamp: '          + position.timestamp          + '<br />'
-//            ;
+//                            'Speed: '              + position.coords.speed                 + '<br />' +
+//                            'Timestamp: '          + position.timestamp          + '<br />'
+            ;
     }
 
     // onError Callback receives a PositionError object
